@@ -1,0 +1,616 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A_	am-phoneTxCAT.h	/^      std::vector< std::vector< Matrix<BaseFloat> > > A_;$/;"	m	class:kaldi::AmPhoneTxCAT
+Accumulate	estimate-am-phoneTxCAT.cc	/^  BaseFloat MleAmPhoneTxCATAccs::Accumulate(const AmPhoneTxCAT &model,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+AccumulateFromPosteriors	estimate-am-phoneTxCAT.cc	/^  BaseFloat MleAmPhoneTxCATAccs::AccumulateFromPosteriors($/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+AmPhoneTxCAT	am-phoneTxCAT.h	/^      AmPhoneTxCAT() {}$/;"	f	class:kaldi::AmPhoneTxCAT
+AmPhoneTxCAT	am-phoneTxCAT.h	/^  class AmPhoneTxCAT {$/;"	c	namespace:kaldi
+CanonicalMeans	am-phoneTxCAT.h	/^      const Matrix<BaseFloat>& CanonicalMeans() const {$/;"	f	class:kaldi::AmPhoneTxCAT
+Check	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::Check(bool show_properties) {$/;"	f	class:kaldi::AmPhoneTxCAT
+Check	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::Check(const AmPhoneTxCAT &model,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+ClusterTransforms	am-phoneTxCAT.h	/^      const Matrix<BaseFloat>& ClusterTransforms(int32 cluster_index,$/;"	f	class:kaldi::AmPhoneTxCAT
+ClusterWeightClass	am-phoneTxCAT.h	/^      int32 ClusterWeightClass(int32 i) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+ClusterWeights	am-phoneTxCAT.h	/^      const Vector<BaseFloat>& ClusterWeights(int32 cluster_weight_class, int32 state_index) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+ComponentPosteriors	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::ComponentPosteriors($/;"	f	class:kaldi::AmPhoneTxCAT
+ComputeDerivedVars	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputeDerivedVars() {$/;"	f	class:kaldi::AmPhoneTxCAT
+ComputeH	am-phoneTxCAT.cc	/^    void AmPhoneTxCAT::ComputeH(std::vector< SpMatrix<Real> > *H) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+ComputeM_SigmaInv	am-phoneTxCAT.cc	/^    void AmPhoneTxCAT::ComputeM_SigmaInv(std::vector< Matrix<Real> > *M_SigmaInv_i) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+ComputeNormalizers	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputeNormalizers() {$/;"	f	class:kaldi::AmPhoneTxCAT
+ComputeNormalizersClass	am-phoneTxCAT.cc	/^      ComputeNormalizersClass() { } \/\/ Disallow empty constructor.$/;"	f	class:kaldi::ComputeNormalizersClass	file:
+ComputeNormalizersClass	am-phoneTxCAT.cc	/^      ComputeNormalizersClass(AmPhoneTxCAT *am_phoneTxCAT,$/;"	f	class:kaldi::ComputeNormalizersClass
+ComputeNormalizersClass	am-phoneTxCAT.cc	/^  class ComputeNormalizersClass: public MultiThreadable { $/;"	c	namespace:kaldi	file:
+ComputeNormalizersInternal	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputeNormalizersInternal(int32 num_threads,$/;"	f	class:kaldi::AmPhoneTxCAT
+ComputePerFrameVars	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputePerFrameVars(const VectorBase<BaseFloat> &data,$/;"	f	class:kaldi::AmPhoneTxCAT
+CopyFromPhoneTxCAT	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::CopyFromPhoneTxCAT(const AmPhoneTxCAT &other,$/;"	f	class:kaldi::AmPhoneTxCAT
+CopyGlobalsInitVecs	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::CopyGlobalsInitVecs(const AmPhoneTxCAT &other,$/;"	f	class:kaldi::AmPhoneTxCAT
+DecodableAmPhoneTxCAT	decodable-am-phoneTxCAT.h	/^      DecodableAmPhoneTxCAT(const PhoneTxCATGselectConfig &opts,$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+DecodableAmPhoneTxCAT	decodable-am-phoneTxCAT.h	/^  class DecodableAmPhoneTxCAT : public DecodableInterface {$/;"	c	namespace:kaldi
+DecodableAmPhoneTxCATScaled	decodable-am-phoneTxCAT.h	/^      DecodableAmPhoneTxCATScaled(const PhoneTxCATGselectConfig &opts,$/;"	f	class:kaldi::DecodableAmPhoneTxCATScaled
+DecodableAmPhoneTxCATScaled	decodable-am-phoneTxCAT.h	/^  class DecodableAmPhoneTxCATScaled : public DecodableAmPhoneTxCAT {$/;"	c	namespace:kaldi
+F_i_	estimate-am-phoneTxCAT.h	/^      Matrix<double> F_i_;$/;"	m	class:kaldi::UpdateWParallelClass
+F_i_ptr_	estimate-am-phoneTxCAT.h	/^      Matrix<double> *F_i_ptr_;$/;"	m	class:kaldi::UpdateWParallelClass
+FeatureDim	am-phoneTxCAT.h	/^      int32 FeatureDim() const { return diag_ubm_.Dim(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+FeatureDim	estimate-am-phoneTxCAT.h	/^      int32 FeatureDim() const { return feature_dim_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+G_	estimate-am-phoneTxCAT.h	/^      std::vector< SpMatrix<double> > G_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+GaussianSelection	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelection(const PhoneTxCATGselectConfig &config,$/;"	f	class:kaldi::AmPhoneTxCAT
+GaussianSelectionDiag	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelectionDiag($/;"	f	class:kaldi::AmPhoneTxCAT
+GaussianSelectionPreselect	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelectionPreselect($/;"	f	class:kaldi::AmPhoneTxCAT
+GaussianSelectionPreselectDiag	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelectionPreselectDiag($/;"	f	class:kaldi::AmPhoneTxCAT
+GetInvCovars	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetInvCovars(int32 gauss_index,$/;"	f	class:kaldi::AmPhoneTxCAT
+GetMTrans	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetMTrans(int32 i, $/;"	f	class:kaldi::AmPhoneTxCAT
+GetModelSpaceProjection	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetModelSpaceProjection(int32 i, $/;"	f	class:kaldi::AmPhoneTxCAT
+GetOccs	estimate-am-phoneTxCAT.h	/^      const std::vector< Vector<double> >& GetOccs() const {$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+GetStateMean	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetStateMean(int32 j, int32 i,$/;"	f	class:kaldi::AmPhoneTxCAT
+GetStateOccupancies	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::GetStateOccupancies(Vector<BaseFloat> *occs) const {$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+H_	estimate-am-phoneTxCAT.cc	/^      const std::vector<SpMatrix<double> > &H_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+InitializeA	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeA() {$/;"	f	class:kaldi::AmPhoneTxCAT
+InitializeCanonicalMeans	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeCanonicalMeans() {$/;"	f	class:kaldi::AmPhoneTxCAT
+InitializeCovars	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeCovars() {$/;"	f	class:kaldi::AmPhoneTxCAT
+InitializeFromFullGmm	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeFromFullGmm(const FullGmm &gmm,$/;"	f	class:kaldi::AmPhoneTxCAT
+InitializeVecs	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeVecs() {$/;"	f	class:kaldi::AmPhoneTxCAT
+InvCovars	am-phoneTxCAT.h	/^      const SpMatrix<BaseFloat>& InvCovars(int32 gauss_index) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+IsEmpty	am-phoneTxCAT.h	/^    bool IsEmpty() const {$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+IsLastFrame	decodable-am-phoneTxCAT.h	/^      virtual bool IsLastFrame(int32 frame) {$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+KALDI_DECODER_DECODABLE_AM_PHONETXCAT_H_	decodable-am-phoneTxCAT.h	4;"	d
+KALDI_PHONETXCAT_AM_PHONETXCAT_H_	am-phoneTxCAT.h	2;"	d
+KALDI_PHONETXCAT_ESTIMATE_AM_PHONETXCAT_H_	estimate-am-phoneTxCAT.h	2;"	d
+KALDI_PHONETXCAT_PHONETXCAT_CLUSTERABLE_H_	phoneTxCAT-clusterable.h	4;"	d
+K_	estimate-am-phoneTxCAT.h	/^      std::vector< Matrix<double> > K_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+L_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &L_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+L_	estimate-am-phoneTxCAT.cc	/^      const std::vector< Matrix<double> > &L_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+L_	estimate-am-phoneTxCAT.cc	/^      const std::vector< Matrix<double> > &L_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+L_	estimate-am-phoneTxCAT.h	/^      std::vector< SpMatrix<double> > L_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+LikelihoodCacheRecord	decodable-am-phoneTxCAT.h	/^      struct LikelihoodCacheRecord {$/;"	s	class:kaldi::DecodableAmPhoneTxCAT
+LogLikelihood	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::LogLikelihood(const PhoneTxCATPerFrameDerivedVars &per_frame_vars, int32 j, BaseFloat log_prune) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+LogLikelihood	decodable-am-phoneTxCAT.h	/^      virtual BaseFloat LogLikelihood(int32 frame, int32 tid) {$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+LogLikelihood	decodable-am-phoneTxCAT.h	/^      virtual BaseFloat LogLikelihood(int32 frame, int32 tid) {$/;"	f	class:kaldi::DecodableAmPhoneTxCATScaled
+LogLikelihoodZeroBased	decodable-am-phoneTxCAT.cc	/^  BaseFloat DecodableAmPhoneTxCAT::LogLikelihoodZeroBased(int32 frame, $/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^      MleAmPhoneTxCATAccs(const AmPhoneTxCAT &model, $/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^      explicit MleAmPhoneTxCATAccs(BaseFloat rand_prune = 1.0e-05)$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^  class MleAmPhoneTxCATAccs {$/;"	c	namespace:kaldi
+MleAmPhoneTxCATOptions	estimate-am-phoneTxCAT.h	/^    MleAmPhoneTxCATOptions() {$/;"	f	struct:kaldi::MleAmPhoneTxCATOptions
+MleAmPhoneTxCATOptions	estimate-am-phoneTxCAT.h	/^  struct MleAmPhoneTxCATOptions {$/;"	s	namespace:kaldi
+MleAmPhoneTxCATUpdater	estimate-am-phoneTxCAT.h	/^      MleAmPhoneTxCATUpdater() {}$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+MleAmPhoneTxCATUpdater	estimate-am-phoneTxCAT.h	/^      explicit MleAmPhoneTxCATUpdater(const MleAmPhoneTxCATOptions &options)$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+MleAmPhoneTxCATUpdater	estimate-am-phoneTxCAT.h	/^  class MleAmPhoneTxCATUpdater {$/;"	c	namespace:kaldi
+NeedsResizing	am-phoneTxCAT.h	/^    bool NeedsResizing(int32 ngauss, int32 feat_dim, int32 num_clusters) const {$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+NumClusterWeightClasses	am-phoneTxCAT.h	/^      int32 NumClusterWeightClasses() const {$/;"	f	class:kaldi::AmPhoneTxCAT
+NumClusterWeightClasses	estimate-am-phoneTxCAT.h	/^      int32 NumClusterWeightClasses() const { return num_cluster_weight_classes_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+NumClusters	am-phoneTxCAT.h	/^      int32 NumClusters() const { return A_.size(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+NumClusters	estimate-am-phoneTxCAT.h	/^      int32 NumClusters() const { return num_clusters_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+NumFrames	decodable-am-phoneTxCAT.h	/^      int32 NumFrames() { return feature_matrix_.NumRows(); }$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+NumGauss	am-phoneTxCAT.h	/^      int32 NumGauss() const { return SigmaInv_.size(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+NumGauss	estimate-am-phoneTxCAT.h	/^      int32 NumGauss() const { return num_gaussians_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+NumIndices	decodable-am-phoneTxCAT.h	/^      virtual int32 NumIndices() { return trans_model_.NumTransitionIds(); }$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+NumPdfs	am-phoneTxCAT.h	/^      int32 NumPdfs() const { return v_[0].size(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+NumStates	estimate-am-phoneTxCAT.h	/^      int32 NumStates() const { return num_states_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+NumTransformClasses	am-phoneTxCAT.h	/^      int32 NumTransformClasses() const {$/;"	f	class:kaldi::AmPhoneTxCAT
+NumWeightClasses	am-phoneTxCAT.h	/^      int32 NumWeightClasses() const { $/;"	f	class:kaldi::AmPhoneTxCAT
+PhoneTxCATClusterable	phoneTxCAT-clusterable.h	/^class PhoneTxCATClusterable: public Clusterable {$/;"	c	namespace:kaldi
+PhoneTxCATGauPost	am-phoneTxCAT.h	/^      PhoneTxCATGauPost() {}$/;"	f	class:kaldi::PhoneTxCATGauPost
+PhoneTxCATGauPost	am-phoneTxCAT.h	/^      explicit PhoneTxCATGauPost(size_t i) : $/;"	f	class:kaldi::PhoneTxCATGauPost
+PhoneTxCATGauPost	am-phoneTxCAT.h	/^  class PhoneTxCATGauPost: public std::vector<PhoneTxCATGauPostElement> {$/;"	c	namespace:kaldi
+PhoneTxCATGauPostElement	am-phoneTxCAT.h	/^  struct PhoneTxCATGauPostElement {$/;"	s	namespace:kaldi
+PhoneTxCATGauPostHolder	am-phoneTxCAT.h	/^  typedef KaldiObjectHolder<PhoneTxCATGauPost> PhoneTxCATGauPostHolder;$/;"	t	namespace:kaldi
+PhoneTxCATGauPostWriter	am-phoneTxCAT.h	/^  typedef TableWriter<PhoneTxCATGauPostHolder> PhoneTxCATGauPostWriter;$/;"	t	namespace:kaldi
+PhoneTxCATGselectConfig	am-phoneTxCAT.h	/^    PhoneTxCATGselectConfig() {$/;"	f	struct:kaldi::PhoneTxCATGselectConfig
+PhoneTxCATGselectConfig	am-phoneTxCAT.h	/^  struct PhoneTxCATGselectConfig {$/;"	s	namespace:kaldi
+PhoneTxCATPerFrameDerivedVars	am-phoneTxCAT.h	/^    PhoneTxCATPerFrameDerivedVars() : xt(0), zti(0,0), nti(0) {}$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+PhoneTxCATPerFrameDerivedVars	am-phoneTxCAT.h	/^  struct PhoneTxCATPerFrameDerivedVars {$/;"	s	namespace:kaldi
+PhoneTxCATUpdateFlags	am-phoneTxCAT.h	/^  enum PhoneTxCATUpdateFlags {  \/\/\/ The letters correspond to the variable names.$/;"	g	namespace:kaldi
+PhoneTxCATUpdateFlagsType	am-phoneTxCAT.h	/^  typedef uint16 PhoneTxCATUpdateFlagsType;  \/\/\/< Bitwise OR of the above flags.$/;"	t	namespace:kaldi
+PhoneTxCATWriteFlags	am-phoneTxCAT.h	/^  enum PhoneTxCATWriteFlags {$/;"	g	namespace:kaldi
+PhoneTxCATWriteFlagsType	am-phoneTxCAT.h	/^  typedef uint16 PhoneTxCATWriteFlagsType;  \/\/\/< Bitwise OR of the above flags.$/;"	t	namespace:kaldi
+RandomAccessPhoneTxCATGauPostReader	am-phoneTxCAT.h	/^  typedef RandomAccessTableReader<PhoneTxCATGauPostHolder> RandomAccessPhoneTxCATGauPostReader;$/;"	t	namespace:kaldi
+ReClusterGaussians	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ReClusterGaussians(int num_clusters, std::vector<int32> *cluster_map) {$/;"	f	class:kaldi::AmPhoneTxCAT
+Read	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::Read(std::istream &in_stream, bool binary) {$/;"	f	class:kaldi::AmPhoneTxCAT
+Read	am-phoneTxCAT.cc	/^  void PhoneTxCATGauPost::Read(std::istream &is, bool binary) {$/;"	f	class:kaldi::PhoneTxCATGauPost
+Read	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::Read(std::istream &in_stream, bool binary,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+Reconfigure	estimate-am-phoneTxCAT.h	/^      void Reconfigure(const MleAmPhoneTxCATOptions &options) {$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+Register	am-phoneTxCAT.h	/^    void Register(ParseOptions *po) {$/;"	f	struct:kaldi::PhoneTxCATGselectConfig
+Register	estimate-am-phoneTxCAT.h	/^    void Register(ParseOptions *po) {$/;"	f	struct:kaldi::MleAmPhoneTxCATOptions
+ResetLogLikeCache	decodable-am-phoneTxCAT.cc	/^  void DecodableAmPhoneTxCAT::ResetLogLikeCache() {$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+Resize	am-phoneTxCAT.h	/^    void Resize(int32 ngauss, int32 feat_dim, int32 num_clusters) {$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+ResizeAccumulators	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::ResizeAccumulators(const AmPhoneTxCAT &model,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+SequentialPhoneTxCATGauPostReader	am-phoneTxCAT.h	/^  typedef SequentialTableReader<PhoneTxCATGauPostHolder> SequentialPhoneTxCATGauPostReader;$/;"	t	namespace:kaldi
+SigmaInv_	am-phoneTxCAT.h	/^      std::vector< SpMatrix<BaseFloat> > SigmaInv_;$/;"	m	class:kaldi::AmPhoneTxCAT
+StateVectors	am-phoneTxCAT.h	/^      const Vector<BaseFloat>& StateVectors(int32 cluster_weight_class, int32 state_index) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+StringToPhoneTxCATUpdateFlags	am-phoneTxCAT.cc	/^  PhoneTxCATUpdateFlagsType StringToPhoneTxCATUpdateFlags(std::string str) {$/;"	f	namespace:kaldi
+StringToPhoneTxCATWriteFlags	am-phoneTxCAT.cc	/^  PhoneTxCATUpdateFlagsType StringToPhoneTxCATWriteFlags(std::string str) {$/;"	f	namespace:kaldi
+TestPhoneTxCATAccsIO	estimate-am-phoneTxCAT-test.cc	/^void TestPhoneTxCATAccsIO(const AmPhoneTxCAT &phoneTxCAT,$/;"	f
+TestPhoneTxCATIO	am-phoneTxCAT-test.cc	/^void TestPhoneTxCATIO(const AmPhoneTxCAT &phoneTxCAT) {$/;"	f
+TestPhoneTxCATInit	am-phoneTxCAT-test.cc	/^void TestPhoneTxCATInit(const AmPhoneTxCAT &phoneTxCAT) {$/;"	f
+TotalFrames	estimate-am-phoneTxCAT.h	/^      double TotalFrames() const { return total_frames_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+TotalLike	estimate-am-phoneTxCAT.h	/^      double TotalLike() const { return total_like_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+TransformClass	am-phoneTxCAT.h	/^      int32 TransformClass(int32 i) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+UnitTestEstimatePhoneTxCAT	estimate-am-phoneTxCAT-test.cc	/^void UnitTestEstimatePhoneTxCAT() {$/;"	f
+UnitTestPhoneTxCAT	am-phoneTxCAT-test.cc	/^void UnitTestPhoneTxCAT() {$/;"	f
+Update	estimate-am-phoneTxCAT.cc	/^  BaseFloat MleAmPhoneTxCATUpdater::Update(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateAParallel	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateAParallel(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateAParallel2	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateAParallel2(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateAParallelClass	estimate-am-phoneTxCAT.cc	/^      UpdateAParallelClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateAParallelClass
+UpdateAParallelClass	estimate-am-phoneTxCAT.cc	/^  class UpdateAParallelClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+UpdateAParallelClass2	estimate-am-phoneTxCAT.cc	/^      UpdateAParallelClass2(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateAParallelClass2
+UpdateAParallelClass2	estimate-am-phoneTxCAT.cc	/^  class UpdateAParallelClass2: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+UpdateAParallelInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateAParallelInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateAParallelInternal2	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateAParallelInternal2($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateASequential	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateASequential(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateASequentialClass	estimate-am-phoneTxCAT.cc	/^      UpdateASequentialClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateASequentialClass
+UpdateASequentialClass	estimate-am-phoneTxCAT.cc	/^  class UpdateASequentialClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+UpdateASequentialInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateASequentialInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateA_DiagCov	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateA_DiagCov(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateA_DiagCovParallelClass	estimate-am-phoneTxCAT.cc	/^      UpdateA_DiagCovParallelClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateA_DiagCovParallelClass
+UpdateA_DiagCovParallelClass	estimate-am-phoneTxCAT.cc	/^  class UpdateA_DiagCovParallelClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+UpdateA_DiagCovParallelInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateA_DiagCovParallelInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateCanonicalMeans	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateCanonicalMeans($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateDiagVars	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateDiagVars(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateStateVectors	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateStateVectors($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateStateVectorsClass	estimate-am-phoneTxCAT.cc	/^      UpdateStateVectorsClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateStateVectorsClass
+UpdateStateVectorsClass	estimate-am-phoneTxCAT.cc	/^  class UpdateStateVectorsClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+UpdateStateVectorsInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateStateVectorsInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateVars	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateVars(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateWParallel	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWParallel($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateWParallelClass	estimate-am-phoneTxCAT.h	/^      UpdateWParallelClass(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::UpdateWParallelClass
+UpdateWParallelClass	estimate-am-phoneTxCAT.h	/^  class UpdateWParallelClass: public MultiThreadable {$/;"	c	namespace:kaldi
+UpdateWParallelGetStats	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateWParallelGetStats($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateWSequential	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWSequential($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateWeights	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWeights($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+UpdateWeightsBasic	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWeightsBasic($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+Write	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::Write(std::ostream &out_stream, bool binary,$/;"	f	class:kaldi::AmPhoneTxCAT
+Write	am-phoneTxCAT.cc	/^  void PhoneTxCATGauPost::Write(std::ostream &os, bool binary) const {$/;"	f	class:kaldi::PhoneTxCATGauPost
+Write	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::Write($/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+accs_	estimate-am-phoneTxCAT.h	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateWParallelClass
+acoustic_model_	decodable-am-phoneTxCAT.h	/^      const AmPhoneTxCAT &acoustic_model_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+am_phoneTxCAT_	am-phoneTxCAT.cc	/^      AmPhoneTxCAT *am_phoneTxCAT_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+auxf_impr_	estimate-am-phoneTxCAT.cc	/^      double auxf_impr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+auxf_impr_	estimate-am-phoneTxCAT.cc	/^      double auxf_impr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+auxf_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *auxf_impr_ptr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+auxf_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *auxf_impr_ptr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+class_count_	estimate-am-phoneTxCAT.cc	/^      const Vector<double> &class_count_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+cluster_transforms_iters	estimate-am-phoneTxCAT.h	/^    int32 cluster_transforms_iters;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+cluster_weight_class_	am-phoneTxCAT.h	/^      std::vector<int32> cluster_weight_class_;$/;"	m	class:kaldi::AmPhoneTxCAT
+cov_diag_ratio	estimate-am-phoneTxCAT.h	/^    BaseFloat cov_diag_ratio;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+cov_floor	estimate-am-phoneTxCAT.h	/^    BaseFloat cov_floor;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+delta_Ap_	estimate-am-phoneTxCAT.cc	/^      std::vector< Matrix<double> > *delta_Ap_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+delta_Apq_	estimate-am-phoneTxCAT.cc	/^      Matrix<double> *delta_Apq_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+diag_gmm_nbest	am-phoneTxCAT.h	/^    int32 diag_gmm_nbest;$/;"	m	struct:kaldi::PhoneTxCATGselectConfig
+diag_ubm	am-phoneTxCAT.h	/^      const DiagGmm& diag_ubm() const { return diag_ubm_; }$/;"	f	class:kaldi::AmPhoneTxCAT
+diag_ubm_	am-phoneTxCAT.h	/^      DiagGmm diag_ubm_;$/;"	m	class:kaldi::AmPhoneTxCAT
+entropy_count_	am-phoneTxCAT.cc	/^      int32 entropy_count_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+entropy_count_ptr_	am-phoneTxCAT.cc	/^      int32 *entropy_count_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+entropy_sum_	am-phoneTxCAT.cc	/^      double entropy_sum_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+entropy_sum_ptr_	am-phoneTxCAT.cc	/^      double *entropy_sum_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+epsilon	estimate-am-phoneTxCAT.h	/^    BaseFloat epsilon;  \/\/\/< very small value used to prevent SVD crashing.$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+feature_dim_	estimate-am-phoneTxCAT.h	/^      int32 feature_dim_, num_clusters_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+feature_matrix_	decodable-am-phoneTxCAT.h	/^      const Matrix<BaseFloat> &feature_matrix_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+full_gmm_nbest	am-phoneTxCAT.h	/^    int32 full_gmm_nbest;$/;"	m	struct:kaldi::PhoneTxCATGselectConfig
+full_ubm	am-phoneTxCAT.h	/^      const FullGmm& full_ubm() const { return full_ubm_; }$/;"	f	class:kaldi::AmPhoneTxCAT
+full_ubm_	am-phoneTxCAT.h	/^      FullGmm full_ubm_;$/;"	m	class:kaldi::AmPhoneTxCAT
+g_i_	estimate-am-phoneTxCAT.h	/^      Matrix<double> g_i_;$/;"	m	class:kaldi::UpdateWParallelClass
+g_i_ptr_	estimate-am-phoneTxCAT.h	/^      Matrix<double> *g_i_ptr_;$/;"	m	class:kaldi::UpdateWParallelClass
+gamma_	estimate-am-phoneTxCAT.h	/^      std::vector< Vector<double> > gamma_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+gamma_j_	estimate-am-phoneTxCAT.h	/^      Vector<double> gamma_j_;  \/\/\/< State occupancies$/;"	m	class:kaldi::MleAmPhoneTxCATUpdater
+gselect	am-phoneTxCAT.h	/^    std::vector<int32> gselect;$/;"	m	struct:kaldi::PhoneTxCATGauPostElement
+gselect	am-phoneTxCAT.h	/^    std::vector<int32> gselect;$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+gselect_	decodable-am-phoneTxCAT.h	/^      std::vector<int32> gselect_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+gselect_all_	decodable-am-phoneTxCAT.h	/^      const std::vector< std::vector<int32> > gselect_all_; \/\/\/< if nonempty,$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+hit_time	decodable-am-phoneTxCAT.h	/^        int32 hit_time;       \/\/\/< Frame for which this value is relevant$/;"	m	struct:kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord
+init_step_	estimate-am-phoneTxCAT.cc	/^      std::vector<double> *init_step_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kPhoneTxCATAll	am-phoneTxCAT.h	/^    kPhoneTxCATAll                         = 0x0FF   \/\/\/ a (won't normally use this).  $/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATBackgroundGmms	am-phoneTxCAT.h	/^    kPhoneTxCATBackgroundGmms  = 0x008,  \/\/\/ u$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kPhoneTxCATCanonicalMeans	am-phoneTxCAT.h	/^    kPhoneTxCATCanonicalMeans              = 0x020,  \/\/\/ u$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATClusterTransforms	am-phoneTxCAT.h	/^    kPhoneTxCATClusterTransforms           = 0x002,  \/\/\/ A$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATClusterWeights	am-phoneTxCAT.h	/^    kPhoneTxCATClusterWeights              = 0x001,  \/\/\/ v$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATCovarianceMatrix	am-phoneTxCAT.h	/^    kPhoneTxCATCovarianceMatrix            = 0x008,  \/\/\/ S$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATGaussianWeights	am-phoneTxCAT.h	/^    kPhoneTxCATGaussianWeights             = 0x004,  \/\/\/ w$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATGlobalParams	am-phoneTxCAT.h	/^    kPhoneTxCATGlobalParams    = 0x001,  \/\/\/ g$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kPhoneTxCATNormalizers	am-phoneTxCAT.h	/^    kPhoneTxCATNormalizers     = 0x004,  \/\/\/ n$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kPhoneTxCATStateParams	am-phoneTxCAT.h	/^    kPhoneTxCATStateParams     = 0x002,  \/\/\/ s$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kPhoneTxCATStateVectors	am-phoneTxCAT.h	/^    kPhoneTxCATStateVectors                = 0x001,  \/\/\/ v (Compatibility)$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATTransitions	am-phoneTxCAT.h	/^    kPhoneTxCATTransitions                 = 0x010,  \/\/\/ t .. not really part of SGMM.$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATWeights	am-phoneTxCAT.h	/^    kPhoneTxCATWeights                     = 0x004,  \/\/\/ w (Compatibility)$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kPhoneTxCATWriteAll	am-phoneTxCAT.h	/^    kPhoneTxCATWriteAll        = 0x00F  \/\/\/ a$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kaldi	am-phoneTxCAT.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	am-phoneTxCAT.h	/^namespace kaldi {$/;"	n
+kaldi	decodable-am-phoneTxCAT.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	decodable-am-phoneTxCAT.h	/^namespace kaldi {$/;"	n
+kaldi	estimate-am-phoneTxCAT.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	estimate-am-phoneTxCAT.h	/^namespace kaldi {$/;"	n
+kaldi	phoneTxCAT-clusterable.h	/^namespace kaldi {$/;"	n
+kaldi::AmPhoneTxCAT	am-phoneTxCAT.h	/^  class AmPhoneTxCAT {$/;"	c	namespace:kaldi
+kaldi::AmPhoneTxCAT::A_	am-phoneTxCAT.h	/^      std::vector< std::vector< Matrix<BaseFloat> > > A_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::AmPhoneTxCAT	am-phoneTxCAT.h	/^      AmPhoneTxCAT() {}$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::CanonicalMeans	am-phoneTxCAT.h	/^      const Matrix<BaseFloat>& CanonicalMeans() const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::Check	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::Check(bool show_properties) {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ClusterTransforms	am-phoneTxCAT.h	/^      const Matrix<BaseFloat>& ClusterTransforms(int32 cluster_index,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ClusterWeightClass	am-phoneTxCAT.h	/^      int32 ClusterWeightClass(int32 i) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ClusterWeights	am-phoneTxCAT.h	/^      const Vector<BaseFloat>& ClusterWeights(int32 cluster_weight_class, int32 state_index) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComponentPosteriors	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::ComponentPosteriors($/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComputeDerivedVars	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputeDerivedVars() {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComputeH	am-phoneTxCAT.cc	/^    void AmPhoneTxCAT::ComputeH(std::vector< SpMatrix<Real> > *H) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComputeM_SigmaInv	am-phoneTxCAT.cc	/^    void AmPhoneTxCAT::ComputeM_SigmaInv(std::vector< Matrix<Real> > *M_SigmaInv_i) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComputeNormalizers	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputeNormalizers() {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComputeNormalizersInternal	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputeNormalizersInternal(int32 num_threads,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ComputePerFrameVars	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ComputePerFrameVars(const VectorBase<BaseFloat> &data,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::CopyFromPhoneTxCAT	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::CopyFromPhoneTxCAT(const AmPhoneTxCAT &other,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::CopyGlobalsInitVecs	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::CopyGlobalsInitVecs(const AmPhoneTxCAT &other,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::FeatureDim	am-phoneTxCAT.h	/^      int32 FeatureDim() const { return diag_ubm_.Dim(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GaussianSelection	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelection(const PhoneTxCATGselectConfig &config,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GaussianSelectionDiag	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelectionDiag($/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GaussianSelectionPreselect	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelectionPreselect($/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GaussianSelectionPreselectDiag	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::GaussianSelectionPreselectDiag($/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GetInvCovars	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetInvCovars(int32 gauss_index,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GetMTrans	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetMTrans(int32 i, $/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GetModelSpaceProjection	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetModelSpaceProjection(int32 i, $/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::GetStateMean	am-phoneTxCAT.h	/^    inline void AmPhoneTxCAT::GetStateMean(int32 j, int32 i,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::InitializeA	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeA() {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::InitializeCanonicalMeans	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeCanonicalMeans() {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::InitializeCovars	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeCovars() {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::InitializeFromFullGmm	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeFromFullGmm(const FullGmm &gmm,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::InitializeVecs	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::InitializeVecs() {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::InvCovars	am-phoneTxCAT.h	/^      const SpMatrix<BaseFloat>& InvCovars(int32 gauss_index) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::LogLikelihood	am-phoneTxCAT.cc	/^  BaseFloat AmPhoneTxCAT::LogLikelihood(const PhoneTxCATPerFrameDerivedVars &per_frame_vars, int32 j, BaseFloat log_prune) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::NumClusterWeightClasses	am-phoneTxCAT.h	/^      int32 NumClusterWeightClasses() const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::NumClusters	am-phoneTxCAT.h	/^      int32 NumClusters() const { return A_.size(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::NumGauss	am-phoneTxCAT.h	/^      int32 NumGauss() const { return SigmaInv_.size(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::NumPdfs	am-phoneTxCAT.h	/^      int32 NumPdfs() const { return v_[0].size(); }$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::NumTransformClasses	am-phoneTxCAT.h	/^      int32 NumTransformClasses() const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::NumWeightClasses	am-phoneTxCAT.h	/^      int32 NumWeightClasses() const { $/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::ReClusterGaussians	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::ReClusterGaussians(int num_clusters, std::vector<int32> *cluster_map) {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::Read	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::Read(std::istream &in_stream, bool binary) {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::SigmaInv_	am-phoneTxCAT.h	/^      std::vector< SpMatrix<BaseFloat> > SigmaInv_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::StateVectors	am-phoneTxCAT.h	/^      const Vector<BaseFloat>& StateVectors(int32 cluster_weight_class, int32 state_index) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::TransformClass	am-phoneTxCAT.h	/^      int32 TransformClass(int32 i) const {$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::Write	am-phoneTxCAT.cc	/^  void AmPhoneTxCAT::Write(std::ostream &out_stream, bool binary,$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::cluster_weight_class_	am-phoneTxCAT.h	/^      std::vector<int32> cluster_weight_class_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::diag_ubm	am-phoneTxCAT.h	/^      const DiagGmm& diag_ubm() const { return diag_ubm_; }$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::diag_ubm_	am-phoneTxCAT.h	/^      DiagGmm diag_ubm_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::full_ubm	am-phoneTxCAT.h	/^      const FullGmm& full_ubm() const { return full_ubm_; }$/;"	f	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::full_ubm_	am-phoneTxCAT.h	/^      FullGmm full_ubm_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::n_	am-phoneTxCAT.h	/^      std::vector< Vector<BaseFloat> > n_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::pdf_id_to_cluster_	am-phoneTxCAT.h	/^      std::vector<int32> pdf_id_to_cluster_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::transform_class_	am-phoneTxCAT.h	/^      std::vector<int32> transform_class_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::u_	am-phoneTxCAT.h	/^      Matrix<BaseFloat> u_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::use_full_covar_	am-phoneTxCAT.h	/^      bool use_full_covar_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::use_weight_projection_	am-phoneTxCAT.h	/^      bool use_weight_projection_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::v_	am-phoneTxCAT.h	/^      std::vector< std::vector < Vector<BaseFloat> > > v_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::w_	am-phoneTxCAT.h	/^      Matrix<BaseFloat> w_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::AmPhoneTxCAT::weights_map_	am-phoneTxCAT.h	/^      std::vector<int32> weights_map_;$/;"	m	class:kaldi::AmPhoneTxCAT
+kaldi::ComputeNormalizersClass	am-phoneTxCAT.cc	/^  class ComputeNormalizersClass: public MultiThreadable { $/;"	c	namespace:kaldi	file:
+kaldi::ComputeNormalizersClass::ComputeNormalizersClass	am-phoneTxCAT.cc	/^      ComputeNormalizersClass() { } \/\/ Disallow empty constructor.$/;"	f	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::ComputeNormalizersClass	am-phoneTxCAT.cc	/^      ComputeNormalizersClass(AmPhoneTxCAT *am_phoneTxCAT,$/;"	f	class:kaldi::ComputeNormalizersClass
+kaldi::ComputeNormalizersClass::am_phoneTxCAT_	am-phoneTxCAT.cc	/^      AmPhoneTxCAT *am_phoneTxCAT_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_count_	am-phoneTxCAT.cc	/^      int32 entropy_count_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_count_ptr_	am-phoneTxCAT.cc	/^      int32 *entropy_count_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_sum_	am-phoneTxCAT.cc	/^      double entropy_sum_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_sum_ptr_	am-phoneTxCAT.cc	/^      double *entropy_sum_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::operator ()	am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::ComputeNormalizersClass
+kaldi::ComputeNormalizersClass::~ComputeNormalizersClass	am-phoneTxCAT.cc	/^      ~ComputeNormalizersClass() {$/;"	f	class:kaldi::ComputeNormalizersClass
+kaldi::DecodableAmPhoneTxCAT	decodable-am-phoneTxCAT.h	/^  class DecodableAmPhoneTxCAT : public DecodableInterface {$/;"	c	namespace:kaldi
+kaldi::DecodableAmPhoneTxCAT::DecodableAmPhoneTxCAT	decodable-am-phoneTxCAT.h	/^      DecodableAmPhoneTxCAT(const PhoneTxCATGselectConfig &opts,$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::IsLastFrame	decodable-am-phoneTxCAT.h	/^      virtual bool IsLastFrame(int32 frame) {$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord	decodable-am-phoneTxCAT.h	/^      struct LikelihoodCacheRecord {$/;"	s	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord::hit_time	decodable-am-phoneTxCAT.h	/^        int32 hit_time;       \/\/\/< Frame for which this value is relevant$/;"	m	struct:kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord
+kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord::log_like	decodable-am-phoneTxCAT.h	/^        BaseFloat log_like;   \/\/\/< Cache value$/;"	m	struct:kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord
+kaldi::DecodableAmPhoneTxCAT::LogLikelihood	decodable-am-phoneTxCAT.h	/^      virtual BaseFloat LogLikelihood(int32 frame, int32 tid) {$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::LogLikelihoodZeroBased	decodable-am-phoneTxCAT.cc	/^  BaseFloat DecodableAmPhoneTxCAT::LogLikelihoodZeroBased(int32 frame, $/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::NumFrames	decodable-am-phoneTxCAT.h	/^      int32 NumFrames() { return feature_matrix_.NumRows(); }$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::NumIndices	decodable-am-phoneTxCAT.h	/^      virtual int32 NumIndices() { return trans_model_.NumTransitionIds(); }$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::ResetLogLikeCache	decodable-am-phoneTxCAT.cc	/^  void DecodableAmPhoneTxCAT::ResetLogLikeCache() {$/;"	f	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::acoustic_model_	decodable-am-phoneTxCAT.h	/^      const AmPhoneTxCAT &acoustic_model_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::feature_matrix_	decodable-am-phoneTxCAT.h	/^      const Matrix<BaseFloat> &feature_matrix_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::gselect_	decodable-am-phoneTxCAT.h	/^      std::vector<int32> gselect_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::gselect_all_	decodable-am-phoneTxCAT.h	/^      const std::vector< std::vector<int32> > gselect_all_; \/\/\/< if nonempty,$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::log_like_cache_	decodable-am-phoneTxCAT.h	/^      std::vector<LikelihoodCacheRecord> log_like_cache_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::log_prune_	decodable-am-phoneTxCAT.h	/^      BaseFloat log_prune_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::per_frame_vars_	decodable-am-phoneTxCAT.h	/^      PhoneTxCATPerFrameDerivedVars per_frame_vars_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::phoneTxCAT_config_	decodable-am-phoneTxCAT.h	/^      const PhoneTxCATGselectConfig &phoneTxCAT_config_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::previous_frame_	decodable-am-phoneTxCAT.h	/^      int32 previous_frame_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCAT::trans_model_	decodable-am-phoneTxCAT.h	/^      const TransitionModel &trans_model_;  \/\/\/< for tid to pdf mapping$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+kaldi::DecodableAmPhoneTxCATScaled	decodable-am-phoneTxCAT.h	/^  class DecodableAmPhoneTxCATScaled : public DecodableAmPhoneTxCAT {$/;"	c	namespace:kaldi
+kaldi::DecodableAmPhoneTxCATScaled::DecodableAmPhoneTxCATScaled	decodable-am-phoneTxCAT.h	/^      DecodableAmPhoneTxCATScaled(const PhoneTxCATGselectConfig &opts,$/;"	f	class:kaldi::DecodableAmPhoneTxCATScaled
+kaldi::DecodableAmPhoneTxCATScaled::LogLikelihood	decodable-am-phoneTxCAT.h	/^      virtual BaseFloat LogLikelihood(int32 frame, int32 tid) {$/;"	f	class:kaldi::DecodableAmPhoneTxCATScaled
+kaldi::DecodableAmPhoneTxCATScaled::scale_	decodable-am-phoneTxCAT.h	/^      BaseFloat scale_;$/;"	m	class:kaldi::DecodableAmPhoneTxCATScaled
+kaldi::MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^  class MleAmPhoneTxCATAccs {$/;"	c	namespace:kaldi
+kaldi::MleAmPhoneTxCATAccs::Accumulate	estimate-am-phoneTxCAT.cc	/^  BaseFloat MleAmPhoneTxCATAccs::Accumulate(const AmPhoneTxCAT &model,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::AccumulateFromPosteriors	estimate-am-phoneTxCAT.cc	/^  BaseFloat MleAmPhoneTxCATAccs::AccumulateFromPosteriors($/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::Check	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::Check(const AmPhoneTxCAT &model,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::FeatureDim	estimate-am-phoneTxCAT.h	/^      int32 FeatureDim() const { return feature_dim_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::G_	estimate-am-phoneTxCAT.h	/^      std::vector< SpMatrix<double> > G_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::GetOccs	estimate-am-phoneTxCAT.h	/^      const std::vector< Vector<double> >& GetOccs() const {$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::GetStateOccupancies	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::GetStateOccupancies(Vector<BaseFloat> *occs) const {$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::K_	estimate-am-phoneTxCAT.h	/^      std::vector< Matrix<double> > K_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::L_	estimate-am-phoneTxCAT.h	/^      std::vector< SpMatrix<double> > L_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^      MleAmPhoneTxCATAccs(const AmPhoneTxCAT &model, $/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^      explicit MleAmPhoneTxCATAccs(BaseFloat rand_prune = 1.0e-05)$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::NumClusterWeightClasses	estimate-am-phoneTxCAT.h	/^      int32 NumClusterWeightClasses() const { return num_cluster_weight_classes_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::NumClusters	estimate-am-phoneTxCAT.h	/^      int32 NumClusters() const { return num_clusters_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::NumGauss	estimate-am-phoneTxCAT.h	/^      int32 NumGauss() const { return num_gaussians_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::NumStates	estimate-am-phoneTxCAT.h	/^      int32 NumStates() const { return num_states_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::Read	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::Read(std::istream &in_stream, bool binary,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::ResizeAccumulators	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::ResizeAccumulators(const AmPhoneTxCAT &model,$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::TotalFrames	estimate-am-phoneTxCAT.h	/^      double TotalFrames() const { return total_frames_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::TotalLike	estimate-am-phoneTxCAT.h	/^      double TotalLike() const { return total_like_; }$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::Write	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATAccs::Write($/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::feature_dim_	estimate-am-phoneTxCAT.h	/^      int32 feature_dim_, num_clusters_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::gamma_	estimate-am-phoneTxCAT.h	/^      std::vector< Vector<double> > gamma_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::num_cluster_weight_classes_	estimate-am-phoneTxCAT.h	/^      int32 num_gaussians_, num_states_, num_cluster_weight_classes_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::num_clusters_	estimate-am-phoneTxCAT.h	/^      int32 feature_dim_, num_clusters_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::num_gaussians_	estimate-am-phoneTxCAT.h	/^      int32 num_gaussians_, num_states_, num_cluster_weight_classes_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::num_states_	estimate-am-phoneTxCAT.h	/^      int32 num_gaussians_, num_states_, num_cluster_weight_classes_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::rand_prune_	estimate-am-phoneTxCAT.h	/^      BaseFloat rand_prune_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::total_frames_	estimate-am-phoneTxCAT.h	/^      double total_frames_, total_like_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::total_like_	estimate-am-phoneTxCAT.h	/^      double total_frames_, total_like_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::y_	estimate-am-phoneTxCAT.h	/^      std::vector< std::vector< Vector<double> > > y_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATAccs::~MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^      ~MleAmPhoneTxCATAccs() {};$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+kaldi::MleAmPhoneTxCATOptions	estimate-am-phoneTxCAT.h	/^  struct MleAmPhoneTxCATOptions {$/;"	s	namespace:kaldi
+kaldi::MleAmPhoneTxCATOptions::MleAmPhoneTxCATOptions	estimate-am-phoneTxCAT.h	/^    MleAmPhoneTxCATOptions() {$/;"	f	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::Register	estimate-am-phoneTxCAT.h	/^    void Register(ParseOptions *po) {$/;"	f	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::cluster_transforms_iters	estimate-am-phoneTxCAT.h	/^    int32 cluster_transforms_iters;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::cov_diag_ratio	estimate-am-phoneTxCAT.h	/^    BaseFloat cov_diag_ratio;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::cov_floor	estimate-am-phoneTxCAT.h	/^    BaseFloat cov_floor;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::epsilon	estimate-am-phoneTxCAT.h	/^    BaseFloat epsilon;  \/\/\/< very small value used to prevent SVD crashing.$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::max_cond	estimate-am-phoneTxCAT.h	/^    BaseFloat max_cond;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::min_gaussian_weight	estimate-am-phoneTxCAT.h	/^    BaseFloat min_gaussian_weight;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_block_diagonal_transform	estimate-am-phoneTxCAT.h	/^    bool use_block_diagonal_transform;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_block_diagonal_transform2	estimate-am-phoneTxCAT.h	/^    bool use_block_diagonal_transform2;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_block_diagonal_transform3	estimate-am-phoneTxCAT.h	/^    bool use_block_diagonal_transform3;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_class_dep_steps	estimate-am-phoneTxCAT.h	/^    bool use_class_dep_steps;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_diagonal_transform	estimate-am-phoneTxCAT.h	/^    bool use_diagonal_transform;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_diagonal_transform2	estimate-am-phoneTxCAT.h	/^    bool use_diagonal_transform2;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_diagonal_transform3	estimate-am-phoneTxCAT.h	/^    bool use_diagonal_transform3;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_sequential_multiple_txclass_update	estimate-am-phoneTxCAT.h	/^    bool use_sequential_multiple_txclass_update;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_sequential_transform_update	estimate-am-phoneTxCAT.h	/^    bool use_sequential_transform_update;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::use_sequential_weight_update	estimate-am-phoneTxCAT.h	/^    bool use_sequential_weight_update;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATOptions::weight_projections_iters	estimate-am-phoneTxCAT.h	/^    int32 weight_projections_iters;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+kaldi::MleAmPhoneTxCATUpdater	estimate-am-phoneTxCAT.h	/^  class MleAmPhoneTxCATUpdater {$/;"	c	namespace:kaldi
+kaldi::MleAmPhoneTxCATUpdater::MleAmPhoneTxCATUpdater	estimate-am-phoneTxCAT.h	/^      MleAmPhoneTxCATUpdater() {}$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::MleAmPhoneTxCATUpdater	estimate-am-phoneTxCAT.h	/^      explicit MleAmPhoneTxCATUpdater(const MleAmPhoneTxCATOptions &options)$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::Reconfigure	estimate-am-phoneTxCAT.h	/^      void Reconfigure(const MleAmPhoneTxCATOptions &options) {$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::Update	estimate-am-phoneTxCAT.cc	/^  BaseFloat MleAmPhoneTxCATUpdater::Update(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateAParallel	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateAParallel(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateAParallel2	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateAParallel2(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateAParallelInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateAParallelInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateAParallelInternal2	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateAParallelInternal2($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateASequential	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateASequential(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateASequentialInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateASequentialInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateA_DiagCov	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateA_DiagCov(const MleAmPhoneTxCATAccs &accs, $/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateA_DiagCovParallelInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateA_DiagCovParallelInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateCanonicalMeans	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateCanonicalMeans($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateDiagVars	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateDiagVars(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateStateVectors	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateStateVectors($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateStateVectorsInternal	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateStateVectorsInternal($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateVars	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateVars(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateWParallel	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWParallel($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateWParallelGetStats	estimate-am-phoneTxCAT.cc	/^  void MleAmPhoneTxCATUpdater::UpdateWParallelGetStats($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateWSequential	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWSequential($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateWeights	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWeights($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::UpdateWeightsBasic	estimate-am-phoneTxCAT.cc	/^  double MleAmPhoneTxCATUpdater::UpdateWeightsBasic($/;"	f	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::gamma_j_	estimate-am-phoneTxCAT.h	/^      Vector<double> gamma_j_;  \/\/\/< State occupancies$/;"	m	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::MleAmPhoneTxCATUpdater::update_options_	estimate-am-phoneTxCAT.h	/^      MleAmPhoneTxCATOptions update_options_;$/;"	m	class:kaldi::MleAmPhoneTxCATUpdater
+kaldi::PhoneTxCATClusterable	phoneTxCAT-clusterable.h	/^class PhoneTxCATClusterable: public Clusterable {$/;"	c	namespace:kaldi
+kaldi::PhoneTxCATGauPost	am-phoneTxCAT.h	/^  class PhoneTxCATGauPost: public std::vector<PhoneTxCATGauPostElement> {$/;"	c	namespace:kaldi
+kaldi::PhoneTxCATGauPost::PhoneTxCATGauPost	am-phoneTxCAT.h	/^      PhoneTxCATGauPost() {}$/;"	f	class:kaldi::PhoneTxCATGauPost
+kaldi::PhoneTxCATGauPost::PhoneTxCATGauPost	am-phoneTxCAT.h	/^      explicit PhoneTxCATGauPost(size_t i) : $/;"	f	class:kaldi::PhoneTxCATGauPost
+kaldi::PhoneTxCATGauPost::Read	am-phoneTxCAT.cc	/^  void PhoneTxCATGauPost::Read(std::istream &is, bool binary) {$/;"	f	class:kaldi::PhoneTxCATGauPost
+kaldi::PhoneTxCATGauPost::Write	am-phoneTxCAT.cc	/^  void PhoneTxCATGauPost::Write(std::ostream &os, bool binary) const {$/;"	f	class:kaldi::PhoneTxCATGauPost
+kaldi::PhoneTxCATGauPostElement	am-phoneTxCAT.h	/^  struct PhoneTxCATGauPostElement {$/;"	s	namespace:kaldi
+kaldi::PhoneTxCATGauPostElement::gselect	am-phoneTxCAT.h	/^    std::vector<int32> gselect;$/;"	m	struct:kaldi::PhoneTxCATGauPostElement
+kaldi::PhoneTxCATGauPostElement::posteriors	am-phoneTxCAT.h	/^    std::vector<Matrix<BaseFloat> > posteriors;$/;"	m	struct:kaldi::PhoneTxCATGauPostElement
+kaldi::PhoneTxCATGauPostElement::tids	am-phoneTxCAT.h	/^    std::vector<int32> tids;  \/\/ transition-ids for each entry in "posteriors"$/;"	m	struct:kaldi::PhoneTxCATGauPostElement
+kaldi::PhoneTxCATGauPostHolder	am-phoneTxCAT.h	/^  typedef KaldiObjectHolder<PhoneTxCATGauPost> PhoneTxCATGauPostHolder;$/;"	t	namespace:kaldi
+kaldi::PhoneTxCATGauPostWriter	am-phoneTxCAT.h	/^  typedef TableWriter<PhoneTxCATGauPostHolder> PhoneTxCATGauPostWriter;$/;"	t	namespace:kaldi
+kaldi::PhoneTxCATGselectConfig	am-phoneTxCAT.h	/^  struct PhoneTxCATGselectConfig {$/;"	s	namespace:kaldi
+kaldi::PhoneTxCATGselectConfig::PhoneTxCATGselectConfig	am-phoneTxCAT.h	/^    PhoneTxCATGselectConfig() {$/;"	f	struct:kaldi::PhoneTxCATGselectConfig
+kaldi::PhoneTxCATGselectConfig::Register	am-phoneTxCAT.h	/^    void Register(ParseOptions *po) {$/;"	f	struct:kaldi::PhoneTxCATGselectConfig
+kaldi::PhoneTxCATGselectConfig::diag_gmm_nbest	am-phoneTxCAT.h	/^    int32 diag_gmm_nbest;$/;"	m	struct:kaldi::PhoneTxCATGselectConfig
+kaldi::PhoneTxCATGselectConfig::full_gmm_nbest	am-phoneTxCAT.h	/^    int32 full_gmm_nbest;$/;"	m	struct:kaldi::PhoneTxCATGselectConfig
+kaldi::PhoneTxCATPerFrameDerivedVars	am-phoneTxCAT.h	/^  struct PhoneTxCATPerFrameDerivedVars {$/;"	s	namespace:kaldi
+kaldi::PhoneTxCATPerFrameDerivedVars::IsEmpty	am-phoneTxCAT.h	/^    bool IsEmpty() const {$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::NeedsResizing	am-phoneTxCAT.h	/^    bool NeedsResizing(int32 ngauss, int32 feat_dim, int32 num_clusters) const {$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::PhoneTxCATPerFrameDerivedVars	am-phoneTxCAT.h	/^    PhoneTxCATPerFrameDerivedVars() : xt(0), zti(0,0), nti(0) {}$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::Resize	am-phoneTxCAT.h	/^    void Resize(int32 ngauss, int32 feat_dim, int32 num_clusters) {$/;"	f	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::gselect	am-phoneTxCAT.h	/^    std::vector<int32> gselect;$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::nti	am-phoneTxCAT.h	/^    Vector<BaseFloat> nti;  \/\/\/< n_{i}(t), dim = [I]$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::xt	am-phoneTxCAT.h	/^    Vector<BaseFloat> xt;   \/\/\/< x(t), dim = [D]$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATPerFrameDerivedVars::zti	am-phoneTxCAT.h	/^    Matrix<BaseFloat> zti;  \/\/\/< z_{i}(t), dim = [I][S]$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+kaldi::PhoneTxCATUpdateFlags	am-phoneTxCAT.h	/^  enum PhoneTxCATUpdateFlags {  \/\/\/ The letters correspond to the variable names.$/;"	g	namespace:kaldi
+kaldi::PhoneTxCATUpdateFlagsType	am-phoneTxCAT.h	/^  typedef uint16 PhoneTxCATUpdateFlagsType;  \/\/\/< Bitwise OR of the above flags.$/;"	t	namespace:kaldi
+kaldi::PhoneTxCATWriteFlags	am-phoneTxCAT.h	/^  enum PhoneTxCATWriteFlags {$/;"	g	namespace:kaldi
+kaldi::PhoneTxCATWriteFlagsType	am-phoneTxCAT.h	/^  typedef uint16 PhoneTxCATWriteFlagsType;  \/\/\/< Bitwise OR of the above flags.$/;"	t	namespace:kaldi
+kaldi::RandomAccessPhoneTxCATGauPostReader	am-phoneTxCAT.h	/^  typedef RandomAccessTableReader<PhoneTxCATGauPostHolder> RandomAccessPhoneTxCATGauPostReader;$/;"	t	namespace:kaldi
+kaldi::SequentialPhoneTxCATGauPostReader	am-phoneTxCAT.h	/^  typedef SequentialTableReader<PhoneTxCATGauPostHolder> SequentialPhoneTxCATGauPostReader;$/;"	t	namespace:kaldi
+kaldi::StringToPhoneTxCATUpdateFlags	am-phoneTxCAT.cc	/^  PhoneTxCATUpdateFlagsType StringToPhoneTxCATUpdateFlags(std::string str) {$/;"	f	namespace:kaldi
+kaldi::StringToPhoneTxCATWriteFlags	am-phoneTxCAT.cc	/^  PhoneTxCATUpdateFlagsType StringToPhoneTxCATWriteFlags(std::string str) {$/;"	f	namespace:kaldi
+kaldi::UpdateAParallelClass	estimate-am-phoneTxCAT.cc	/^  class UpdateAParallelClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+kaldi::UpdateAParallelClass2	estimate-am-phoneTxCAT.cc	/^  class UpdateAParallelClass2: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+kaldi::UpdateAParallelClass2::L_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &L_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::UpdateAParallelClass2	estimate-am-phoneTxCAT.cc	/^      UpdateAParallelClass2(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateAParallelClass2
+kaldi::UpdateAParallelClass2::accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::delta_Apq_	estimate-am-phoneTxCAT.cc	/^      Matrix<double> *delta_Apq_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateAParallelClass2
+kaldi::UpdateAParallelClass2::p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::tx_class_	estimate-am-phoneTxCAT.cc	/^      const int32 tx_class_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::variance_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &variance_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::xi2_	estimate-am-phoneTxCAT.cc	/^      const std::vector< SpMatrix<double> > &xi2_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+kaldi::UpdateAParallelClass2::~UpdateAParallelClass2	estimate-am-phoneTxCAT.cc	/^      ~UpdateAParallelClass2() {$/;"	f	class:kaldi::UpdateAParallelClass2
+kaldi::UpdateAParallelClass::L_	estimate-am-phoneTxCAT.cc	/^      const std::vector< Matrix<double> > &L_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::UpdateAParallelClass	estimate-am-phoneTxCAT.cc	/^      UpdateAParallelClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateAParallelClass
+kaldi::UpdateAParallelClass::accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::delta_Ap_	estimate-am-phoneTxCAT.cc	/^      std::vector< Matrix<double> > *delta_Ap_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateAParallelClass
+kaldi::UpdateAParallelClass::p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::variance_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &variance_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::xi2_	estimate-am-phoneTxCAT.cc	/^      const std::vector< SpMatrix<double> > &xi2_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+kaldi::UpdateAParallelClass::~UpdateAParallelClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateAParallelClass() {$/;"	f	class:kaldi::UpdateAParallelClass
+kaldi::UpdateASequentialClass	estimate-am-phoneTxCAT.cc	/^  class UpdateASequentialClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+kaldi::UpdateASequentialClass::L_	estimate-am-phoneTxCAT.cc	/^      const std::vector< Matrix<double> > &L_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::UpdateASequentialClass	estimate-am-phoneTxCAT.cc	/^      UpdateASequentialClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateASequentialClass
+kaldi::UpdateASequentialClass::accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::auxf_impr_	estimate-am-phoneTxCAT.cc	/^      double auxf_impr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::auxf_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *auxf_impr_ptr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::class_count_	estimate-am-phoneTxCAT.cc	/^      const Vector<double> &class_count_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::init_step_	estimate-am-phoneTxCAT.cc	/^      std::vector<double> *init_step_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::like_impr_	estimate-am-phoneTxCAT.cc	/^      double like_impr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::like_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *like_impr_ptr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateASequentialClass
+kaldi::UpdateASequentialClass::p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::variance_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &variance_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::xi2_	estimate-am-phoneTxCAT.cc	/^      const std::vector< SpMatrix<double> > &xi2_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+kaldi::UpdateASequentialClass::~UpdateASequentialClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateASequentialClass() {$/;"	f	class:kaldi::UpdateASequentialClass
+kaldi::UpdateA_DiagCovParallelClass	estimate-am-phoneTxCAT.cc	/^  class UpdateA_DiagCovParallelClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+kaldi::UpdateA_DiagCovParallelClass::UpdateA_DiagCovParallelClass	estimate-am-phoneTxCAT.cc	/^      UpdateA_DiagCovParallelClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateA_DiagCovParallelClass
+kaldi::UpdateA_DiagCovParallelClass::accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+kaldi::UpdateA_DiagCovParallelClass::like_impr_	estimate-am-phoneTxCAT.cc	/^      double like_impr_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+kaldi::UpdateA_DiagCovParallelClass::like_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *like_impr_ptr_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+kaldi::UpdateA_DiagCovParallelClass::model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+kaldi::UpdateA_DiagCovParallelClass::operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateA_DiagCovParallelClass
+kaldi::UpdateA_DiagCovParallelClass::p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+kaldi::UpdateA_DiagCovParallelClass::updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+kaldi::UpdateA_DiagCovParallelClass::~UpdateA_DiagCovParallelClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateA_DiagCovParallelClass() {$/;"	f	class:kaldi::UpdateA_DiagCovParallelClass
+kaldi::UpdateStateVectorsClass	estimate-am-phoneTxCAT.cc	/^  class UpdateStateVectorsClass: public MultiThreadable {$/;"	c	namespace:kaldi	file:
+kaldi::UpdateStateVectorsClass::H_	estimate-am-phoneTxCAT.cc	/^      const std::vector<SpMatrix<double> > &H_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::UpdateStateVectorsClass	estimate-am-phoneTxCAT.cc	/^      UpdateStateVectorsClass(const MleAmPhoneTxCATUpdater &updater,$/;"	f	class:kaldi::UpdateStateVectorsClass
+kaldi::UpdateStateVectorsClass::accs_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::auxf_impr_	estimate-am-phoneTxCAT.cc	/^      double auxf_impr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::auxf_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *auxf_impr_ptr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::like_impr_	estimate-am-phoneTxCAT.cc	/^      double like_impr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::like_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *like_impr_ptr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateStateVectorsClass
+kaldi::UpdateStateVectorsClass::updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+kaldi::UpdateStateVectorsClass::~UpdateStateVectorsClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateStateVectorsClass() {$/;"	f	class:kaldi::UpdateStateVectorsClass
+kaldi::UpdateWParallelClass	estimate-am-phoneTxCAT.h	/^  class UpdateWParallelClass: public MultiThreadable {$/;"	c	namespace:kaldi
+kaldi::UpdateWParallelClass::F_i_	estimate-am-phoneTxCAT.h	/^      Matrix<double> F_i_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::F_i_ptr_	estimate-am-phoneTxCAT.h	/^      Matrix<double> *F_i_ptr_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::UpdateWParallelClass	estimate-am-phoneTxCAT.h	/^      UpdateWParallelClass(const MleAmPhoneTxCATAccs &accs,$/;"	f	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::accs_	estimate-am-phoneTxCAT.h	/^      const MleAmPhoneTxCATAccs &accs_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::g_i_	estimate-am-phoneTxCAT.h	/^      Matrix<double> g_i_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::g_i_ptr_	estimate-am-phoneTxCAT.h	/^      Matrix<double> *g_i_ptr_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::model_	estimate-am-phoneTxCAT.h	/^      const AmPhoneTxCAT &model_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::operator ()	estimate-am-phoneTxCAT.h	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::tot_like_	estimate-am-phoneTxCAT.h	/^      double tot_like_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::tot_like_ptr_	estimate-am-phoneTxCAT.h	/^      double *tot_like_ptr_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::w_	estimate-am-phoneTxCAT.h	/^      const Matrix<double> &w_;$/;"	m	class:kaldi::UpdateWParallelClass
+kaldi::UpdateWParallelClass::~UpdateWParallelClass	estimate-am-phoneTxCAT.h	/^      ~UpdateWParallelClass() {$/;"	f	class:kaldi::UpdateWParallelClass
+kaldi::kPhoneTxCATAll	am-phoneTxCAT.h	/^    kPhoneTxCATAll                         = 0x0FF   \/\/\/ a (won't normally use this).  $/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATBackgroundGmms	am-phoneTxCAT.h	/^    kPhoneTxCATBackgroundGmms  = 0x008,  \/\/\/ u$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kaldi::kPhoneTxCATCanonicalMeans	am-phoneTxCAT.h	/^    kPhoneTxCATCanonicalMeans              = 0x020,  \/\/\/ u$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATClusterTransforms	am-phoneTxCAT.h	/^    kPhoneTxCATClusterTransforms           = 0x002,  \/\/\/ A$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATClusterWeights	am-phoneTxCAT.h	/^    kPhoneTxCATClusterWeights              = 0x001,  \/\/\/ v$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATCovarianceMatrix	am-phoneTxCAT.h	/^    kPhoneTxCATCovarianceMatrix            = 0x008,  \/\/\/ S$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATGaussianWeights	am-phoneTxCAT.h	/^    kPhoneTxCATGaussianWeights             = 0x004,  \/\/\/ w$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATGlobalParams	am-phoneTxCAT.h	/^    kPhoneTxCATGlobalParams    = 0x001,  \/\/\/ g$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kaldi::kPhoneTxCATNormalizers	am-phoneTxCAT.h	/^    kPhoneTxCATNormalizers     = 0x004,  \/\/\/ n$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kaldi::kPhoneTxCATStateParams	am-phoneTxCAT.h	/^    kPhoneTxCATStateParams     = 0x002,  \/\/\/ s$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+kaldi::kPhoneTxCATStateVectors	am-phoneTxCAT.h	/^    kPhoneTxCATStateVectors                = 0x001,  \/\/\/ v (Compatibility)$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATTransitions	am-phoneTxCAT.h	/^    kPhoneTxCATTransitions                 = 0x010,  \/\/\/ t .. not really part of SGMM.$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATWeights	am-phoneTxCAT.h	/^    kPhoneTxCATWeights                     = 0x004,  \/\/\/ w (Compatibility)$/;"	e	enum:kaldi::PhoneTxCATUpdateFlags
+kaldi::kPhoneTxCATWriteAll	am-phoneTxCAT.h	/^    kPhoneTxCATWriteAll        = 0x00F  \/\/\/ a$/;"	e	enum:kaldi::PhoneTxCATWriteFlags
+like_impr_	estimate-am-phoneTxCAT.cc	/^      double like_impr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+like_impr_	estimate-am-phoneTxCAT.cc	/^      double like_impr_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+like_impr_	estimate-am-phoneTxCAT.cc	/^      double like_impr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+like_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *like_impr_ptr_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+like_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *like_impr_ptr_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+like_impr_ptr_	estimate-am-phoneTxCAT.cc	/^      double *like_impr_ptr_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+log_like	decodable-am-phoneTxCAT.h	/^        BaseFloat log_like;   \/\/\/< Cache value$/;"	m	struct:kaldi::DecodableAmPhoneTxCAT::LikelihoodCacheRecord
+log_like_cache_	decodable-am-phoneTxCAT.h	/^      std::vector<LikelihoodCacheRecord> log_like_cache_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+log_prune_	decodable-am-phoneTxCAT.h	/^      BaseFloat log_prune_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+main	am-phoneTxCAT-test.cc	/^int main() {$/;"	f
+main	estimate-am-phoneTxCAT-test.cc	/^int main() {$/;"	f
+max_cond	estimate-am-phoneTxCAT.h	/^    BaseFloat max_cond;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+min_gaussian_weight	estimate-am-phoneTxCAT.h	/^    BaseFloat min_gaussian_weight;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+model_	estimate-am-phoneTxCAT.cc	/^      AmPhoneTxCAT *model_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+model_	estimate-am-phoneTxCAT.h	/^      const AmPhoneTxCAT &model_;$/;"	m	class:kaldi::UpdateWParallelClass
+n_	am-phoneTxCAT.h	/^      std::vector< Vector<BaseFloat> > n_;$/;"	m	class:kaldi::AmPhoneTxCAT
+nti	am-phoneTxCAT.h	/^    Vector<BaseFloat> nti;  \/\/\/< n_{i}(t), dim = [I]$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+num_cluster_weight_classes_	estimate-am-phoneTxCAT.h	/^      int32 num_gaussians_, num_states_, num_cluster_weight_classes_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+num_clusters_	estimate-am-phoneTxCAT.h	/^      int32 feature_dim_, num_clusters_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+num_gaussians_	estimate-am-phoneTxCAT.h	/^      int32 num_gaussians_, num_states_, num_cluster_weight_classes_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+num_states_	estimate-am-phoneTxCAT.h	/^      int32 num_gaussians_, num_states_, num_cluster_weight_classes_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+operator ()	am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::ComputeNormalizersClass
+operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateAParallelClass
+operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateAParallelClass2
+operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateASequentialClass
+operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateA_DiagCovParallelClass
+operator ()	estimate-am-phoneTxCAT.cc	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateStateVectorsClass
+operator ()	estimate-am-phoneTxCAT.h	/^      inline void operator() () {$/;"	f	class:kaldi::UpdateWParallelClass
+p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+p_	estimate-am-phoneTxCAT.cc	/^      const int32 p_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+pdf_id_to_cluster_	am-phoneTxCAT.h	/^      std::vector<int32> pdf_id_to_cluster_;$/;"	m	class:kaldi::AmPhoneTxCAT
+per_frame_vars_	decodable-am-phoneTxCAT.h	/^      PhoneTxCATPerFrameDerivedVars per_frame_vars_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+phoneTxCAT_config_	decodable-am-phoneTxCAT.h	/^      const PhoneTxCATGselectConfig &phoneTxCAT_config_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+posteriors	am-phoneTxCAT.h	/^    std::vector<Matrix<BaseFloat> > posteriors;$/;"	m	struct:kaldi::PhoneTxCATGauPostElement
+previous_frame_	decodable-am-phoneTxCAT.h	/^      int32 previous_frame_;$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+rand_prune_	estimate-am-phoneTxCAT.h	/^      BaseFloat rand_prune_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+scale_	decodable-am-phoneTxCAT.h	/^      BaseFloat scale_;$/;"	m	class:kaldi::DecodableAmPhoneTxCATScaled
+tids	am-phoneTxCAT.h	/^    std::vector<int32> tids;  \/\/ transition-ids for each entry in "posteriors"$/;"	m	struct:kaldi::PhoneTxCATGauPostElement
+tot_like_	estimate-am-phoneTxCAT.h	/^      double tot_like_;$/;"	m	class:kaldi::UpdateWParallelClass
+tot_like_ptr_	estimate-am-phoneTxCAT.h	/^      double *tot_like_ptr_;$/;"	m	class:kaldi::UpdateWParallelClass
+total_frames_	estimate-am-phoneTxCAT.h	/^      double total_frames_, total_like_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+total_like_	estimate-am-phoneTxCAT.h	/^      double total_frames_, total_like_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+trans_model_	decodable-am-phoneTxCAT.h	/^      const TransitionModel &trans_model_;  \/\/\/< for tid to pdf mapping$/;"	m	class:kaldi::DecodableAmPhoneTxCAT
+transform_class_	am-phoneTxCAT.h	/^      std::vector<int32> transform_class_;$/;"	m	class:kaldi::AmPhoneTxCAT
+tx_class_	estimate-am-phoneTxCAT.cc	/^      const int32 tx_class_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+u_	am-phoneTxCAT.h	/^      Matrix<BaseFloat> u_;$/;"	m	class:kaldi::AmPhoneTxCAT
+update_options_	estimate-am-phoneTxCAT.h	/^      MleAmPhoneTxCATOptions update_options_;$/;"	m	class:kaldi::MleAmPhoneTxCATUpdater
+updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateA_DiagCovParallelClass	file:
+updater_	estimate-am-phoneTxCAT.cc	/^      const MleAmPhoneTxCATUpdater &updater_;$/;"	m	class:kaldi::UpdateStateVectorsClass	file:
+use_block_diagonal_transform	estimate-am-phoneTxCAT.h	/^    bool use_block_diagonal_transform;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_block_diagonal_transform2	estimate-am-phoneTxCAT.h	/^    bool use_block_diagonal_transform2;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_block_diagonal_transform3	estimate-am-phoneTxCAT.h	/^    bool use_block_diagonal_transform3;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_class_dep_steps	estimate-am-phoneTxCAT.h	/^    bool use_class_dep_steps;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_diagonal_transform	estimate-am-phoneTxCAT.h	/^    bool use_diagonal_transform;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_diagonal_transform2	estimate-am-phoneTxCAT.h	/^    bool use_diagonal_transform2;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_diagonal_transform3	estimate-am-phoneTxCAT.h	/^    bool use_diagonal_transform3;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_full_covar_	am-phoneTxCAT.h	/^      bool use_full_covar_;$/;"	m	class:kaldi::AmPhoneTxCAT
+use_sequential_multiple_txclass_update	estimate-am-phoneTxCAT.h	/^    bool use_sequential_multiple_txclass_update;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_sequential_transform_update	estimate-am-phoneTxCAT.h	/^    bool use_sequential_transform_update;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_sequential_weight_update	estimate-am-phoneTxCAT.h	/^    bool use_sequential_weight_update;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+use_weight_projection_	am-phoneTxCAT.h	/^      bool use_weight_projection_;$/;"	m	class:kaldi::AmPhoneTxCAT
+v_	am-phoneTxCAT.h	/^      std::vector< std::vector < Vector<BaseFloat> > > v_;$/;"	m	class:kaldi::AmPhoneTxCAT
+variance_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &variance_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+variance_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &variance_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+variance_	estimate-am-phoneTxCAT.cc	/^      const Matrix<double> &variance_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+w_	am-phoneTxCAT.h	/^      Matrix<BaseFloat> w_;$/;"	m	class:kaldi::AmPhoneTxCAT
+w_	estimate-am-phoneTxCAT.h	/^      const Matrix<double> &w_;$/;"	m	class:kaldi::UpdateWParallelClass
+weight_projections_iters	estimate-am-phoneTxCAT.h	/^    int32 weight_projections_iters;$/;"	m	struct:kaldi::MleAmPhoneTxCATOptions
+weights_map_	am-phoneTxCAT.h	/^      std::vector<int32> weights_map_;$/;"	m	class:kaldi::AmPhoneTxCAT
+xi2_	estimate-am-phoneTxCAT.cc	/^      const std::vector< SpMatrix<double> > &xi2_;$/;"	m	class:kaldi::UpdateAParallelClass	file:
+xi2_	estimate-am-phoneTxCAT.cc	/^      const std::vector< SpMatrix<double> > &xi2_;$/;"	m	class:kaldi::UpdateAParallelClass2	file:
+xi2_	estimate-am-phoneTxCAT.cc	/^      const std::vector< SpMatrix<double> > &xi2_;$/;"	m	class:kaldi::UpdateASequentialClass	file:
+xt	am-phoneTxCAT.h	/^    Vector<BaseFloat> xt;   \/\/\/< x(t), dim = [D]$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+y_	estimate-am-phoneTxCAT.h	/^      std::vector< std::vector< Vector<double> > > y_;$/;"	m	class:kaldi::MleAmPhoneTxCATAccs
+zti	am-phoneTxCAT.h	/^    Matrix<BaseFloat> zti;  \/\/\/< z_{i}(t), dim = [I][S]$/;"	m	struct:kaldi::PhoneTxCATPerFrameDerivedVars
+~ComputeNormalizersClass	am-phoneTxCAT.cc	/^      ~ComputeNormalizersClass() {$/;"	f	class:kaldi::ComputeNormalizersClass
+~MleAmPhoneTxCATAccs	estimate-am-phoneTxCAT.h	/^      ~MleAmPhoneTxCATAccs() {};$/;"	f	class:kaldi::MleAmPhoneTxCATAccs
+~UpdateAParallelClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateAParallelClass() {$/;"	f	class:kaldi::UpdateAParallelClass
+~UpdateAParallelClass2	estimate-am-phoneTxCAT.cc	/^      ~UpdateAParallelClass2() {$/;"	f	class:kaldi::UpdateAParallelClass2
+~UpdateASequentialClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateASequentialClass() {$/;"	f	class:kaldi::UpdateASequentialClass
+~UpdateA_DiagCovParallelClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateA_DiagCovParallelClass() {$/;"	f	class:kaldi::UpdateA_DiagCovParallelClass
+~UpdateStateVectorsClass	estimate-am-phoneTxCAT.cc	/^      ~UpdateStateVectorsClass() {$/;"	f	class:kaldi::UpdateStateVectorsClass
+~UpdateWParallelClass	estimate-am-phoneTxCAT.h	/^      ~UpdateWParallelClass() {$/;"	f	class:kaldi::UpdateWParallelClass

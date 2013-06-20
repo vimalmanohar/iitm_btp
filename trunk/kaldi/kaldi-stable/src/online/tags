@@ -1,0 +1,307 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ApplyCmvn	online-cmn.h	/^  void ApplyCmvn(const MatrixBase<BaseFloat> &feats,$/;"	f	class:kaldi::OnlineCMN
+Callback	online-audio-source.cc	/^int OnlinePaSource::Callback(const void *input, void *output,$/;"	f	class:kaldi::OnlinePaSource
+Compute	online-feat-input.cc	/^OnlineCmvnInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineCmvnInput
+Compute	online-feat-input.cc	/^OnlineDeltaInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineDeltaInput
+Compute	online-feat-input.cc	/^OnlineUdpInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineUdpInput
+Compute	online-feat-input.cc	/^bool OnlineLdaInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineLdaInput
+Compute	online-feat-input.h	/^OnlineFeInput<S, E>::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineFeInput
+ComputeMean	online-cmn.h	/^  void ComputeMean(const MatrixBase<BaseFloat> &feats,$/;"	f	class:kaldi::OnlineCMN
+Decode	online-faster-decoder.cc	/^OnlineFasterDecoder::Decode(DecodableInterface *decodable) {$/;"	f	class:kaldi::OnlineFasterDecoder
+DecodeState	online-faster-decoder.h	/^  enum DecodeState {$/;"	g	class:kaldi::OnlineFasterDecoder
+EndOfUtterance	online-faster-decoder.cc	/^bool OnlineFasterDecoder::EndOfUtterance() {$/;"	f	class:kaldi::OnlineFasterDecoder
+FinishTraceBack	online-faster-decoder.cc	/^OnlineFasterDecoder::FinishTraceBack(fst::MutableFst<LatticeArc> *out_fst) {$/;"	f	class:kaldi::OnlineFasterDecoder
+InitFeatWindow	online-feat-input.cc	/^OnlineDeltaInput::InitFeatWindow() {$/;"	f	class:kaldi::OnlineDeltaInput
+InitFeatWindow	online-feat-input.cc	/^void OnlineLdaInput::InitFeatWindow() {$/;"	f	class:kaldi::OnlineLdaInput
+IsLastFrame	online-decodable.cc	/^OnlineDecodableDiagGmmScaled::IsLastFrame(int32 frame) {$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+KALDI_ONLINEBIN_UTIL_H_	onlinebin-util.h	22;"	d
+KALDI_ONLINE_AUDIO_SOURCE_H_	online-audio-source.h	22;"	d
+KALDI_ONLINE_CMN_H_	online-cmn.h	20;"	d
+KALDI_ONLINE_DECODABLE_H_	online-decodable.h	22;"	d
+KALDI_ONLINE_FASTER_DECODER_H_	online-faster-decoder.h	22;"	d
+KALDI_ONLINE_FEAT_EXTRACT_H_	online-feat-input.h	22;"	d
+LogLikelihood	online-decodable.cc	/^OnlineDecodableDiagGmmScaled::LogLikelihood(int32 frame, int32 index) {$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+MakeLattice	online-faster-decoder.cc	/^OnlineFasterDecoder::MakeLattice(const Token *start,$/;"	f	class:kaldi::OnlineFasterDecoder
+NumIndices	online-decodable.h	/^  virtual int32 NumIndices() { return trans_model_.NumTransitionIds(); }$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+OnlineAudioSource	online-audio-source.h	/^class OnlineAudioSource {$/;"	c	namespace:kaldi
+OnlineCMN	online-cmn.h	/^  OnlineCMN(int32 dim, int32 history) {$/;"	f	class:kaldi::OnlineCMN
+OnlineCMN	online-cmn.h	/^class OnlineCMN {$/;"	c	namespace:kaldi
+OnlineCmvnInput	online-feat-input.h	/^  OnlineCmvnInput(OnlineFeatInputItf *input, int32 feat_dim, int32 cmn_window)$/;"	f	class:kaldi::OnlineCmvnInput
+OnlineCmvnInput	online-feat-input.h	/^class OnlineCmvnInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+OnlineDecodableDiagGmmScaled	online-decodable.h	/^  OnlineDecodableDiagGmmScaled(OnlineFeatInputItf *feat_input,$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+OnlineDecodableDiagGmmScaled	online-decodable.h	/^class OnlineDecodableDiagGmmScaled : public DecodableInterface {$/;"	c	namespace:kaldi
+OnlineDeltaInput	online-feat-input.cc	/^OnlineDeltaInput::OnlineDeltaInput(OnlineFeatInputItf *input, uint32 feat_dim,$/;"	f	class:kaldi::OnlineDeltaInput
+OnlineDeltaInput	online-feat-input.h	/^class OnlineDeltaInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+OnlineFasterDecoder	online-faster-decoder.h	/^  OnlineFasterDecoder(const fst::Fst<fst::StdArc> &fst,$/;"	f	class:kaldi::OnlineFasterDecoder
+OnlineFasterDecoder	online-faster-decoder.h	/^class OnlineFasterDecoder : public FasterDecoder {$/;"	c	namespace:kaldi
+OnlineFasterDecoderOpts	online-faster-decoder.h	/^  OnlineFasterDecoderOpts() :$/;"	f	struct:kaldi::OnlineFasterDecoderOpts
+OnlineFasterDecoderOpts	online-faster-decoder.h	/^struct OnlineFasterDecoderOpts : public FasterDecoderOptions {$/;"	s	namespace:kaldi
+OnlineFeInput	online-feat-input.h	/^OnlineFeInput<S, E>::OnlineFeInput(S *au_src, E *fe,$/;"	f	class:kaldi::OnlineFeInput
+OnlineFeInput	online-feat-input.h	/^class OnlineFeInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+OnlineFeatInputItf	online-feat-input.h	/^class OnlineFeatInputItf {$/;"	c	namespace:kaldi
+OnlineLdaInput	online-feat-input.cc	/^OnlineLdaInput::OnlineLdaInput(OnlineFeatInputItf *input, const uint32 feat_dim,$/;"	f	class:kaldi::OnlineLdaInput
+OnlineLdaInput	online-feat-input.h	/^class OnlineLdaInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+OnlinePaSource	online-audio-source.cc	/^OnlinePaSource::OnlinePaSource(const uint32 sample_rate,$/;"	f	class:kaldi::OnlinePaSource
+OnlinePaSource	online-audio-source.h	/^class OnlinePaSource {$/;"	c	namespace:kaldi
+OnlineUdpInput	online-feat-input.cc	/^OnlineUdpInput::OnlineUdpInput(int32 port) {$/;"	f	class:kaldi::OnlineUdpInput
+OnlineUdpInput	online-feat-input.h	/^class OnlineUdpInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+OnlineVectorSource	online-audio-source.h	/^  OnlineVectorSource(const VectorBase<BaseFloat> &input)$/;"	f	class:kaldi::OnlineVectorSource
+OnlineVectorSource	online-audio-source.h	/^class OnlineVectorSource {$/;"	c	namespace:kaldi
+PaCallback	online-audio-source.cc	/^int PaCallback(const void *input, void *output,$/;"	f	namespace:kaldi
+PartialTraceback	online-faster-decoder.cc	/^OnlineFasterDecoder::PartialTraceback(fst::MutableFst<LatticeArc> *out_fst) {$/;"	f	class:kaldi::OnlineFasterDecoder
+PrintPartialResult	onlinebin-util.cc	/^void PrintPartialResult(const std::vector<int32>& words,$/;"	f	namespace:kaldi
+Read	online-audio-source.cc	/^OnlineVectorSource::Read(VectorBase<BaseFloat> *data, uint32 *timeout) {$/;"	f	class:kaldi::OnlineVectorSource
+Read	online-audio-source.cc	/^int32 OnlinePaSource::Read(VectorBase<BaseFloat> *data, uint32 *timeout) {$/;"	f	class:kaldi::OnlinePaSource
+Read	online-audio-source.h	/^  int32 Read(VectorBase<BaseFloat> *data, int32 *timeout = 0) { return 0; }$/;"	f	class:kaldi::OnlineAudioSource
+ReadDecodeGraph	onlinebin-util.cc	/^fst::Fst<fst::StdArc> *ReadDecodeGraph(std::string filename) {$/;"	f	namespace:kaldi
+Register	online-faster-decoder.h	/^  void Register(ParseOptions *po, bool full) {$/;"	f	struct:kaldi::OnlineFasterDecoderOpts
+ResetDecoder	online-faster-decoder.cc	/^void OnlineFasterDecoder::ResetDecoder(bool full) {$/;"	f	class:kaldi::OnlineFasterDecoder
+SampleType	online-audio-source.h	/^  typedef int16 SampleType; \/\/ hardcoded 16-bit audio$/;"	t	class:kaldi::OnlinePaSource
+TracebackNFrames	online-faster-decoder.cc	/^OnlineFasterDecoder::TracebackNFrames(int32 nframes,$/;"	f	class:kaldi::OnlineFasterDecoder
+UpdateImmortalToken	online-faster-decoder.cc	/^void OnlineFasterDecoder::UpdateImmortalToken() {$/;"	f	class:kaldi::OnlineFasterDecoder
+ac_model_	online-decodable.h	/^  const AmDiagGmm &ac_model_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+ac_scale_	online-decodable.h	/^  BaseFloat ac_scale_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+batch_size	online-faster-decoder.h	/^  int32 batch_size; \/\/ number of features decoded in one go$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+batch_size_	online-decodable.h	/^  const uint32 batch_size_; \/\/ how many features to request\/process in one go$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+beam_update	online-faster-decoder.h	/^  BaseFloat beam_update; \/\/ rate of adjustment of the beam$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+client_addr	online-feat-input.h	/^  const sockaddr_in& client_addr() const { return client_addr_; }$/;"	f	class:kaldi::OnlineUdpInput
+client_addr_	online-feat-input.h	/^  sockaddr_in client_addr_;$/;"	m	class:kaldi::OnlineUdpInput
+cmvn_	online-feat-input.h	/^  OnlineCMN cmvn_;$/;"	m	class:kaldi::OnlineCmvnInput
+decodable_	online-decodable.h	/^  DecodableAmDiagGmmScaled *decodable_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+delta_	online-feat-input.h	/^  DeltaFeatures delta_; \/\/ computes deltas$/;"	m	class:kaldi::OnlineDeltaInput
+descriptor	online-feat-input.h	/^  const int32 descriptor() const { return sock_desc_; }$/;"	f	class:kaldi::OnlineUdpInput
+dim_	online-cmn.h	/^  int32 dim_;$/;"	m	class:kaldi::OnlineCMN
+effective_beam_	online-faster-decoder.h	/^  BaseFloat &effective_beam_; \/\/ the currently used beam$/;"	m	class:kaldi::OnlineFasterDecoder
+extractor_	online-feat-input.h	/^  E *extractor_; \/\/ the actual feature extractor used$/;"	m	class:kaldi::OnlineFeInput
+feat_dim_	online-decodable.h	/^  const uint32 feat_dim_; \/\/ dimensionality of the input features$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+feat_dim_	online-feat-input.h	/^  const uint32 feat_dim_; \/\/ dimensionality of the feature vectors before xform$/;"	m	class:kaldi::OnlineLdaInput
+feat_dim_	online-feat-input.h	/^  const uint32 feat_dim_; \/\/ feature vector dimensionality before transform$/;"	m	class:kaldi::OnlineDeltaInput
+feat_in_	online-feat-input.h	/^  Matrix<BaseFloat> feat_in_; \/\/ feature received from inferior object$/;"	m	class:kaldi::OnlineDeltaInput
+feat_in_	online-feat-input.h	/^  Matrix<BaseFloat> feat_in_; \/\/ made a member in hope it will save us some memalloc time$/;"	m	class:kaldi::OnlineLdaInput
+feat_matrix_	online-decodable.h	/^  Matrix<BaseFloat> feat_matrix_; \/\/ the current batch of features$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+feat_offset_	online-decodable.h	/^  uint32 feat_offset_; \/\/ the offset of the first frame in the current batch$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+feat_window_	online-feat-input.h	/^  Matrix<BaseFloat> feat_window_; \/\/ features needed to compute deltas$/;"	m	class:kaldi::OnlineDeltaInput
+feat_window_	online-feat-input.h	/^  Matrix<BaseFloat> feat_window_; \/\/ matrix to hold features to be transformed$/;"	m	class:kaldi::OnlineLdaInput
+features_cached_	online-cmn.h	/^  int32 features_cached_;$/;"	m	class:kaldi::OnlineCMN
+finished_	online-decodable.h	/^  bool finished_; \/\/ is the input already exhausted?$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+frame	online-faster-decoder.h	/^  int32 frame() { return frame_; }$/;"	f	class:kaldi::OnlineFasterDecoder
+frame_	online-faster-decoder.h	/^  int32 frame_; \/\/ the next frame to be processed$/;"	m	class:kaldi::OnlineFasterDecoder
+frame_shift_	online-feat-input.h	/^  const int32 frame_shift_;$/;"	m	class:kaldi::OnlineFeInput
+frame_size_	online-feat-input.h	/^  const int32 frame_size_;$/;"	m	class:kaldi::OnlineFeInput
+hist_	online-cmn.h	/^  int32 hist_;$/;"	m	class:kaldi::OnlineCMN
+immortal_tok_	online-faster-decoder.h	/^  Token *immortal_tok_;      \/\/ "immortal" token means it's an ancestor of ...$/;"	m	class:kaldi::OnlineFasterDecoder
+in_matrix_	online-feat-input.h	/^  Matrix<BaseFloat> in_matrix_; \/\/ the data received from the wrapped object$/;"	m	class:kaldi::OnlineCmvnInput
+input_	online-decodable.h	/^  OnlineFeatInputItf *input_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+input_	online-feat-input.h	/^  OnlineFeatInputItf *input_; \/\/ underlying\/inferior input object$/;"	m	class:kaldi::OnlineDeltaInput
+input_	online-feat-input.h	/^  OnlineFeatInputItf *input_; \/\/ underlying\/inferior input object$/;"	m	class:kaldi::OnlineLdaInput
+input_	online-feat-input.h	/^  OnlineFeatInputItf *input_;$/;"	m	class:kaldi::OnlineCmvnInput
+inter_utt_sil	online-faster-decoder.h	/^  int32 inter_utt_sil; \/\/ minimum silence (#frames) to trigger end of utterance$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kEndBatch	online-faster-decoder.h	/^    kEndBatch = 4 \/\/ End of batch - end of utterance not reached yet$/;"	e	enum:kaldi::OnlineFasterDecoder::DecodeState
+kEndFeats	online-faster-decoder.h	/^    kEndFeats = 1, \/\/ No more scores are available from the Decodable$/;"	e	enum:kaldi::OnlineFasterDecoder::DecodeState
+kEndUtt	online-faster-decoder.h	/^    kEndUtt = 2, \/\/ End of utterance, caused by e.g. a sufficiently long silence$/;"	e	enum:kaldi::OnlineFasterDecoder::DecodeState
+kaldi	online-audio-source.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	online-audio-source.h	/^namespace kaldi {$/;"	n
+kaldi	online-cmn.h	/^namespace kaldi {$/;"	n
+kaldi	online-decodable.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	online-decodable.h	/^namespace kaldi {$/;"	n
+kaldi	online-faster-decoder.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	online-faster-decoder.h	/^namespace kaldi {$/;"	n
+kaldi	online-feat-input.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	online-feat-input.h	/^namespace kaldi {$/;"	n
+kaldi	onlinebin-util.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	onlinebin-util.h	/^namespace kaldi {$/;"	n
+kaldi::OnlineAudioSource	online-audio-source.h	/^class OnlineAudioSource {$/;"	c	namespace:kaldi
+kaldi::OnlineAudioSource::Read	online-audio-source.h	/^  int32 Read(VectorBase<BaseFloat> *data, int32 *timeout = 0) { return 0; }$/;"	f	class:kaldi::OnlineAudioSource
+kaldi::OnlineCMN	online-cmn.h	/^class OnlineCMN {$/;"	c	namespace:kaldi
+kaldi::OnlineCMN::ApplyCmvn	online-cmn.h	/^  void ApplyCmvn(const MatrixBase<BaseFloat> &feats,$/;"	f	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::ComputeMean	online-cmn.h	/^  void ComputeMean(const MatrixBase<BaseFloat> &feats,$/;"	f	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::OnlineCMN	online-cmn.h	/^  OnlineCMN(int32 dim, int32 history) {$/;"	f	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::dim_	online-cmn.h	/^  int32 dim_;$/;"	m	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::features_cached_	online-cmn.h	/^  int32 features_cached_;$/;"	m	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::hist_	online-cmn.h	/^  int32 hist_;$/;"	m	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::norm_	online-cmn.h	/^  Vector<double> norm_;$/;"	m	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::oldest_row_	online-cmn.h	/^  int32 oldest_row_;$/;"	m	class:kaldi::OnlineCMN
+kaldi::OnlineCMN::stats_	online-cmn.h	/^  Matrix<BaseFloat> stats_;$/;"	m	class:kaldi::OnlineCMN
+kaldi::OnlineCmvnInput	online-feat-input.h	/^class OnlineCmvnInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+kaldi::OnlineCmvnInput::Compute	online-feat-input.cc	/^OnlineCmvnInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineCmvnInput
+kaldi::OnlineCmvnInput::OnlineCmvnInput	online-feat-input.h	/^  OnlineCmvnInput(OnlineFeatInputItf *input, int32 feat_dim, int32 cmn_window)$/;"	f	class:kaldi::OnlineCmvnInput
+kaldi::OnlineCmvnInput::cmvn_	online-feat-input.h	/^  OnlineCMN cmvn_;$/;"	m	class:kaldi::OnlineCmvnInput
+kaldi::OnlineCmvnInput::in_matrix_	online-feat-input.h	/^  Matrix<BaseFloat> in_matrix_; \/\/ the data received from the wrapped object$/;"	m	class:kaldi::OnlineCmvnInput
+kaldi::OnlineCmvnInput::input_	online-feat-input.h	/^  OnlineFeatInputItf *input_;$/;"	m	class:kaldi::OnlineCmvnInput
+kaldi::OnlineDecodableDiagGmmScaled	online-decodable.h	/^class OnlineDecodableDiagGmmScaled : public DecodableInterface {$/;"	c	namespace:kaldi
+kaldi::OnlineDecodableDiagGmmScaled::IsLastFrame	online-decodable.cc	/^OnlineDecodableDiagGmmScaled::IsLastFrame(int32 frame) {$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::LogLikelihood	online-decodable.cc	/^OnlineDecodableDiagGmmScaled::LogLikelihood(int32 frame, int32 index) {$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::NumIndices	online-decodable.h	/^  virtual int32 NumIndices() { return trans_model_.NumTransitionIds(); }$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::OnlineDecodableDiagGmmScaled	online-decodable.h	/^  OnlineDecodableDiagGmmScaled(OnlineFeatInputItf *feat_input,$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::ac_model_	online-decodable.h	/^  const AmDiagGmm &ac_model_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::ac_scale_	online-decodable.h	/^  BaseFloat ac_scale_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::batch_size_	online-decodable.h	/^  const uint32 batch_size_; \/\/ how many features to request\/process in one go$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::decodable_	online-decodable.h	/^  DecodableAmDiagGmmScaled *decodable_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::feat_dim_	online-decodable.h	/^  const uint32 feat_dim_; \/\/ dimensionality of the input features$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::feat_matrix_	online-decodable.h	/^  Matrix<BaseFloat> feat_matrix_; \/\/ the current batch of features$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::feat_offset_	online-decodable.h	/^  uint32 feat_offset_; \/\/ the offset of the first frame in the current batch$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::finished_	online-decodable.h	/^  bool finished_; \/\/ is the input already exhausted?$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::input_	online-decodable.h	/^  OnlineFeatInputItf *input_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::timeout_	online-decodable.h	/^  const int32 timeout_; \/\/ the value used when requesting new features$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::timeout_tmp_	online-decodable.h	/^  uint32 timeout_tmp_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::trans_model_	online-decodable.h	/^  const TransitionModel &trans_model_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDecodableDiagGmmScaled::~OnlineDecodableDiagGmmScaled	online-decodable.h	/^  virtual ~OnlineDecodableDiagGmmScaled() {$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+kaldi::OnlineDeltaInput	online-feat-input.h	/^class OnlineDeltaInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+kaldi::OnlineDeltaInput::Compute	online-feat-input.cc	/^OnlineDeltaInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::InitFeatWindow	online-feat-input.cc	/^OnlineDeltaInput::InitFeatWindow() {$/;"	f	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::OnlineDeltaInput	online-feat-input.cc	/^OnlineDeltaInput::OnlineDeltaInput(OnlineFeatInputItf *input, uint32 feat_dim,$/;"	f	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::delta_	online-feat-input.h	/^  DeltaFeatures delta_; \/\/ computes deltas$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::feat_dim_	online-feat-input.h	/^  const uint32 feat_dim_; \/\/ feature vector dimensionality before transform$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::feat_in_	online-feat-input.h	/^  Matrix<BaseFloat> feat_in_; \/\/ feature received from inferior object$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::feat_window_	online-feat-input.h	/^  Matrix<BaseFloat> feat_window_; \/\/ features needed to compute deltas$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::input_	online-feat-input.h	/^  OnlineFeatInputItf *input_; \/\/ underlying\/inferior input object$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::order_	online-feat-input.h	/^  const uint32 order_; \/\/ delta order$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::window_center_	online-feat-input.h	/^  const uint32 window_center_; \/\/ index of the central feature (for convenience)$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineDeltaInput::window_size_	online-feat-input.h	/^  const uint32 window_size_; \/\/ the number of features needed to compute deltas$/;"	m	class:kaldi::OnlineDeltaInput
+kaldi::OnlineFasterDecoder	online-faster-decoder.h	/^class OnlineFasterDecoder : public FasterDecoder {$/;"	c	namespace:kaldi
+kaldi::OnlineFasterDecoder::Decode	online-faster-decoder.cc	/^OnlineFasterDecoder::Decode(DecodableInterface *decodable) {$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::DecodeState	online-faster-decoder.h	/^  enum DecodeState {$/;"	g	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::EndOfUtterance	online-faster-decoder.cc	/^bool OnlineFasterDecoder::EndOfUtterance() {$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::FinishTraceBack	online-faster-decoder.cc	/^OnlineFasterDecoder::FinishTraceBack(fst::MutableFst<LatticeArc> *out_fst) {$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::MakeLattice	online-faster-decoder.cc	/^OnlineFasterDecoder::MakeLattice(const Token *start,$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::OnlineFasterDecoder	online-faster-decoder.h	/^  OnlineFasterDecoder(const fst::Fst<fst::StdArc> &fst,$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::PartialTraceback	online-faster-decoder.cc	/^OnlineFasterDecoder::PartialTraceback(fst::MutableFst<LatticeArc> *out_fst) {$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::ResetDecoder	online-faster-decoder.cc	/^void OnlineFasterDecoder::ResetDecoder(bool full) {$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::TracebackNFrames	online-faster-decoder.cc	/^OnlineFasterDecoder::TracebackNFrames(int32 nframes,$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::UpdateImmortalToken	online-faster-decoder.cc	/^void OnlineFasterDecoder::UpdateImmortalToken() {$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::effective_beam_	online-faster-decoder.h	/^  BaseFloat &effective_beam_; \/\/ the currently used beam$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::frame	online-faster-decoder.h	/^  int32 frame() { return frame_; }$/;"	f	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::frame_	online-faster-decoder.h	/^  int32 frame_; \/\/ the next frame to be processed$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::immortal_tok_	online-faster-decoder.h	/^  Token *immortal_tok_;      \/\/ "immortal" token means it's an ancestor of ...$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::kEndBatch	online-faster-decoder.h	/^    kEndBatch = 4 \/\/ End of batch - end of utterance not reached yet$/;"	e	enum:kaldi::OnlineFasterDecoder::DecodeState
+kaldi::OnlineFasterDecoder::kEndFeats	online-faster-decoder.h	/^    kEndFeats = 1, \/\/ No more scores are available from the Decodable$/;"	e	enum:kaldi::OnlineFasterDecoder::DecodeState
+kaldi::OnlineFasterDecoder::kEndUtt	online-faster-decoder.h	/^    kEndUtt = 2, \/\/ End of utterance, caused by e.g. a sufficiently long silence$/;"	e	enum:kaldi::OnlineFasterDecoder::DecodeState
+kaldi::OnlineFasterDecoder::max_beam_	online-faster-decoder.h	/^  const BaseFloat max_beam_; \/\/ the maximum allowed beam$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::opts_	online-faster-decoder.h	/^  const OnlineFasterDecoderOpts opts_;$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::prev_immortal_tok_	online-faster-decoder.h	/^  Token *prev_immortal_tok_; \/\/ ... all currently active tokens$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::silence_set_	online-faster-decoder.h	/^  const ConstIntegerSet<int32> silence_set_; \/\/ silence phones IDs$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::state_	online-faster-decoder.h	/^  DecodeState state_; \/\/ the current state of the decoder$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::trans_model_	online-faster-decoder.h	/^  const TransitionModel &trans_model_; \/\/ needed for trans-id -> phone conversion$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoder::utt_frames_	online-faster-decoder.h	/^  int32 utt_frames_; \/\/ # frames processed from the current utterance$/;"	m	class:kaldi::OnlineFasterDecoder
+kaldi::OnlineFasterDecoderOpts	online-faster-decoder.h	/^struct OnlineFasterDecoderOpts : public FasterDecoderOptions {$/;"	s	namespace:kaldi
+kaldi::OnlineFasterDecoderOpts::OnlineFasterDecoderOpts	online-faster-decoder.h	/^  OnlineFasterDecoderOpts() :$/;"	f	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::Register	online-faster-decoder.h	/^  void Register(ParseOptions *po, bool full) {$/;"	f	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::batch_size	online-faster-decoder.h	/^  int32 batch_size; \/\/ number of features decoded in one go$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::beam_update	online-faster-decoder.h	/^  BaseFloat beam_update; \/\/ rate of adjustment of the beam$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::inter_utt_sil	online-faster-decoder.h	/^  int32 inter_utt_sil; \/\/ minimum silence (#frames) to trigger end of utterance$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::max_beam_update	online-faster-decoder.h	/^  BaseFloat max_beam_update; \/\/ maximum rate of beam adjustment$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::max_utt_len_	online-faster-decoder.h	/^  int32 max_utt_len_; \/\/ if utt. is longer, we accept shorter silence as utt. separators$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::rt_max	online-faster-decoder.h	/^  BaseFloat rt_max; \/\/ maximum decoding runtime factor$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::rt_min	online-faster-decoder.h	/^  BaseFloat rt_min; \/\/ minimum decoding runtime factor$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFasterDecoderOpts::update_interval	online-faster-decoder.h	/^  int32 update_interval; \/\/ beam update period in # of frames$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+kaldi::OnlineFeInput	online-feat-input.h	/^class OnlineFeInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+kaldi::OnlineFeInput::Compute	online-feat-input.h	/^OnlineFeInput<S, E>::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::OnlineFeInput	online-feat-input.h	/^OnlineFeInput<S, E>::OnlineFeInput(S *au_src, E *fe,$/;"	f	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::extractor_	online-feat-input.h	/^  E *extractor_; \/\/ the actual feature extractor used$/;"	m	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::frame_shift_	online-feat-input.h	/^  const int32 frame_shift_;$/;"	m	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::frame_size_	online-feat-input.h	/^  const int32 frame_size_;$/;"	m	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::source_	online-feat-input.h	/^  S *source_; \/\/ audio source$/;"	m	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::wave_	online-feat-input.h	/^  Vector<BaseFloat> wave_; \/\/ the samples to be passed for extraction$/;"	m	class:kaldi::OnlineFeInput
+kaldi::OnlineFeInput::wave_remainder_	online-feat-input.h	/^  Vector<BaseFloat> wave_remainder_; \/\/ the samples remained from the previous$/;"	m	class:kaldi::OnlineFeInput
+kaldi::OnlineFeatInputItf	online-feat-input.h	/^class OnlineFeatInputItf {$/;"	c	namespace:kaldi
+kaldi::OnlineFeatInputItf::~OnlineFeatInputItf	online-feat-input.h	/^  virtual ~OnlineFeatInputItf() {}$/;"	f	class:kaldi::OnlineFeatInputItf
+kaldi::OnlineLdaInput	online-feat-input.h	/^class OnlineLdaInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+kaldi::OnlineLdaInput::Compute	online-feat-input.cc	/^bool OnlineLdaInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::InitFeatWindow	online-feat-input.cc	/^void OnlineLdaInput::InitFeatWindow() {$/;"	f	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::OnlineLdaInput	online-feat-input.cc	/^OnlineLdaInput::OnlineLdaInput(OnlineFeatInputItf *input, const uint32 feat_dim,$/;"	f	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::feat_dim_	online-feat-input.h	/^  const uint32 feat_dim_; \/\/ dimensionality of the feature vectors before xform$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::feat_in_	online-feat-input.h	/^  Matrix<BaseFloat> feat_in_; \/\/ made a member in hope it will save us some memalloc time$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::feat_window_	online-feat-input.h	/^  Matrix<BaseFloat> feat_window_; \/\/ matrix to hold features to be transformed$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::input_	online-feat-input.h	/^  OnlineFeatInputItf *input_; \/\/ underlying\/inferior input object$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::spliced_feats_	online-feat-input.h	/^  Matrix<BaseFloat> spliced_feats_; \/\/ spliced features$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::trans_rows_	online-feat-input.h	/^  const uint32 trans_rows_; \/\/ xform matrix rows == output vectors dimension$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::transform_	online-feat-input.h	/^  const Matrix<BaseFloat> transform_; \/\/ transform matrix$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::window_center_	online-feat-input.h	/^  const uint32 window_center_; \/\/ central feature vector offset$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::window_pos_	online-feat-input.h	/^  uint32 window_pos_; \/\/ the position of the first vector in the current window$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlineLdaInput::window_size_	online-feat-input.h	/^  const uint32 window_size_; \/\/ the count of the feature vectors to be xformed$/;"	m	class:kaldi::OnlineLdaInput
+kaldi::OnlinePaSource	online-audio-source.h	/^class OnlinePaSource {$/;"	c	namespace:kaldi
+kaldi::OnlinePaSource::Callback	online-audio-source.cc	/^int OnlinePaSource::Callback(const void *input, void *output,$/;"	f	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::OnlinePaSource	online-audio-source.cc	/^OnlinePaSource::OnlinePaSource(const uint32 sample_rate,$/;"	f	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::Read	online-audio-source.cc	/^int32 OnlinePaSource::Read(VectorBase<BaseFloat> *data, uint32 *timeout) {$/;"	f	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::SampleType	online-audio-source.h	/^  typedef int16 SampleType; \/\/ hardcoded 16-bit audio$/;"	t	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::noverflows_	online-audio-source.h	/^  uint32 noverflows_; \/\/ number of the ringbuf overflows since the last report$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::nread_calls_	online-audio-source.h	/^  uint32 nread_calls_; \/\/ number of Read() calls so far$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::pa_ringbuf_	online-audio-source.h	/^  PaUtilRingBuffer pa_ringbuf_; \/\/ a data structure used to wrap the ring buffer$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::pa_started_	online-audio-source.h	/^  bool pa_started_; \/\/ becomes "true" after "pa_stream_" is started$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::pa_stream_	online-audio-source.h	/^  PaStream *pa_stream_;$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::rb_size_	online-audio-source.h	/^  int32 rb_size_;$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::rbs_t	online-audio-source.h	/^  typedef ring_buffer_size_t rbs_t;$/;"	t	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::report_interval_	online-audio-source.h	/^  uint32 report_interval_; \/\/ interval (in Read() calls) to report PA rb overflows$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::ring_buffer_	online-audio-source.h	/^  char *ring_buffer_; \/\/ points to the actual buffer used by PA to store samples$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::sample_rate_	online-audio-source.h	/^  uint32 sample_rate_; \/\/ the sampling rate of the input audio$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::samples_lost_	online-audio-source.h	/^  uint32 samples_lost_; \/\/ samples lost, due to PA ring buffer overflow$/;"	m	class:kaldi::OnlinePaSource
+kaldi::OnlinePaSource::~OnlinePaSource	online-audio-source.cc	/^OnlinePaSource::~OnlinePaSource() {$/;"	f	class:kaldi::OnlinePaSource
+kaldi::OnlineUdpInput	online-feat-input.h	/^class OnlineUdpInput : public OnlineFeatInputItf {$/;"	c	namespace:kaldi
+kaldi::OnlineUdpInput::Compute	online-feat-input.cc	/^OnlineUdpInput::Compute(Matrix<BaseFloat> *output, uint32 *timeout) {$/;"	f	class:kaldi::OnlineUdpInput
+kaldi::OnlineUdpInput::OnlineUdpInput	online-feat-input.cc	/^OnlineUdpInput::OnlineUdpInput(int32 port) {$/;"	f	class:kaldi::OnlineUdpInput
+kaldi::OnlineUdpInput::client_addr	online-feat-input.h	/^  const sockaddr_in& client_addr() const { return client_addr_; }$/;"	f	class:kaldi::OnlineUdpInput
+kaldi::OnlineUdpInput::client_addr_	online-feat-input.h	/^  sockaddr_in client_addr_;$/;"	m	class:kaldi::OnlineUdpInput
+kaldi::OnlineUdpInput::descriptor	online-feat-input.h	/^  const int32 descriptor() const { return sock_desc_; }$/;"	f	class:kaldi::OnlineUdpInput
+kaldi::OnlineUdpInput::server_addr_	online-feat-input.h	/^  sockaddr_in server_addr_;$/;"	m	class:kaldi::OnlineUdpInput
+kaldi::OnlineUdpInput::sock_desc_	online-feat-input.h	/^  int32 sock_desc_; \/\/ socket descriptor$/;"	m	class:kaldi::OnlineUdpInput
+kaldi::OnlineVectorSource	online-audio-source.h	/^class OnlineVectorSource {$/;"	c	namespace:kaldi
+kaldi::OnlineVectorSource::OnlineVectorSource	online-audio-source.h	/^  OnlineVectorSource(const VectorBase<BaseFloat> &input)$/;"	f	class:kaldi::OnlineVectorSource
+kaldi::OnlineVectorSource::Read	online-audio-source.cc	/^OnlineVectorSource::Read(VectorBase<BaseFloat> *data, uint32 *timeout) {$/;"	f	class:kaldi::OnlineVectorSource
+kaldi::OnlineVectorSource::pos_	online-audio-source.h	/^  uint32 pos_; \/\/ the index of the first element, not yet consumed$/;"	m	class:kaldi::OnlineVectorSource
+kaldi::OnlineVectorSource::src_	online-audio-source.h	/^  Vector<BaseFloat> src_;$/;"	m	class:kaldi::OnlineVectorSource
+kaldi::PaCallback	online-audio-source.cc	/^int PaCallback(const void *input, void *output,$/;"	f	namespace:kaldi
+kaldi::PrintPartialResult	onlinebin-util.cc	/^void PrintPartialResult(const std::vector<int32>& words,$/;"	f	namespace:kaldi
+kaldi::ReadDecodeGraph	onlinebin-util.cc	/^fst::Fst<fst::StdArc> *ReadDecodeGraph(std::string filename) {$/;"	f	namespace:kaldi
+max_beam_	online-faster-decoder.h	/^  const BaseFloat max_beam_; \/\/ the maximum allowed beam$/;"	m	class:kaldi::OnlineFasterDecoder
+max_beam_update	online-faster-decoder.h	/^  BaseFloat max_beam_update; \/\/ maximum rate of beam adjustment$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+max_utt_len_	online-faster-decoder.h	/^  int32 max_utt_len_; \/\/ if utt. is longer, we accept shorter silence as utt. separators$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+norm_	online-cmn.h	/^  Vector<double> norm_;$/;"	m	class:kaldi::OnlineCMN
+noverflows_	online-audio-source.h	/^  uint32 noverflows_; \/\/ number of the ringbuf overflows since the last report$/;"	m	class:kaldi::OnlinePaSource
+nread_calls_	online-audio-source.h	/^  uint32 nread_calls_; \/\/ number of Read() calls so far$/;"	m	class:kaldi::OnlinePaSource
+oldest_row_	online-cmn.h	/^  int32 oldest_row_;$/;"	m	class:kaldi::OnlineCMN
+opts_	online-faster-decoder.h	/^  const OnlineFasterDecoderOpts opts_;$/;"	m	class:kaldi::OnlineFasterDecoder
+order_	online-feat-input.h	/^  const uint32 order_; \/\/ delta order$/;"	m	class:kaldi::OnlineDeltaInput
+pa_ringbuf_	online-audio-source.h	/^  PaUtilRingBuffer pa_ringbuf_; \/\/ a data structure used to wrap the ring buffer$/;"	m	class:kaldi::OnlinePaSource
+pa_started_	online-audio-source.h	/^  bool pa_started_; \/\/ becomes "true" after "pa_stream_" is started$/;"	m	class:kaldi::OnlinePaSource
+pa_stream_	online-audio-source.h	/^  PaStream *pa_stream_;$/;"	m	class:kaldi::OnlinePaSource
+pos_	online-audio-source.h	/^  uint32 pos_; \/\/ the index of the first element, not yet consumed$/;"	m	class:kaldi::OnlineVectorSource
+prev_immortal_tok_	online-faster-decoder.h	/^  Token *prev_immortal_tok_; \/\/ ... all currently active tokens$/;"	m	class:kaldi::OnlineFasterDecoder
+rb_size_	online-audio-source.h	/^  int32 rb_size_;$/;"	m	class:kaldi::OnlinePaSource
+rbs_t	online-audio-source.h	/^  typedef ring_buffer_size_t rbs_t;$/;"	t	class:kaldi::OnlinePaSource
+report_interval_	online-audio-source.h	/^  uint32 report_interval_; \/\/ interval (in Read() calls) to report PA rb overflows$/;"	m	class:kaldi::OnlinePaSource
+ring_buffer_	online-audio-source.h	/^  char *ring_buffer_; \/\/ points to the actual buffer used by PA to store samples$/;"	m	class:kaldi::OnlinePaSource
+rt_max	online-faster-decoder.h	/^  BaseFloat rt_max; \/\/ maximum decoding runtime factor$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+rt_min	online-faster-decoder.h	/^  BaseFloat rt_min; \/\/ minimum decoding runtime factor$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+sample_rate_	online-audio-source.h	/^  uint32 sample_rate_; \/\/ the sampling rate of the input audio$/;"	m	class:kaldi::OnlinePaSource
+samples_lost_	online-audio-source.h	/^  uint32 samples_lost_; \/\/ samples lost, due to PA ring buffer overflow$/;"	m	class:kaldi::OnlinePaSource
+server_addr_	online-feat-input.h	/^  sockaddr_in server_addr_;$/;"	m	class:kaldi::OnlineUdpInput
+silence_set_	online-faster-decoder.h	/^  const ConstIntegerSet<int32> silence_set_; \/\/ silence phones IDs$/;"	m	class:kaldi::OnlineFasterDecoder
+sock_desc_	online-feat-input.h	/^  int32 sock_desc_; \/\/ socket descriptor$/;"	m	class:kaldi::OnlineUdpInput
+source_	online-feat-input.h	/^  S *source_; \/\/ audio source$/;"	m	class:kaldi::OnlineFeInput
+spliced_feats_	online-feat-input.h	/^  Matrix<BaseFloat> spliced_feats_; \/\/ spliced features$/;"	m	class:kaldi::OnlineLdaInput
+src_	online-audio-source.h	/^  Vector<BaseFloat> src_;$/;"	m	class:kaldi::OnlineVectorSource
+state_	online-faster-decoder.h	/^  DecodeState state_; \/\/ the current state of the decoder$/;"	m	class:kaldi::OnlineFasterDecoder
+stats_	online-cmn.h	/^  Matrix<BaseFloat> stats_;$/;"	m	class:kaldi::OnlineCMN
+timeout_	online-decodable.h	/^  const int32 timeout_; \/\/ the value used when requesting new features$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+timeout_tmp_	online-decodable.h	/^  uint32 timeout_tmp_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+trans_model_	online-decodable.h	/^  const TransitionModel &trans_model_;$/;"	m	class:kaldi::OnlineDecodableDiagGmmScaled
+trans_model_	online-faster-decoder.h	/^  const TransitionModel &trans_model_; \/\/ needed for trans-id -> phone conversion$/;"	m	class:kaldi::OnlineFasterDecoder
+trans_rows_	online-feat-input.h	/^  const uint32 trans_rows_; \/\/ xform matrix rows == output vectors dimension$/;"	m	class:kaldi::OnlineLdaInput
+transform_	online-feat-input.h	/^  const Matrix<BaseFloat> transform_; \/\/ transform matrix$/;"	m	class:kaldi::OnlineLdaInput
+update_interval	online-faster-decoder.h	/^  int32 update_interval; \/\/ beam update period in # of frames$/;"	m	struct:kaldi::OnlineFasterDecoderOpts
+utt_frames_	online-faster-decoder.h	/^  int32 utt_frames_; \/\/ # frames processed from the current utterance$/;"	m	class:kaldi::OnlineFasterDecoder
+wave_	online-feat-input.h	/^  Vector<BaseFloat> wave_; \/\/ the samples to be passed for extraction$/;"	m	class:kaldi::OnlineFeInput
+wave_remainder_	online-feat-input.h	/^  Vector<BaseFloat> wave_remainder_; \/\/ the samples remained from the previous$/;"	m	class:kaldi::OnlineFeInput
+window_center_	online-feat-input.h	/^  const uint32 window_center_; \/\/ central feature vector offset$/;"	m	class:kaldi::OnlineLdaInput
+window_center_	online-feat-input.h	/^  const uint32 window_center_; \/\/ index of the central feature (for convenience)$/;"	m	class:kaldi::OnlineDeltaInput
+window_pos_	online-feat-input.h	/^  uint32 window_pos_; \/\/ the position of the first vector in the current window$/;"	m	class:kaldi::OnlineLdaInput
+window_size_	online-feat-input.h	/^  const uint32 window_size_; \/\/ the count of the feature vectors to be xformed$/;"	m	class:kaldi::OnlineLdaInput
+window_size_	online-feat-input.h	/^  const uint32 window_size_; \/\/ the number of features needed to compute deltas$/;"	m	class:kaldi::OnlineDeltaInput
+~OnlineDecodableDiagGmmScaled	online-decodable.h	/^  virtual ~OnlineDecodableDiagGmmScaled() {$/;"	f	class:kaldi::OnlineDecodableDiagGmmScaled
+~OnlineFeatInputItf	online-feat-input.h	/^  virtual ~OnlineFeatInputItf() {}$/;"	f	class:kaldi::OnlineFeatInputItf
+~OnlinePaSource	online-audio-source.cc	/^OnlinePaSource::~OnlinePaSource() {$/;"	f	class:kaldi::OnlinePaSource

@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IncreaseTransformDimension	extend-transform-dim.cc	/^void IncreaseTransformDimension(int32 new_dimension,$/;"	f	namespace:kaldi
+IncreaseTransformDimension	get-full-lda-mat.cc	/^void IncreaseTransformDimension(int32 new_dimension,$/;"	f	namespace:kaldi
+kaldi	extend-transform-dim.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	get-full-lda-mat.cc	/^namespace kaldi {$/;"	n	file:
+kaldi::IncreaseTransformDimension	extend-transform-dim.cc	/^void IncreaseTransformDimension(int32 new_dimension,$/;"	f	namespace:kaldi
+kaldi::IncreaseTransformDimension	get-full-lda-mat.cc	/^void IncreaseTransformDimension(int32 new_dimension,$/;"	f	namespace:kaldi
+main	add-deltas.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	append-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	apply-cmvn.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	compose-transforms.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	compute-cmvn-stats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	compute-fbank-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	compute-mfcc-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	compute-plp-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	compute-spectrogram-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	copy-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	extend-transform-dim.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	extract-feature-segments.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	extract-segments.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	feat-to-dim.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	feat-to-len.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	fmpe-acc-stats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	fmpe-apply-transform.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	fmpe-copy.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	fmpe-est.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	fmpe-init.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	fmpe-sum-accs.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	get-full-lda-mat.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	merge-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	remove-mean.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	reverse-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	select-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	splice-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	subset-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	transform-feats.cc	/^int main(int argc, char *argv[]) {$/;"	f

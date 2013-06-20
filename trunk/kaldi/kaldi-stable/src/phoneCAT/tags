@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Check	am-phoneCAT.cc	/^void AmPhoneCAT::Check(bool show_properties) {$/;"	f	class:kaldi::AmPhoneCAT
+ComponentPosteriors	am-phoneCAT.cc	/^BaseFloat AmPhoneCAT::ComponentPosteriors($/;"	f	class:kaldi::AmPhoneCAT
+ComputeDerivedVars	am-phoneCAT.cc	/^void AmPhoneCAT::ComputeDerivedVars() {$/;"	f	class:kaldi::AmPhoneCAT
+ComputeH	am-phoneCAT.cc	/^void AmPhoneCAT::ComputeH(std::vector< SpMatrix<Real> > *H) const {$/;"	f	class:kaldi::AmPhoneCAT
+ComputeNormalizers	am-phoneCAT.cc	/^void AmPhoneCAT::ComputeNormalizers() {$/;"	f	class:kaldi::AmPhoneCAT
+ComputeNormalizersClass	am-phoneCAT.cc	/^  ComputeNormalizersClass() { } \/\/ Disallow empty constructor.$/;"	f	class:kaldi::ComputeNormalizersClass	file:
+ComputeNormalizersClass	am-phoneCAT.cc	/^  ComputeNormalizersClass(AmPhoneCAT *am_phoneCAT,$/;"	f	class:kaldi::ComputeNormalizersClass
+ComputeNormalizersClass	am-phoneCAT.cc	/^class ComputeNormalizersClass: public MultiThreadable { \/\/ For multi-threaded.$/;"	c	namespace:kaldi	file:
+ComputePerFrameVars	am-phoneCAT.cc	/^void AmPhoneCAT::ComputePerFrameVars(const VectorBase<BaseFloat> &data,$/;"	f	class:kaldi::AmPhoneCAT
+CopyFromPhoneCAT	am-phoneCAT.cc	/^void AmPhoneCAT::CopyFromPhoneCAT(const AmPhoneCAT &other,$/;"	f	class:kaldi::AmPhoneCAT
+CopyGlobalsInitVecs	am-phoneCAT.cc	/^void AmPhoneCAT::CopyGlobalsInitVecs(const AmPhoneCAT &other,$/;"	f	class:kaldi::AmPhoneCAT
+InitializeFromDiagGmm	am-phoneCAT.cc	/^void AmPhoneCAT::InitializeFromDiagGmm(const DiagGmm &diag_gmm,$/;"	f	class:kaldi::AmPhoneCAT
+IsEmpty	am-phoneCAT.h	/^    bool IsEmpty() const {$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+KALDI_PHONECAT_AM_PHONECAT_H_	am-phoneCAT.h	2;"	d
+LogLikelihood	am-phoneCAT.cc	/^BaseFloat AmPhoneCAT::LogLikelihood(const AmPhoneCATPerFrameDerivedVars &per_frame_vars, int32 j, BaseFloat log_prune) const {$/;"	f	class:kaldi::AmPhoneCAT
+NeedsResizing	am-phoneCAT.h	/^    bool NeedsResizing(int32 ngauss, int32 feat_dim, int32 phn_dim) const {$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+PhoneCATGselectConfig	am-phoneCAT.h	/^    PhoneCATGselectConfig() {$/;"	f	struct:kaldi::PhoneCATGselectConfig
+PhoneCATGselectConfig	am-phoneCAT.h	/^  struct PhoneCATGselectConfig {$/;"	s	namespace:kaldi
+PhoneCATPerFrameDerivedVars	am-phoneCAT.h	/^    PhoneCATPerFrameDerivedVars() : xt(0), zti(0,0), nti(0) {}$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+PhoneCATPerFrameDerivedVars	am-phoneCAT.h	/^  struct PhoneCATPerFrameDerivedVars {$/;"	s	namespace:kaldi
+Read	am-phoneCAT.cc	/^void AmPhoneCAT::Read(std::istream &in_stream, bool binary) {$/;"	f	class:kaldi::AmPhoneCAT
+Register	am-phoneCAT.h	/^    void Register(ParseOptions *po) {$/;"	f	struct:kaldi::PhoneCATGselectConfig
+Resize	am-phoneCAT.h	/^    void Resize(int32 ngauss, int32 feat_dim, int32 phn_dim) {$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+Write	am-phoneCAT.cc	/^void AmPhoneCAT::Write(std::ostream &out_stream, bool binary,$/;"	f	class:kaldi::AmPhoneCAT
+am_phoneCAT_	am-phoneCAT.cc	/^  AmPhoneCAT *am_phoneCAT_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+diag_gmm_nbest	am-phoneCAT.h	/^    int32 diag_gmm_nbest;$/;"	m	struct:kaldi::PhoneCATGselectConfig
+entropy_count_	am-phoneCAT.cc	/^  int32 entropy_count_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+entropy_count_ptr_	am-phoneCAT.cc	/^  int32 *entropy_count_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+entropy_sum_	am-phoneCAT.cc	/^  double entropy_sum_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+entropy_sum_ptr_	am-phoneCAT.cc	/^  double *entropy_sum_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+gselect	am-phoneCAT.h	/^    std::vector<int32> gselect;$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi	am-phoneCAT.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	am-phoneCAT.h	/^namespace kaldi {$/;"	n
+kaldi::AmPhoneCAT::Check	am-phoneCAT.cc	/^void AmPhoneCAT::Check(bool show_properties) {$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::ComponentPosteriors	am-phoneCAT.cc	/^BaseFloat AmPhoneCAT::ComponentPosteriors($/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::ComputeDerivedVars	am-phoneCAT.cc	/^void AmPhoneCAT::ComputeDerivedVars() {$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::ComputeH	am-phoneCAT.cc	/^void AmPhoneCAT::ComputeH(std::vector< SpMatrix<Real> > *H) const {$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::ComputeNormalizers	am-phoneCAT.cc	/^void AmPhoneCAT::ComputeNormalizers() {$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::ComputePerFrameVars	am-phoneCAT.cc	/^void AmPhoneCAT::ComputePerFrameVars(const VectorBase<BaseFloat> &data,$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::CopyFromPhoneCAT	am-phoneCAT.cc	/^void AmPhoneCAT::CopyFromPhoneCAT(const AmPhoneCAT &other,$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::CopyGlobalsInitVecs	am-phoneCAT.cc	/^void AmPhoneCAT::CopyGlobalsInitVecs(const AmPhoneCAT &other,$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::InitializeFromDiagGmm	am-phoneCAT.cc	/^void AmPhoneCAT::InitializeFromDiagGmm(const DiagGmm &diag_gmm,$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::LogLikelihood	am-phoneCAT.cc	/^BaseFloat AmPhoneCAT::LogLikelihood(const AmPhoneCATPerFrameDerivedVars &per_frame_vars, int32 j, BaseFloat log_prune) const {$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::Read	am-phoneCAT.cc	/^void AmPhoneCAT::Read(std::istream &in_stream, bool binary) {$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::AmPhoneCAT::Write	am-phoneCAT.cc	/^void AmPhoneCAT::Write(std::ostream &out_stream, bool binary,$/;"	f	class:kaldi::AmPhoneCAT
+kaldi::ComputeNormalizersClass	am-phoneCAT.cc	/^class ComputeNormalizersClass: public MultiThreadable { \/\/ For multi-threaded.$/;"	c	namespace:kaldi	file:
+kaldi::ComputeNormalizersClass::ComputeNormalizersClass	am-phoneCAT.cc	/^  ComputeNormalizersClass() { } \/\/ Disallow empty constructor.$/;"	f	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::ComputeNormalizersClass	am-phoneCAT.cc	/^  ComputeNormalizersClass(AmPhoneCAT *am_phoneCAT,$/;"	f	class:kaldi::ComputeNormalizersClass
+kaldi::ComputeNormalizersClass::am_phoneCAT_	am-phoneCAT.cc	/^  AmPhoneCAT *am_phoneCAT_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_count_	am-phoneCAT.cc	/^  int32 entropy_count_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_count_ptr_	am-phoneCAT.cc	/^  int32 *entropy_count_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_sum_	am-phoneCAT.cc	/^  double entropy_sum_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::entropy_sum_ptr_	am-phoneCAT.cc	/^  double *entropy_sum_ptr_;$/;"	m	class:kaldi::ComputeNormalizersClass	file:
+kaldi::ComputeNormalizersClass::operator ()	am-phoneCAT.cc	/^  inline void operator() () {$/;"	f	class:kaldi::ComputeNormalizersClass
+kaldi::ComputeNormalizersClass::~ComputeNormalizersClass	am-phoneCAT.cc	/^  ~ComputeNormalizersClass() {$/;"	f	class:kaldi::ComputeNormalizersClass
+kaldi::PhoneCATGselectConfig	am-phoneCAT.h	/^  struct PhoneCATGselectConfig {$/;"	s	namespace:kaldi
+kaldi::PhoneCATGselectConfig::PhoneCATGselectConfig	am-phoneCAT.h	/^    PhoneCATGselectConfig() {$/;"	f	struct:kaldi::PhoneCATGselectConfig
+kaldi::PhoneCATGselectConfig::Register	am-phoneCAT.h	/^    void Register(ParseOptions *po) {$/;"	f	struct:kaldi::PhoneCATGselectConfig
+kaldi::PhoneCATGselectConfig::diag_gmm_nbest	am-phoneCAT.h	/^    int32 diag_gmm_nbest;$/;"	m	struct:kaldi::PhoneCATGselectConfig
+kaldi::PhoneCATPerFrameDerivedVars	am-phoneCAT.h	/^  struct PhoneCATPerFrameDerivedVars {$/;"	s	namespace:kaldi
+kaldi::PhoneCATPerFrameDerivedVars::IsEmpty	am-phoneCAT.h	/^    bool IsEmpty() const {$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::NeedsResizing	am-phoneCAT.h	/^    bool NeedsResizing(int32 ngauss, int32 feat_dim, int32 phn_dim) const {$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::PhoneCATPerFrameDerivedVars	am-phoneCAT.h	/^    PhoneCATPerFrameDerivedVars() : xt(0), zti(0,0), nti(0) {}$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::Resize	am-phoneCAT.h	/^    void Resize(int32 ngauss, int32 feat_dim, int32 phn_dim) {$/;"	f	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::gselect	am-phoneCAT.h	/^    std::vector<int32> gselect;$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::nti	am-phoneCAT.h	/^    Vector<BaseFloat> nti;  \/\/\/< n_{i}(t), dim = [I]$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::xt	am-phoneCAT.h	/^    Vector<BaseFloat> xt;   \/\/\/< x(t), dim = [D]$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+kaldi::PhoneCATPerFrameDerivedVars::zti	am-phoneCAT.h	/^    Matrix<BaseFloat> zti;  \/\/\/< z_{i}(t), dim = [I][S]$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+nti	am-phoneCAT.h	/^    Vector<BaseFloat> nti;  \/\/\/< n_{i}(t), dim = [I]$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+operator ()	am-phoneCAT.cc	/^  inline void operator() () {$/;"	f	class:kaldi::ComputeNormalizersClass
+xt	am-phoneCAT.h	/^    Vector<BaseFloat> xt;   \/\/\/< x(t), dim = [D]$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+zti	am-phoneCAT.h	/^    Matrix<BaseFloat> zti;  \/\/\/< z_{i}(t), dim = [I][S]$/;"	m	struct:kaldi::PhoneCATPerFrameDerivedVars
+~ComputeNormalizersClass	am-phoneCAT.cc	/^  ~ComputeNormalizersClass() {$/;"	f	class:kaldi::ComputeNormalizersClass

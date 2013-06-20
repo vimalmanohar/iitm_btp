@@ -1,0 +1,21 @@
+#!/bin/sh
+while [ true ]; do
+  num_progs=$(ps aux | grep vimal | grep "phoneTxCAT_basic.sh" | wc -l)
+  num_progs=$((num_progs-1))
+  num_jobs=$(qstat | grep vimal | wc -l)
+  if [ $num_progs -gt 0 ]; then
+    echo -ne "\033[K$num_progs Programs running.\t\t$num_jobs Jobs running.\r" 
+    sleep 1
+    echo -ne "\033[K$num_progs Programs running..\t\t$num_jobs Jobs running..\r" 
+    sleep 1
+    echo -ne "\033[K$num_progs Programs running...\t\t$num_jobs Jobs running...\r" 
+    sleep 1
+  else
+    echo "No programs running."
+  fi
+  check_progs=$(ps aux | grep vimal | grep "phoneTxCAT_basic.sh" | wc -l)
+  check_progs=$((check_progs-1))
+  if [ $check_progs -lt $num_progs ]; then
+    echo -e "\nProgram Exited!"
+  fi
+done

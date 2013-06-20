@@ -1,0 +1,573 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AccStats	sausages.cc	/^void MinimumBayesRisk::AccStats() {$/;"	f	class:kaldi::MinimumBayesRisk
+AddToMap	sausages.h	/^  static inline void AddToMap(int32 i, double d, std::map<int32, double> *gamma) {$/;"	f	class:kaldi::MinimumBayesRisk
+Advance	word-align-lattice.cc	/^    void Advance(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+AlignLattice	word-align-lattice.cc	/^  bool AlignLattice() {$/;"	f	class:kaldi::LatticeWordAligner
+Arc	kaldi-lattice.cc	/^  typedef LatticeArc Arc;$/;"	t	class:kaldi::LatticeReader	file:
+Arc	sausages.h	/^  struct Arc {$/;"	s	class:kaldi::MinimumBayesRisk
+ArcticWeight	arctic-weight.h	/^typedef ArcticWeightTpl<float> ArcticWeight;$/;"	t	namespace:fst
+ArcticWeightTpl	arctic-weight.h	/^  ArcticWeightTpl() : FloatWeightTpl<T>() {}$/;"	f	class:fst::ArcticWeightTpl
+ArcticWeightTpl	arctic-weight.h	/^  ArcticWeightTpl(T f) : FloatWeightTpl<T>(f) {}$/;"	f	class:fst::ArcticWeightTpl
+ArcticWeightTpl	arctic-weight.h	/^  ArcticWeightTpl(const ArcticWeightTpl<T> &w) : FloatWeightTpl<T>(w) {}$/;"	f	class:fst::ArcticWeightTpl
+ArcticWeightTpl	arctic-weight.h	/^class ArcticWeightTpl : public FloatWeightTpl<T> {$/;"	c	namespace:fst
+CArc	kaldi-lattice.cc	/^  typedef CompactLatticeArc CArc;$/;"	t	class:kaldi::LatticeReader	file:
+CWeight	kaldi-lattice.cc	/^  typedef CompactLatticeWeight CWeight;$/;"	t	class:kaldi::LatticeReader	file:
+Clear	kaldi-lattice.h	/^  void Clear() { if (t_) { delete t_; t_ = NULL; } }$/;"	f	class:kaldi::CompactLatticeHolder
+Clear	kaldi-lattice.h	/^  void Clear() { if (t_) { delete t_; t_ = NULL; } }$/;"	f	class:kaldi::LatticeHolder
+ClusterLattice	kws-functions.cc	/^bool ClusterLattice(CompactLattice *clat, $/;"	f	namespace:kaldi
+CompactLattice	kaldi-lattice.h	/^typedef fst::VectorFst<CompactLatticeArc> CompactLattice;$/;"	t	namespace:kaldi
+CompactLatticeArc	kaldi-lattice.h	/^typedef fst::ArcTpl<CompactLatticeWeight> CompactLatticeArc;$/;"	t	namespace:kaldi
+CompactLatticeHolder	kaldi-lattice.h	/^  CompactLatticeHolder() { t_ = NULL; }$/;"	f	class:kaldi::CompactLatticeHolder
+CompactLatticeHolder	kaldi-lattice.h	/^class CompactLatticeHolder {$/;"	c	namespace:kaldi
+CompactLatticeShortestPath	lattice-functions.cc	/^void CompactLatticeShortestPath(const CompactLattice &clat,$/;"	f	namespace:kaldi
+CompactLatticeStateTimes	lattice-functions.cc	/^int32 CompactLatticeStateTimes(const CompactLattice &lat, vector<int32> *times) {$/;"	f	namespace:kaldi
+CompactLatticeToKwsProductFstMapper	kws-functions.cc	/^  CompactLatticeToKwsProductFstMapper() {}$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+CompactLatticeToKwsProductFstMapper	kws-functions.cc	/^class CompactLatticeToKwsProductFstMapper {$/;"	c	namespace:kaldi	file:
+CompactLatticeToWordAlignment	lattice-functions.cc	/^bool CompactLatticeToWordAlignment(const CompactLattice &clat,$/;"	f	namespace:kaldi
+CompactLatticeWeight	kaldi-lattice.h	/^typedef fst::CompactLatticeWeightTpl<LatticeWeight, int32> CompactLatticeWeight;$/;"	t	namespace:kaldi
+CompactLatticeWeightCommonDivisor	kaldi-lattice.h	/^  CompactLatticeWeightCommonDivisor;$/;"	t	namespace:kaldi
+CompactLatticeWriter	kaldi-lattice.h	/^typedef TableWriter<CompactLatticeHolder> CompactLatticeWriter;$/;"	t	namespace:kaldi
+CompareInterval	kws-functions.cc	/^bool CompareInterval(const Interval &i1,$/;"	f	namespace:kaldi
+ComputationState	word-align-lattice.cc	/^    ComputationState(): weight_(LatticeWeight::One()) { } \/\/ initial state.$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+ComputationState	word-align-lattice.cc	/^    ComputationState(const ComputationState &other):$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+ComputationState	word-align-lattice.cc	/^  class ComputationState { \/\/\/ The state of the computation in which,$/;"	c	class:kaldi::LatticeWordAligner	file:
+ComputeCompactLatticeAlphas	kws-functions.cc	/^bool ComputeCompactLatticeAlphas(const CompactLattice &clat,$/;"	f	namespace:kaldi
+ComputeCompactLatticeBetas	kws-functions.cc	/^bool ComputeCompactLatticeBetas(const CompactLattice &clat,$/;"	f	namespace:kaldi
+ConvertCompactLatticeToPhones	lattice-functions.cc	/^void ConvertCompactLatticeToPhones(const TransitionModel &trans,$/;"	f	namespace:kaldi
+ConvertLatticeToPhones	lattice-functions.cc	/^void ConvertLatticeToPhones(const TransitionModel &trans,$/;"	f	namespace:kaldi
+ConvertToCompactLattice	kaldi-lattice.cc	/^CompactLattice* ConvertToCompactLattice(CompactLattice *ifst) {$/;"	f	namespace:kaldi
+ConvertToCompactLattice	kaldi-lattice.cc	/^CompactLattice* ConvertToCompactLattice(fst::VectorFst<OrigWeightType> *ifst) {$/;"	f	namespace:kaldi
+ConvertToLattice	kaldi-lattice.cc	/^Lattice* ConvertToLattice(Lattice *ifst) {$/;"	f	namespace:kaldi
+ConvertToLattice	kaldi-lattice.cc	/^Lattice* ConvertToLattice(fst::VectorFst<OrigWeightType> *ifst) {$/;"	f	namespace:kaldi
+CreateFactorTransducer	kws-functions.cc	/^bool CreateFactorTransducer(const CompactLattice &clat,$/;"	f	namespace:kaldi
+Divide	arctic-weight.h	/^inline ArcticWeightTpl<T> Divide(const ArcticWeightTpl<T> &w1,$/;"	f	namespace:fst
+Divide	arctic-weight.h	/^inline ArcticWeightTpl<double> Divide(const ArcticWeightTpl<double> &w1,$/;"	f	namespace:fst
+Divide	arctic-weight.h	/^inline ArcticWeightTpl<float> Divide(const ArcticWeightTpl<float> &w1,$/;"	f	namespace:fst
+DoFactorDisambiguation	kws-functions.cc	/^void DoFactorDisambiguation(KwsLexicographicFst *index_transducer) {$/;"	f	namespace:kaldi
+DoFactorMerging	kws-functions.cc	/^void DoFactorMerging(KwsProductFst factor_transducer,$/;"	f	namespace:kaldi
+EditDistance	sausages.cc	/^double MinimumBayesRisk::EditDistance(int32 N, int32 Q,$/;"	f	class:kaldi::MinimumBayesRisk
+End	kws-functions.h	/^  int32 End() const {return end_;}$/;"	f	class:kaldi::Interval
+FinalAction	kws-functions.cc	/^  fst::MapFinalAction FinalAction() const { return fst::MAP_NO_SUPERFINAL; }$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+FinalAction	kws-functions.cc	/^  fst::MapFinalAction FinalAction() const { return fst::MAP_NO_SUPERFINAL; }$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+FinalWeight	word-align-lattice.cc	/^    LatticeWeight FinalWeight() { return (IsEmpty() ? weight_ : LatticeWeight::Zero()); }$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+FromArc	kws-functions.cc	/^  typedef CompactLatticeArc FromArc;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+FromArc	kws-functions.cc	/^  typedef KwsProductArc FromArc;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+FromWeight	kws-functions.cc	/^  typedef CompactLatticeWeight FromWeight;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+FromWeight	kws-functions.cc	/^  typedef KwsProductWeight FromWeight;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+GammaCompare	sausages.h	/^  struct GammaCompare{$/;"	s	class:kaldi::MinimumBayesRisk
+GetBayesRisk	sausages.h	/^  BaseFloat GetBayesRisk() const { return L_; }$/;"	f	class:kaldi::MinimumBayesRisk
+GetOneBest	sausages.h	/^  const std::vector<int32> &GetOneBest() const { \/\/ gets one-best (with no epsilons)$/;"	f	class:kaldi::MinimumBayesRisk
+GetOneBestConfidences	sausages.h	/^  const std::vector<BaseFloat> &GetOneBestConfidences() const {$/;"	f	class:kaldi::MinimumBayesRisk
+GetOneBestTimes	sausages.h	/^  const std::vector<std::pair<BaseFloat, BaseFloat> > &GetOneBestTimes() const {$/;"	f	class:kaldi::MinimumBayesRisk
+GetSausageStats	sausages.h	/^  const std::vector<std::vector<std::pair<int32, BaseFloat> > > &GetSausageStats() const {$/;"	f	class:kaldi::MinimumBayesRisk
+GetSausageTimes	sausages.h	/^  const std::vector<std::pair<BaseFloat, BaseFloat> > GetSausageTimes() const {$/;"	f	class:kaldi::MinimumBayesRisk
+GetStateForTuple	word-align-lattice.cc	/^  StateId GetStateForTuple(const Tuple &tuple, bool add_to_queue) {$/;"	f	class:kaldi::LatticeWordAligner
+Hash	word-align-lattice.cc	/^    size_t Hash() const {$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+InputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction InputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS; }$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+InputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction InputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS; }$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+Int32IsZero	sausages.cc	/^struct Int32IsZero {$/;"	s	namespace:kaldi	file:
+Interval	kws-functions.h	/^  Interval() {}$/;"	f	class:kaldi::Interval
+Interval	kws-functions.h	/^  Interval(const Interval &interval) : start_(interval.Start()), end_(interval.End()) {}$/;"	f	class:kaldi::Interval
+Interval	kws-functions.h	/^  Interval(int32 start, int32 end) : start_(start), end_(end) {}$/;"	f	class:kaldi::Interval
+Interval	kws-functions.h	/^class Interval {$/;"	c	namespace:kaldi
+IsEmpty	word-align-lattice.cc	/^    bool IsEmpty() { return (transition_ids_.empty() && word_labels_.empty()); }$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+IsPlausibleWord	word-align-lattice.cc	/^static bool IsPlausibleWord(const WordBoundaryInfo &info,$/;"	f	namespace:kaldi
+IsReadInBinary	kaldi-lattice.h	/^  static bool IsReadInBinary() { return true; }$/;"	f	class:kaldi::CompactLatticeHolder
+IsReadInBinary	kaldi-lattice.h	/^  static bool IsReadInBinary() { return true; }$/;"	f	class:kaldi::LatticeHolder
+KALDI_FSTEXT_WORD_ALIGN_LATTICE_H_	word-align-lattice.h	19;"	d
+KALDI_LAT_ARCTIC_WEIGHT_H_	arctic-weight.h	20;"	d
+KALDI_LAT_KALDI_KWS_H_	kaldi-kws.h	20;"	d
+KALDI_LAT_KALDI_LATTICE_H_	kaldi-lattice.h	20;"	d
+KALDI_LAT_KWS_FUNCTIONS_H_	kws-functions.h	20;"	d
+KALDI_LAT_LATTICE_FUNCTIONS_H_	lattice-functions.h	21;"	d
+KALDI_LAT_SAUSAGES_H_	sausages.h	20;"	d
+KwsLexicographicArc	kaldi-kws.h	/^typedef StdLStdLStdArc KwsLexicographicArc;$/;"	t	namespace:kaldi
+KwsLexicographicFst	kaldi-kws.h	/^typedef fst::VectorFst<KwsLexicographicArc> KwsLexicographicFst;$/;"	t	namespace:kaldi
+KwsLexicographicWeight	kaldi-kws.h	/^typedef StdLStdLStdWeight KwsLexicographicWeight;$/;"	t	namespace:kaldi
+KwsProductArc	kaldi-kws.h	/^typedef LogXStdXStdprimeArc KwsProductArc;$/;"	t	namespace:kaldi
+KwsProductFst	kaldi-kws.h	/^typedef fst::VectorFst<KwsProductArc> KwsProductFst;$/;"	t	namespace:kaldi
+KwsProductFstToKwsLexicographicFstMapper	kws-functions.cc	/^  KwsProductFstToKwsLexicographicFstMapper() {}$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+KwsProductFstToKwsLexicographicFstMapper	kws-functions.cc	/^class KwsProductFstToKwsLexicographicFstMapper {$/;"	c	namespace:kaldi	file:
+KwsProductWeight	kaldi-kws.h	/^typedef LogXStdXStdprimeWeight KwsProductWeight;$/;"	t	namespace:kaldi
+L_	sausages.h	/^  double L_; \/\/ current averaged edit-distance between lattice and R_.$/;"	m	class:kaldi::MinimumBayesRisk
+Label	kaldi-lattice.cc	/^  typedef Arc::Label Label;$/;"	t	class:kaldi::LatticeReader	file:
+Label	word-align-lattice.cc	/^  typedef CompactLatticeArc::Label Label;$/;"	t	class:kaldi::LatticeWordAligner	file:
+Lattice	kaldi-lattice.h	/^typedef fst::VectorFst<LatticeArc> Lattice;$/;"	t	namespace:kaldi
+LatticeActivePhones	lattice-functions.cc	/^void LatticeActivePhones(const Lattice &lat, const TransitionModel &trans,$/;"	f	namespace:kaldi
+LatticeArc	kaldi-lattice.h	/^typedef fst::ArcTpl<LatticeWeight> LatticeArc;$/;"	t	namespace:kaldi
+LatticeBoost	lattice-functions.cc	/^bool LatticeBoost(const TransitionModel &trans,$/;"	f	namespace:kaldi
+LatticeForwardBackward	lattice-functions.cc	/^BaseFloat LatticeForwardBackward(const Lattice &lat, Posterior *arc_post,$/;"	f	namespace:kaldi
+LatticeForwardBackwardMpe	lattice-functions.cc	/^BaseFloat LatticeForwardBackwardMpe(const Lattice &lat,$/;"	f	namespace:kaldi
+LatticeHolder	kaldi-lattice.h	/^  LatticeHolder() { t_ = NULL; }$/;"	f	class:kaldi::LatticeHolder
+LatticeHolder	kaldi-lattice.h	/^class LatticeHolder {$/;"	c	namespace:kaldi
+LatticePhoneFrameAccuracy	lattice-functions.cc	/^int32 LatticePhoneFrameAccuracy(const Lattice &hyp, const TransitionModel &trans,$/;"	f	namespace:kaldi
+LatticeReader	kaldi-lattice.cc	/^class LatticeReader {$/;"	c	namespace:kaldi	file:
+LatticeStateTimes	lattice-functions.cc	/^int32 LatticeStateTimes(const Lattice &lat, vector<int32> *times) {$/;"	f	namespace:kaldi
+LatticeWeight	kaldi-lattice.h	/^typedef fst::LatticeWeightTpl<BaseFloat> LatticeWeight;$/;"	t	namespace:kaldi
+LatticeWordAligner	word-align-lattice.cc	/^  LatticeWordAligner(const CompactLattice &lat,$/;"	f	class:kaldi::LatticeWordAligner
+LatticeWordAligner	word-align-lattice.cc	/^class LatticeWordAligner {$/;"	c	namespace:kaldi	file:
+LatticeWriter	kaldi-lattice.h	/^typedef TableWriter<LatticeHolder> LatticeWriter;$/;"	t	namespace:kaldi
+LogXStdXStdprimeArc	kaldi-kws.h	/^typedef fst::ArcTpl<LogXStdXStdprimeWeight> LogXStdXStdprimeArc;$/;"	t	namespace:kaldi
+LogXStdXStdprimeWeight	kaldi-kws.h	/^typedef fst::ProductWeight<LogWeight, StdXStdprimeWeight> LogXStdXStdprimeWeight;$/;"	t	namespace:kaldi
+MapType	word-align-lattice.cc	/^  typedef unordered_map<Tuple, StateId, TupleHash, TupleEqual> MapType;$/;"	t	class:kaldi::LatticeWordAligner	file:
+MbrDecode	sausages.cc	/^void MinimumBayesRisk::MbrDecode() {$/;"	f	class:kaldi::MinimumBayesRisk
+Member	arctic-weight.h	/^  bool Member() const {$/;"	f	class:fst::ArcticWeightTpl
+MinimumBayesRisk	sausages.cc	/^MinimumBayesRisk::MinimumBayesRisk(const CompactLattice &clat_in, bool do_mbr) {$/;"	f	class:kaldi::MinimumBayesRisk
+MinimumBayesRisk	sausages.h	/^class MinimumBayesRisk {$/;"	c	namespace:kaldi
+NormalizeEps	sausages.cc	/^void MinimumBayesRisk::NormalizeEps(std::vector<int32> *vec) {$/;"	f	class:kaldi::MinimumBayesRisk
+One	arctic-weight.h	/^  static const ArcticWeightTpl<T> One() {$/;"	f	class:fst::ArcticWeightTpl
+OptimizeFactorTransducer	kws-functions.cc	/^void OptimizeFactorTransducer(KwsLexicographicFst *index_transducer) {$/;"	f	namespace:kaldi
+OutputArc	word-align-lattice.cc	/^    bool OutputArc(const WordBoundaryInfo &info,$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+OutputArcForce	word-align-lattice.cc	/^void LatticeWordAligner::ComputationState::OutputArcForce($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+OutputNormalWordArc	word-align-lattice.cc	/^bool LatticeWordAligner::ComputationState::OutputNormalWordArc($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+OutputOnePhoneWordArc	word-align-lattice.cc	/^bool LatticeWordAligner::ComputationState::OutputOnePhoneWordArc($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+OutputSilenceArc	word-align-lattice.cc	/^bool LatticeWordAligner::ComputationState::OutputSilenceArc($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+OutputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction OutputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS;}$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+OutputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction OutputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS;}$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+PhoneType	word-align-lattice.h	/^  enum PhoneType {$/;"	g	struct:kaldi::WordBoundaryInfo
+Plus	arctic-weight.h	/^inline ArcticWeightTpl<T> Plus(const ArcticWeightTpl<T> &w1,$/;"	f	namespace:fst
+Plus	arctic-weight.h	/^inline ArcticWeightTpl<double> Plus(const ArcticWeightTpl<double> &w1,$/;"	f	namespace:fst
+Plus	arctic-weight.h	/^inline ArcticWeightTpl<float> Plus(const ArcticWeightTpl<float> &w1,$/;"	f	namespace:fst
+ProcessFinal	word-align-lattice.cc	/^  void ProcessFinal(Tuple tuple, StateId output_state) {$/;"	f	class:kaldi::LatticeWordAligner
+ProcessQueueElement	word-align-lattice.cc	/^  void ProcessQueueElement() {$/;"	f	class:kaldi::LatticeWordAligner
+Properties	arctic-weight.h	/^  static uint64 Properties() {$/;"	f	class:fst::ArcticWeightTpl
+Properties	kws-functions.cc	/^  uint64 Properties(uint64 props) const { return props; }$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+Properties	kws-functions.cc	/^  uint64 Properties(uint64 props) const { return props; }$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+PruneLattice	lattice-functions.cc	/^bool PruneLattice(BaseFloat beam, LatType *lat) {$/;"	f	namespace:kaldi
+Quantize	arctic-weight.h	/^  ArcticWeightTpl<T> Quantize(float delta = kDelta) const {$/;"	f	class:fst::ArcticWeightTpl
+R_	sausages.h	/^  std::vector<int32> R_; \/\/ current 1-best word sequence, normalized to have$/;"	m	class:kaldi::MinimumBayesRisk
+RandCompactLattice	kaldi-lattice-test.cc	/^CompactLattice *RandCompactLattice() {$/;"	f	namespace:kaldi
+RandLattice	kaldi-lattice-test.cc	/^Lattice *RandLattice() {$/;"	f	namespace:kaldi
+RandomAccessCompactLatticeReader	kaldi-lattice.h	/^typedef RandomAccessTableReader<CompactLatticeHolder> RandomAccessCompactLatticeReader;$/;"	t	namespace:kaldi
+RandomAccessLatticeReader	kaldi-lattice.h	/^typedef RandomAccessTableReader<LatticeHolder> RandomAccessLatticeReader;$/;"	t	namespace:kaldi
+Read	kaldi-lattice.cc	/^bool CompactLatticeHolder::Read(std::istream &is) {$/;"	f	class:kaldi::CompactLatticeHolder
+Read	kaldi-lattice.cc	/^bool LatticeHolder::Read(std::istream &is) {$/;"	f	class:kaldi::LatticeHolder
+ReadCompactLatticeText	kaldi-lattice.cc	/^CompactLattice *ReadCompactLatticeText(std::istream &is) {$/;"	f	namespace:kaldi
+ReadLatticeText	kaldi-lattice.cc	/^Lattice *ReadLatticeText(std::istream &is) {$/;"	f	namespace:kaldi
+ReadText	kaldi-lattice.cc	/^  static std::pair<Lattice*, CompactLattice*> ReadText($/;"	f	class:kaldi::LatticeReader
+Register	word-align-lattice.h	/^  void Register(ParseOptions *po) {$/;"	f	struct:kaldi::WordBoundaryInfoNewOpts
+Register	word-align-lattice.h	/^  void Register(ParseOptions *po) {$/;"	f	struct:kaldi::WordBoundaryInfoOpts
+RemoveEps	sausages.cc	/^void MinimumBayesRisk::RemoveEps(std::vector<int32> *vec) {$/;"	f	class:kaldi::MinimumBayesRisk
+RemoveEpsilonsFromLattice	word-align-lattice.cc	/^  void RemoveEpsilonsFromLattice() {$/;"	f	class:kaldi::LatticeWordAligner
+RemoveLongSilences	kws-functions.cc	/^void RemoveLongSilences(int32 max_silence_frames,$/;"	f	namespace:kaldi
+Reverse	arctic-weight.h	/^  ArcticWeightTpl<T> Reverse() const { return *this; }$/;"	f	class:fst::ArcticWeightTpl
+ReverseWeight	arctic-weight.h	/^  typedef ArcticWeightTpl<T> ReverseWeight;$/;"	t	class:fst::ArcticWeightTpl
+SequentialCompactLatticeReader	kaldi-lattice.h	/^typedef SequentialTableReader<CompactLatticeHolder> SequentialCompactLatticeReader;$/;"	t	namespace:kaldi
+SequentialLatticeReader	kaldi-lattice.h	/^typedef SequentialTableReader<LatticeHolder> SequentialLatticeReader;$/;"	t	namespace:kaldi
+SetOptions	word-align-lattice.cc	/^void WordBoundaryInfo::SetOptions(const std::string int_list, PhoneType phone_type) {$/;"	f	class:kaldi::WordBoundaryInfo
+Start	kws-functions.h	/^  int32 Start() const {return start_;}$/;"	f	class:kaldi::Interval
+StateId	kaldi-lattice.cc	/^  typedef Arc::StateId StateId;$/;"	t	class:kaldi::LatticeReader	file:
+StateId	word-align-lattice.cc	/^  typedef CompactLatticeArc::StateId StateId;$/;"	t	class:kaldi::LatticeWordAligner	file:
+StdLStdLStdArc	kaldi-kws.h	/^typedef fst::ArcTpl<StdLStdLStdWeight> StdLStdLStdArc;$/;"	t	namespace:kaldi
+StdLStdLStdWeight	kaldi-kws.h	/^typedef fst::LexicographicWeight<TropicalWeight, StdLStdWeight> StdLStdLStdWeight;$/;"	t	namespace:kaldi
+StdLStdWeight	kaldi-kws.h	/^typedef fst::LexicographicWeight<TropicalWeight, TropicalWeight> StdLStdWeight;$/;"	t	namespace:kaldi
+StdXStdprimeWeight	kaldi-kws.h	/^typedef fst::ProductWeight<TropicalWeight, ArcticWeight> StdXStdprimeWeight;$/;"	t	namespace:kaldi
+StrToCWeight	kaldi-lattice.cc	/^  static  bool StrToCWeight(const std::string &s, bool allow_zero, CWeight *w) {$/;"	f	class:kaldi::LatticeReader
+StrToWeight	kaldi-lattice.cc	/^  static bool StrToWeight(const std::string &s, bool allow_zero, Weight *w) {$/;"	f	class:kaldi::LatticeReader
+T	kaldi-lattice.h	/^  typedef CompactLattice T;$/;"	t	class:kaldi::CompactLatticeHolder
+T	kaldi-lattice.h	/^  typedef Lattice T;$/;"	t	class:kaldi::LatticeHolder
+Test	word-align-lattice.cc	/^  void Test() {$/;"	f	class:kaldi::WordAlignedLatticeTester
+TestArc	word-align-lattice.cc	/^  void TestArc(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestArcEmpty	word-align-lattice.cc	/^  bool TestArcEmpty(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestArcNormalWord	word-align-lattice.cc	/^  bool TestArcNormalWord(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestArcOnePhoneWord	word-align-lattice.cc	/^  bool TestArcOnePhoneWord(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestArcPartialWord	word-align-lattice.cc	/^  bool TestArcPartialWord(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestArcSilence	word-align-lattice.cc	/^  bool TestArcSilence(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestCompactLatticeTable	kaldi-lattice-test.cc	/^void TestCompactLatticeTable(bool binary) {$/;"	f	namespace:kaldi
+TestCompactLatticeTableCross	kaldi-lattice-test.cc	/^void TestCompactLatticeTableCross(bool binary) {$/;"	f	namespace:kaldi
+TestEquivalent	word-align-lattice.cc	/^  void TestEquivalent() {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestFinal	word-align-lattice.cc	/^  void TestFinal(const CompactLatticeWeight &w) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+TestLatticeTable	kaldi-lattice-test.cc	/^void TestLatticeTable(bool binary) {$/;"	f	namespace:kaldi
+TestLatticeTableCross	kaldi-lattice-test.cc	/^void TestLatticeTableCross(bool binary) {$/;"	f	namespace:kaldi
+TestWordAlignedLattice	word-align-lattice.cc	/^void TestWordAlignedLattice(const CompactLattice &lat,$/;"	f	namespace:kaldi
+Times	arctic-weight.h	/^inline ArcticWeightTpl<T> Times(const ArcticWeightTpl<T> &w1,$/;"	f	namespace:fst
+Times	arctic-weight.h	/^inline ArcticWeightTpl<double> Times(const ArcticWeightTpl<double> &w1,$/;"	f	namespace:fst
+Times	arctic-weight.h	/^inline ArcticWeightTpl<float> Times(const ArcticWeightTpl<float> &w1,$/;"	f	namespace:fst
+ToArc	kws-functions.cc	/^  typedef KwsLexicographicArc ToArc;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+ToArc	kws-functions.cc	/^  typedef KwsProductArc ToArc;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+ToWeight	kws-functions.cc	/^  typedef KwsLexicographicWeight ToWeight;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+ToWeight	kws-functions.cc	/^  typedef KwsProductWeight ToWeight;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+Tuple	word-align-lattice.cc	/^    Tuple(StateId input_state, ComputationState comp_state):$/;"	f	struct:kaldi::LatticeWordAligner::Tuple
+Tuple	word-align-lattice.cc	/^  struct Tuple {$/;"	s	class:kaldi::LatticeWordAligner	file:
+TupleEqual	word-align-lattice.cc	/^  struct TupleEqual {$/;"	s	class:kaldi::LatticeWordAligner	file:
+TupleHash	word-align-lattice.cc	/^  struct TupleHash {$/;"	s	class:kaldi::LatticeWordAligner	file:
+Type	arctic-weight.h	/^  static const string &Type() {$/;"	f	class:fst::ArcticWeightTpl
+TypeOfPhone	word-align-lattice.h	/^  PhoneType TypeOfPhone(int32 p) const {$/;"	f	struct:kaldi::WordBoundaryInfo
+Value	kaldi-lattice.h	/^  const T &Value() const {$/;"	f	class:kaldi::CompactLatticeHolder
+Value	kaldi-lattice.h	/^  const T &Value() const {$/;"	f	class:kaldi::LatticeHolder
+Weight	kaldi-lattice.cc	/^  typedef LatticeWeight Weight;$/;"	t	class:kaldi::LatticeReader	file:
+WordAlignLattice	word-align-lattice.cc	/^bool WordAlignLattice(const CompactLattice &lat,$/;"	f	namespace:kaldi
+WordAlignedLatticeTester	word-align-lattice.cc	/^  WordAlignedLatticeTester(const CompactLattice &lat,$/;"	f	class:kaldi::WordAlignedLatticeTester
+WordAlignedLatticeTester	word-align-lattice.cc	/^class WordAlignedLatticeTester {$/;"	c	namespace:kaldi	file:
+WordBoundaryInfo	word-align-lattice.cc	/^WordBoundaryInfo::WordBoundaryInfo(const WordBoundaryInfoNewOpts &opts,$/;"	f	class:kaldi::WordBoundaryInfo
+WordBoundaryInfo	word-align-lattice.cc	/^WordBoundaryInfo::WordBoundaryInfo(const WordBoundaryInfoOpts &opts) {$/;"	f	class:kaldi::WordBoundaryInfo
+WordBoundaryInfo	word-align-lattice.h	/^struct WordBoundaryInfo {$/;"	s	namespace:kaldi
+WordBoundaryInfoNewOpts	word-align-lattice.h	/^  WordBoundaryInfoNewOpts(): silence_label(0), partial_word_label(0),$/;"	f	struct:kaldi::WordBoundaryInfoNewOpts
+WordBoundaryInfoNewOpts	word-align-lattice.h	/^struct WordBoundaryInfoNewOpts {$/;"	s	namespace:kaldi
+WordBoundaryInfoOpts	word-align-lattice.h	/^  WordBoundaryInfoOpts(): silence_label(0), partial_word_label(0),$/;"	f	struct:kaldi::WordBoundaryInfoOpts
+WordBoundaryInfoOpts	word-align-lattice.h	/^struct WordBoundaryInfoOpts {$/;"	s	namespace:kaldi
+Write	kaldi-lattice.cc	/^bool CompactLatticeHolder::Write(std::ostream &os, bool binary, const CompactLattice &t) {$/;"	f	class:kaldi::CompactLatticeHolder
+Write	kaldi-lattice.cc	/^bool LatticeHolder::Write(std::ostream &os, bool binary, const Lattice &t) {$/;"	f	class:kaldi::LatticeHolder
+Zero	arctic-weight.h	/^  static const ArcticWeightTpl<T> Zero() {$/;"	f	class:fst::ArcticWeightTpl
+aligned_lat_	word-align-lattice.cc	/^  const CompactLattice &aligned_lat_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+arcs_	sausages.h	/^  std::vector<Arc> arcs_;$/;"	m	class:kaldi::MinimumBayesRisk
+comp_state	word-align-lattice.cc	/^    ComputationState comp_state;$/;"	m	struct:kaldi::LatticeWordAligner::Tuple	file:
+delta	sausages.h	/^  static inline BaseFloat delta() { return 1.0e-05; } \/\/ A constant$/;"	f	class:kaldi::MinimumBayesRisk
+do_mbr_	sausages.h	/^  bool do_mbr_;$/;"	m	class:kaldi::MinimumBayesRisk
+end_	kws-functions.h	/^  int32 end_;$/;"	m	class:kaldi::Interval
+end_node	sausages.h	/^    int32 end_node;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+error_	word-align-lattice.cc	/^  bool error_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+fst	arctic-weight.h	/^namespace fst {$/;"	n
+fst::ArcticWeight	arctic-weight.h	/^typedef ArcticWeightTpl<float> ArcticWeight;$/;"	t	namespace:fst
+fst::ArcticWeightTpl	arctic-weight.h	/^class ArcticWeightTpl : public FloatWeightTpl<T> {$/;"	c	namespace:fst
+fst::ArcticWeightTpl::ArcticWeightTpl	arctic-weight.h	/^  ArcticWeightTpl() : FloatWeightTpl<T>() {}$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::ArcticWeightTpl	arctic-weight.h	/^  ArcticWeightTpl(T f) : FloatWeightTpl<T>(f) {}$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::ArcticWeightTpl	arctic-weight.h	/^  ArcticWeightTpl(const ArcticWeightTpl<T> &w) : FloatWeightTpl<T>(w) {}$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::Member	arctic-weight.h	/^  bool Member() const {$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::One	arctic-weight.h	/^  static const ArcticWeightTpl<T> One() {$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::Properties	arctic-weight.h	/^  static uint64 Properties() {$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::Quantize	arctic-weight.h	/^  ArcticWeightTpl<T> Quantize(float delta = kDelta) const {$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::Reverse	arctic-weight.h	/^  ArcticWeightTpl<T> Reverse() const { return *this; }$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::ReverseWeight	arctic-weight.h	/^  typedef ArcticWeightTpl<T> ReverseWeight;$/;"	t	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::Type	arctic-weight.h	/^  static const string &Type() {$/;"	f	class:fst::ArcticWeightTpl
+fst::ArcticWeightTpl::Zero	arctic-weight.h	/^  static const ArcticWeightTpl<T> Zero() {$/;"	f	class:fst::ArcticWeightTpl
+fst::Divide	arctic-weight.h	/^inline ArcticWeightTpl<T> Divide(const ArcticWeightTpl<T> &w1,$/;"	f	namespace:fst
+fst::Divide	arctic-weight.h	/^inline ArcticWeightTpl<double> Divide(const ArcticWeightTpl<double> &w1,$/;"	f	namespace:fst
+fst::Divide	arctic-weight.h	/^inline ArcticWeightTpl<float> Divide(const ArcticWeightTpl<float> &w1,$/;"	f	namespace:fst
+fst::Plus	arctic-weight.h	/^inline ArcticWeightTpl<T> Plus(const ArcticWeightTpl<T> &w1,$/;"	f	namespace:fst
+fst::Plus	arctic-weight.h	/^inline ArcticWeightTpl<double> Plus(const ArcticWeightTpl<double> &w1,$/;"	f	namespace:fst
+fst::Plus	arctic-weight.h	/^inline ArcticWeightTpl<float> Plus(const ArcticWeightTpl<float> &w1,$/;"	f	namespace:fst
+fst::Times	arctic-weight.h	/^inline ArcticWeightTpl<T> Times(const ArcticWeightTpl<T> &w1,$/;"	f	namespace:fst
+fst::Times	arctic-weight.h	/^inline ArcticWeightTpl<double> Times(const ArcticWeightTpl<double> &w1,$/;"	f	namespace:fst
+fst::Times	arctic-weight.h	/^inline ArcticWeightTpl<float> Times(const ArcticWeightTpl<float> &w1,$/;"	f	namespace:fst
+gamma_	sausages.h	/^  std::vector<std::vector<std::pair<int32, BaseFloat> > > gamma_;$/;"	m	class:kaldi::MinimumBayesRisk
+info_	word-align-lattice.cc	/^  WordBoundaryInfo info_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+info_	word-align-lattice.cc	/^  const WordBoundaryInfo &info_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+info_in_	word-align-lattice.cc	/^  const WordBoundaryInfo &info_in_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+input_state	word-align-lattice.cc	/^    StateId input_state;$/;"	m	struct:kaldi::LatticeWordAligner::Tuple	file:
+kNoPhone	word-align-lattice.h	/^    kNoPhone = 0,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kNonWordPhone	word-align-lattice.h	/^    kNonWordPhone \/\/ non-word phones are typically silence phones; but the point$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kWordBeginAndEndPhone	word-align-lattice.h	/^    kWordBeginAndEndPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kWordBeginPhone	word-align-lattice.h	/^    kWordBeginPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kWordEndPhone	word-align-lattice.h	/^    kWordEndPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kWordInternalPhone	word-align-lattice.h	/^    kWordInternalPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi	kaldi-kws.h	/^namespace kaldi {$/;"	n
+kaldi	kaldi-lattice-test.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	kaldi-lattice.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	kaldi-lattice.h	/^namespace kaldi {$/;"	n
+kaldi	kws-functions.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	kws-functions.h	/^namespace kaldi {$/;"	n
+kaldi	lattice-functions.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	lattice-functions.h	/^namespace kaldi {$/;"	n
+kaldi	sausages.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	sausages.h	/^namespace kaldi {$/;"	n
+kaldi	word-align-lattice.cc	/^namespace kaldi {$/;"	n	file:
+kaldi	word-align-lattice.h	/^namespace kaldi {$/;"	n
+kaldi::ClusterLattice	kws-functions.cc	/^bool ClusterLattice(CompactLattice *clat, $/;"	f	namespace:kaldi
+kaldi::CompactLattice	kaldi-lattice.h	/^typedef fst::VectorFst<CompactLatticeArc> CompactLattice;$/;"	t	namespace:kaldi
+kaldi::CompactLatticeArc	kaldi-lattice.h	/^typedef fst::ArcTpl<CompactLatticeWeight> CompactLatticeArc;$/;"	t	namespace:kaldi
+kaldi::CompactLatticeHolder	kaldi-lattice.h	/^class CompactLatticeHolder {$/;"	c	namespace:kaldi
+kaldi::CompactLatticeHolder::Clear	kaldi-lattice.h	/^  void Clear() { if (t_) { delete t_; t_ = NULL; } }$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::CompactLatticeHolder	kaldi-lattice.h	/^  CompactLatticeHolder() { t_ = NULL; }$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::IsReadInBinary	kaldi-lattice.h	/^  static bool IsReadInBinary() { return true; }$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::Read	kaldi-lattice.cc	/^bool CompactLatticeHolder::Read(std::istream &is) {$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::T	kaldi-lattice.h	/^  typedef CompactLattice T;$/;"	t	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::Value	kaldi-lattice.h	/^  const T &Value() const {$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::Write	kaldi-lattice.cc	/^bool CompactLatticeHolder::Write(std::ostream &os, bool binary, const CompactLattice &t) {$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::t_	kaldi-lattice.h	/^  T *t_;$/;"	m	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeHolder::~CompactLatticeHolder	kaldi-lattice.h	/^  ~CompactLatticeHolder() { Clear(); }$/;"	f	class:kaldi::CompactLatticeHolder
+kaldi::CompactLatticeShortestPath	lattice-functions.cc	/^void CompactLatticeShortestPath(const CompactLattice &clat,$/;"	f	namespace:kaldi
+kaldi::CompactLatticeStateTimes	lattice-functions.cc	/^int32 CompactLatticeStateTimes(const CompactLattice &lat, vector<int32> *times) {$/;"	f	namespace:kaldi
+kaldi::CompactLatticeToKwsProductFstMapper	kws-functions.cc	/^class CompactLatticeToKwsProductFstMapper {$/;"	c	namespace:kaldi	file:
+kaldi::CompactLatticeToKwsProductFstMapper::CompactLatticeToKwsProductFstMapper	kws-functions.cc	/^  CompactLatticeToKwsProductFstMapper() {}$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+kaldi::CompactLatticeToKwsProductFstMapper::FinalAction	kws-functions.cc	/^  fst::MapFinalAction FinalAction() const { return fst::MAP_NO_SUPERFINAL; }$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+kaldi::CompactLatticeToKwsProductFstMapper::FromArc	kws-functions.cc	/^  typedef CompactLatticeArc FromArc;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+kaldi::CompactLatticeToKwsProductFstMapper::FromWeight	kws-functions.cc	/^  typedef CompactLatticeWeight FromWeight;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+kaldi::CompactLatticeToKwsProductFstMapper::InputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction InputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS; }$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+kaldi::CompactLatticeToKwsProductFstMapper::OutputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction OutputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS;}$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+kaldi::CompactLatticeToKwsProductFstMapper::Properties	kws-functions.cc	/^  uint64 Properties(uint64 props) const { return props; }$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+kaldi::CompactLatticeToKwsProductFstMapper::ToArc	kws-functions.cc	/^  typedef KwsProductArc ToArc;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+kaldi::CompactLatticeToKwsProductFstMapper::ToWeight	kws-functions.cc	/^  typedef KwsProductWeight ToWeight;$/;"	t	class:kaldi::CompactLatticeToKwsProductFstMapper	file:
+kaldi::CompactLatticeToKwsProductFstMapper::operator ()	kws-functions.cc	/^  ToArc operator()(const FromArc &arc) const {$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+kaldi::CompactLatticeToWordAlignment	lattice-functions.cc	/^bool CompactLatticeToWordAlignment(const CompactLattice &clat,$/;"	f	namespace:kaldi
+kaldi::CompactLatticeWeight	kaldi-lattice.h	/^typedef fst::CompactLatticeWeightTpl<LatticeWeight, int32> CompactLatticeWeight;$/;"	t	namespace:kaldi
+kaldi::CompactLatticeWeightCommonDivisor	kaldi-lattice.h	/^  CompactLatticeWeightCommonDivisor;$/;"	t	namespace:kaldi
+kaldi::CompactLatticeWriter	kaldi-lattice.h	/^typedef TableWriter<CompactLatticeHolder> CompactLatticeWriter;$/;"	t	namespace:kaldi
+kaldi::CompareInterval	kws-functions.cc	/^bool CompareInterval(const Interval &i1,$/;"	f	namespace:kaldi
+kaldi::ComputeCompactLatticeAlphas	kws-functions.cc	/^bool ComputeCompactLatticeAlphas(const CompactLattice &clat,$/;"	f	namespace:kaldi
+kaldi::ComputeCompactLatticeBetas	kws-functions.cc	/^bool ComputeCompactLatticeBetas(const CompactLattice &clat,$/;"	f	namespace:kaldi
+kaldi::ConvertCompactLatticeToPhones	lattice-functions.cc	/^void ConvertCompactLatticeToPhones(const TransitionModel &trans,$/;"	f	namespace:kaldi
+kaldi::ConvertLatticeToPhones	lattice-functions.cc	/^void ConvertLatticeToPhones(const TransitionModel &trans,$/;"	f	namespace:kaldi
+kaldi::ConvertToCompactLattice	kaldi-lattice.cc	/^CompactLattice* ConvertToCompactLattice(CompactLattice *ifst) {$/;"	f	namespace:kaldi
+kaldi::ConvertToCompactLattice	kaldi-lattice.cc	/^CompactLattice* ConvertToCompactLattice(fst::VectorFst<OrigWeightType> *ifst) {$/;"	f	namespace:kaldi
+kaldi::ConvertToLattice	kaldi-lattice.cc	/^Lattice* ConvertToLattice(Lattice *ifst) {$/;"	f	namespace:kaldi
+kaldi::ConvertToLattice	kaldi-lattice.cc	/^Lattice* ConvertToLattice(fst::VectorFst<OrigWeightType> *ifst) {$/;"	f	namespace:kaldi
+kaldi::CreateFactorTransducer	kws-functions.cc	/^bool CreateFactorTransducer(const CompactLattice &clat,$/;"	f	namespace:kaldi
+kaldi::DoFactorDisambiguation	kws-functions.cc	/^void DoFactorDisambiguation(KwsLexicographicFst *index_transducer) {$/;"	f	namespace:kaldi
+kaldi::DoFactorMerging	kws-functions.cc	/^void DoFactorMerging(KwsProductFst factor_transducer,$/;"	f	namespace:kaldi
+kaldi::Int32IsZero	sausages.cc	/^struct Int32IsZero {$/;"	s	namespace:kaldi	file:
+kaldi::Int32IsZero::operator ()	sausages.cc	/^  bool operator() (int32 i) { return (i == 0); }$/;"	f	struct:kaldi::Int32IsZero
+kaldi::Interval	kws-functions.h	/^class Interval {$/;"	c	namespace:kaldi
+kaldi::Interval::End	kws-functions.h	/^  int32 End() const {return end_;}$/;"	f	class:kaldi::Interval
+kaldi::Interval::Interval	kws-functions.h	/^  Interval() {}$/;"	f	class:kaldi::Interval
+kaldi::Interval::Interval	kws-functions.h	/^  Interval(const Interval &interval) : start_(interval.Start()), end_(interval.End()) {}$/;"	f	class:kaldi::Interval
+kaldi::Interval::Interval	kws-functions.h	/^  Interval(int32 start, int32 end) : start_(start), end_(end) {}$/;"	f	class:kaldi::Interval
+kaldi::Interval::Start	kws-functions.h	/^  int32 Start() const {return start_;}$/;"	f	class:kaldi::Interval
+kaldi::Interval::end_	kws-functions.h	/^  int32 end_;$/;"	m	class:kaldi::Interval
+kaldi::Interval::overlap	kws-functions.cc	/^int32 Interval::overlap(Interval interval) {$/;"	f	class:kaldi::Interval
+kaldi::Interval::start_	kws-functions.h	/^  int32 start_;$/;"	m	class:kaldi::Interval
+kaldi::Interval::~Interval	kws-functions.h	/^  ~Interval() {}$/;"	f	class:kaldi::Interval
+kaldi::IsPlausibleWord	word-align-lattice.cc	/^static bool IsPlausibleWord(const WordBoundaryInfo &info,$/;"	f	namespace:kaldi
+kaldi::KwsLexicographicArc	kaldi-kws.h	/^typedef StdLStdLStdArc KwsLexicographicArc;$/;"	t	namespace:kaldi
+kaldi::KwsLexicographicFst	kaldi-kws.h	/^typedef fst::VectorFst<KwsLexicographicArc> KwsLexicographicFst;$/;"	t	namespace:kaldi
+kaldi::KwsLexicographicWeight	kaldi-kws.h	/^typedef StdLStdLStdWeight KwsLexicographicWeight;$/;"	t	namespace:kaldi
+kaldi::KwsProductArc	kaldi-kws.h	/^typedef LogXStdXStdprimeArc KwsProductArc;$/;"	t	namespace:kaldi
+kaldi::KwsProductFst	kaldi-kws.h	/^typedef fst::VectorFst<KwsProductArc> KwsProductFst;$/;"	t	namespace:kaldi
+kaldi::KwsProductFstToKwsLexicographicFstMapper	kws-functions.cc	/^class KwsProductFstToKwsLexicographicFstMapper {$/;"	c	namespace:kaldi	file:
+kaldi::KwsProductFstToKwsLexicographicFstMapper::FinalAction	kws-functions.cc	/^  fst::MapFinalAction FinalAction() const { return fst::MAP_NO_SUPERFINAL; }$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+kaldi::KwsProductFstToKwsLexicographicFstMapper::FromArc	kws-functions.cc	/^  typedef KwsProductArc FromArc;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+kaldi::KwsProductFstToKwsLexicographicFstMapper::FromWeight	kws-functions.cc	/^  typedef KwsProductWeight FromWeight;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+kaldi::KwsProductFstToKwsLexicographicFstMapper::InputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction InputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS; }$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+kaldi::KwsProductFstToKwsLexicographicFstMapper::KwsProductFstToKwsLexicographicFstMapper	kws-functions.cc	/^  KwsProductFstToKwsLexicographicFstMapper() {}$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+kaldi::KwsProductFstToKwsLexicographicFstMapper::OutputSymbolsAction	kws-functions.cc	/^  fst::MapSymbolsAction OutputSymbolsAction() const { return fst::MAP_COPY_SYMBOLS;}$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+kaldi::KwsProductFstToKwsLexicographicFstMapper::Properties	kws-functions.cc	/^  uint64 Properties(uint64 props) const { return props; }$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+kaldi::KwsProductFstToKwsLexicographicFstMapper::ToArc	kws-functions.cc	/^  typedef KwsLexicographicArc ToArc;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+kaldi::KwsProductFstToKwsLexicographicFstMapper::ToWeight	kws-functions.cc	/^  typedef KwsLexicographicWeight ToWeight;$/;"	t	class:kaldi::KwsProductFstToKwsLexicographicFstMapper	file:
+kaldi::KwsProductFstToKwsLexicographicFstMapper::operator ()	kws-functions.cc	/^  ToArc operator()(const FromArc &arc) const {$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+kaldi::KwsProductWeight	kaldi-kws.h	/^typedef LogXStdXStdprimeWeight KwsProductWeight;$/;"	t	namespace:kaldi
+kaldi::Lattice	kaldi-lattice.h	/^typedef fst::VectorFst<LatticeArc> Lattice;$/;"	t	namespace:kaldi
+kaldi::LatticeActivePhones	lattice-functions.cc	/^void LatticeActivePhones(const Lattice &lat, const TransitionModel &trans,$/;"	f	namespace:kaldi
+kaldi::LatticeArc	kaldi-lattice.h	/^typedef fst::ArcTpl<LatticeWeight> LatticeArc;$/;"	t	namespace:kaldi
+kaldi::LatticeBoost	lattice-functions.cc	/^bool LatticeBoost(const TransitionModel &trans,$/;"	f	namespace:kaldi
+kaldi::LatticeForwardBackward	lattice-functions.cc	/^BaseFloat LatticeForwardBackward(const Lattice &lat, Posterior *arc_post,$/;"	f	namespace:kaldi
+kaldi::LatticeForwardBackwardMpe	lattice-functions.cc	/^BaseFloat LatticeForwardBackwardMpe(const Lattice &lat,$/;"	f	namespace:kaldi
+kaldi::LatticeHolder	kaldi-lattice.h	/^class LatticeHolder {$/;"	c	namespace:kaldi
+kaldi::LatticeHolder::Clear	kaldi-lattice.h	/^  void Clear() { if (t_) { delete t_; t_ = NULL; } }$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::IsReadInBinary	kaldi-lattice.h	/^  static bool IsReadInBinary() { return true; }$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::LatticeHolder	kaldi-lattice.h	/^  LatticeHolder() { t_ = NULL; }$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::Read	kaldi-lattice.cc	/^bool LatticeHolder::Read(std::istream &is) {$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::T	kaldi-lattice.h	/^  typedef Lattice T;$/;"	t	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::Value	kaldi-lattice.h	/^  const T &Value() const {$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::Write	kaldi-lattice.cc	/^bool LatticeHolder::Write(std::ostream &os, bool binary, const Lattice &t) {$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::t_	kaldi-lattice.h	/^  T *t_;$/;"	m	class:kaldi::LatticeHolder
+kaldi::LatticeHolder::~LatticeHolder	kaldi-lattice.h	/^  ~LatticeHolder() { Clear(); }$/;"	f	class:kaldi::LatticeHolder
+kaldi::LatticePhoneFrameAccuracy	lattice-functions.cc	/^int32 LatticePhoneFrameAccuracy(const Lattice &hyp, const TransitionModel &trans,$/;"	f	namespace:kaldi
+kaldi::LatticeReader	kaldi-lattice.cc	/^class LatticeReader {$/;"	c	namespace:kaldi	file:
+kaldi::LatticeReader::Arc	kaldi-lattice.cc	/^  typedef LatticeArc Arc;$/;"	t	class:kaldi::LatticeReader	file:
+kaldi::LatticeReader::CArc	kaldi-lattice.cc	/^  typedef CompactLatticeArc CArc;$/;"	t	class:kaldi::LatticeReader	file:
+kaldi::LatticeReader::CWeight	kaldi-lattice.cc	/^  typedef CompactLatticeWeight CWeight;$/;"	t	class:kaldi::LatticeReader	file:
+kaldi::LatticeReader::Label	kaldi-lattice.cc	/^  typedef Arc::Label Label;$/;"	t	class:kaldi::LatticeReader	file:
+kaldi::LatticeReader::ReadText	kaldi-lattice.cc	/^  static std::pair<Lattice*, CompactLattice*> ReadText($/;"	f	class:kaldi::LatticeReader
+kaldi::LatticeReader::StateId	kaldi-lattice.cc	/^  typedef Arc::StateId StateId;$/;"	t	class:kaldi::LatticeReader	file:
+kaldi::LatticeReader::StrToCWeight	kaldi-lattice.cc	/^  static  bool StrToCWeight(const std::string &s, bool allow_zero, CWeight *w) {$/;"	f	class:kaldi::LatticeReader
+kaldi::LatticeReader::StrToWeight	kaldi-lattice.cc	/^  static bool StrToWeight(const std::string &s, bool allow_zero, Weight *w) {$/;"	f	class:kaldi::LatticeReader
+kaldi::LatticeReader::Weight	kaldi-lattice.cc	/^  typedef LatticeWeight Weight;$/;"	t	class:kaldi::LatticeReader	file:
+kaldi::LatticeStateTimes	lattice-functions.cc	/^int32 LatticeStateTimes(const Lattice &lat, vector<int32> *times) {$/;"	f	namespace:kaldi
+kaldi::LatticeWeight	kaldi-lattice.h	/^typedef fst::LatticeWeightTpl<BaseFloat> LatticeWeight;$/;"	t	namespace:kaldi
+kaldi::LatticeWordAligner	word-align-lattice.cc	/^class LatticeWordAligner {$/;"	c	namespace:kaldi	file:
+kaldi::LatticeWordAligner::AlignLattice	word-align-lattice.cc	/^  bool AlignLattice() {$/;"	f	class:kaldi::LatticeWordAligner
+kaldi::LatticeWordAligner::ComputationState	word-align-lattice.cc	/^  class ComputationState { \/\/\/ The state of the computation in which,$/;"	c	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::ComputationState::Advance	word-align-lattice.cc	/^    void Advance(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::ComputationState	word-align-lattice.cc	/^    ComputationState(): weight_(LatticeWeight::One()) { } \/\/ initial state.$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::ComputationState	word-align-lattice.cc	/^    ComputationState(const ComputationState &other):$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::FinalWeight	word-align-lattice.cc	/^    LatticeWeight FinalWeight() { return (IsEmpty() ? weight_ : LatticeWeight::Zero()); }$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::Hash	word-align-lattice.cc	/^    size_t Hash() const {$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::IsEmpty	word-align-lattice.cc	/^    bool IsEmpty() { return (transition_ids_.empty() && word_labels_.empty()); }$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::OutputArc	word-align-lattice.cc	/^    bool OutputArc(const WordBoundaryInfo &info,$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::OutputArcForce	word-align-lattice.cc	/^void LatticeWordAligner::ComputationState::OutputArcForce($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::OutputNormalWordArc	word-align-lattice.cc	/^bool LatticeWordAligner::ComputationState::OutputNormalWordArc($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::OutputOnePhoneWordArc	word-align-lattice.cc	/^bool LatticeWordAligner::ComputationState::OutputOnePhoneWordArc($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::OutputSilenceArc	word-align-lattice.cc	/^bool LatticeWordAligner::ComputationState::OutputSilenceArc($/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::operator ==	word-align-lattice.cc	/^    bool operator == (const ComputationState &other) const {$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+kaldi::LatticeWordAligner::ComputationState::transition_ids_	word-align-lattice.cc	/^    std::vector<int32> transition_ids_;$/;"	m	class:kaldi::LatticeWordAligner::ComputationState	file:
+kaldi::LatticeWordAligner::ComputationState::weight_	word-align-lattice.cc	/^    LatticeWeight weight_; \/\/ contains two floats.$/;"	m	class:kaldi::LatticeWordAligner::ComputationState	file:
+kaldi::LatticeWordAligner::ComputationState::word_labels_	word-align-lattice.cc	/^    std::vector<int32> word_labels_;$/;"	m	class:kaldi::LatticeWordAligner::ComputationState	file:
+kaldi::LatticeWordAligner::GetStateForTuple	word-align-lattice.cc	/^  StateId GetStateForTuple(const Tuple &tuple, bool add_to_queue) {$/;"	f	class:kaldi::LatticeWordAligner
+kaldi::LatticeWordAligner::Label	word-align-lattice.cc	/^  typedef CompactLatticeArc::Label Label;$/;"	t	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::LatticeWordAligner	word-align-lattice.cc	/^  LatticeWordAligner(const CompactLattice &lat,$/;"	f	class:kaldi::LatticeWordAligner
+kaldi::LatticeWordAligner::MapType	word-align-lattice.cc	/^  typedef unordered_map<Tuple, StateId, TupleHash, TupleEqual> MapType;$/;"	t	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::ProcessFinal	word-align-lattice.cc	/^  void ProcessFinal(Tuple tuple, StateId output_state) {$/;"	f	class:kaldi::LatticeWordAligner
+kaldi::LatticeWordAligner::ProcessQueueElement	word-align-lattice.cc	/^  void ProcessQueueElement() {$/;"	f	class:kaldi::LatticeWordAligner
+kaldi::LatticeWordAligner::RemoveEpsilonsFromLattice	word-align-lattice.cc	/^  void RemoveEpsilonsFromLattice() {$/;"	f	class:kaldi::LatticeWordAligner
+kaldi::LatticeWordAligner::StateId	word-align-lattice.cc	/^  typedef CompactLatticeArc::StateId StateId;$/;"	t	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::Tuple	word-align-lattice.cc	/^  struct Tuple {$/;"	s	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::Tuple::Tuple	word-align-lattice.cc	/^    Tuple(StateId input_state, ComputationState comp_state):$/;"	f	struct:kaldi::LatticeWordAligner::Tuple
+kaldi::LatticeWordAligner::Tuple::comp_state	word-align-lattice.cc	/^    ComputationState comp_state;$/;"	m	struct:kaldi::LatticeWordAligner::Tuple	file:
+kaldi::LatticeWordAligner::Tuple::input_state	word-align-lattice.cc	/^    StateId input_state;$/;"	m	struct:kaldi::LatticeWordAligner::Tuple	file:
+kaldi::LatticeWordAligner::TupleEqual	word-align-lattice.cc	/^  struct TupleEqual {$/;"	s	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::TupleEqual::operator ()	word-align-lattice.cc	/^    bool operator () (const Tuple &state1, const Tuple &state2) const {$/;"	f	struct:kaldi::LatticeWordAligner::TupleEqual
+kaldi::LatticeWordAligner::TupleHash	word-align-lattice.cc	/^  struct TupleHash {$/;"	s	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::TupleHash::operator ()	word-align-lattice.cc	/^    size_t operator() (const Tuple &state) const {$/;"	f	struct:kaldi::LatticeWordAligner::TupleHash
+kaldi::LatticeWordAligner::error_	word-align-lattice.cc	/^  bool error_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::info_	word-align-lattice.cc	/^  WordBoundaryInfo info_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::info_in_	word-align-lattice.cc	/^  const WordBoundaryInfo &info_in_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::lat_	word-align-lattice.cc	/^  CompactLattice lat_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::lat_out_	word-align-lattice.cc	/^  CompactLattice *lat_out_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::map_	word-align-lattice.cc	/^  MapType map_; \/\/ map from tuples to StateId.$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::queue_	word-align-lattice.cc	/^  std::vector<std::pair<Tuple, StateId> > queue_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWordAligner::tmodel_	word-align-lattice.cc	/^  const TransitionModel &tmodel_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+kaldi::LatticeWriter	kaldi-lattice.h	/^typedef TableWriter<LatticeHolder> LatticeWriter;$/;"	t	namespace:kaldi
+kaldi::LogXStdXStdprimeArc	kaldi-kws.h	/^typedef fst::ArcTpl<LogXStdXStdprimeWeight> LogXStdXStdprimeArc;$/;"	t	namespace:kaldi
+kaldi::LogXStdXStdprimeWeight	kaldi-kws.h	/^typedef fst::ProductWeight<LogWeight, StdXStdprimeWeight> LogXStdXStdprimeWeight;$/;"	t	namespace:kaldi
+kaldi::MinimumBayesRisk	sausages.h	/^class MinimumBayesRisk {$/;"	c	namespace:kaldi
+kaldi::MinimumBayesRisk::AccStats	sausages.cc	/^void MinimumBayesRisk::AccStats() {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::AddToMap	sausages.h	/^  static inline void AddToMap(int32 i, double d, std::map<int32, double> *gamma) {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::Arc	sausages.h	/^  struct Arc {$/;"	s	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::Arc::end_node	sausages.h	/^    int32 end_node;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+kaldi::MinimumBayesRisk::Arc::loglike	sausages.h	/^    BaseFloat loglike;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+kaldi::MinimumBayesRisk::Arc::start_node	sausages.h	/^    int32 start_node;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+kaldi::MinimumBayesRisk::Arc::word	sausages.h	/^    int32 word;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+kaldi::MinimumBayesRisk::EditDistance	sausages.cc	/^double MinimumBayesRisk::EditDistance(int32 N, int32 Q,$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GammaCompare	sausages.h	/^  struct GammaCompare{$/;"	s	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GammaCompare::operator ()	sausages.h	/^    bool operator () (const std::pair<int32, BaseFloat> &a,$/;"	f	struct:kaldi::MinimumBayesRisk::GammaCompare
+kaldi::MinimumBayesRisk::GetBayesRisk	sausages.h	/^  BaseFloat GetBayesRisk() const { return L_; }$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GetOneBest	sausages.h	/^  const std::vector<int32> &GetOneBest() const { \/\/ gets one-best (with no epsilons)$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GetOneBestConfidences	sausages.h	/^  const std::vector<BaseFloat> &GetOneBestConfidences() const {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GetOneBestTimes	sausages.h	/^  const std::vector<std::pair<BaseFloat, BaseFloat> > &GetOneBestTimes() const {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GetSausageStats	sausages.h	/^  const std::vector<std::vector<std::pair<int32, BaseFloat> > > &GetSausageStats() const {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::GetSausageTimes	sausages.h	/^  const std::vector<std::pair<BaseFloat, BaseFloat> > GetSausageTimes() const {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::L_	sausages.h	/^  double L_; \/\/ current averaged edit-distance between lattice and R_.$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::MbrDecode	sausages.cc	/^void MinimumBayesRisk::MbrDecode() {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::MinimumBayesRisk	sausages.cc	/^MinimumBayesRisk::MinimumBayesRisk(const CompactLattice &clat_in, bool do_mbr) {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::NormalizeEps	sausages.cc	/^void MinimumBayesRisk::NormalizeEps(std::vector<int32> *vec) {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::R_	sausages.h	/^  std::vector<int32> R_; \/\/ current 1-best word sequence, normalized to have$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::RemoveEps	sausages.cc	/^void MinimumBayesRisk::RemoveEps(std::vector<int32> *vec) {$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::arcs_	sausages.h	/^  std::vector<Arc> arcs_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::delta	sausages.h	/^  static inline BaseFloat delta() { return 1.0e-05; } \/\/ A constant$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::do_mbr_	sausages.h	/^  bool do_mbr_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::gamma_	sausages.h	/^  std::vector<std::vector<std::pair<int32, BaseFloat> > > gamma_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::l	sausages.h	/^  inline double l(int32 a, int32 b) { return (a == b ? 0.0 : 1.0); }$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::one_best_confidences_	sausages.h	/^  std::vector<BaseFloat> one_best_confidences_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::one_best_times_	sausages.h	/^  std::vector<std::pair<BaseFloat, BaseFloat> > one_best_times_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::pre_	sausages.h	/^  std::vector<std::vector<int32> > pre_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::r	sausages.h	/^  inline int32 r(int32 q) { return R_[q-1]; }$/;"	f	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::state_times_	sausages.h	/^  std::vector<int32> state_times_; \/\/ time of each state in the word lattice,$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::MinimumBayesRisk::times_	sausages.h	/^  std::vector<std::pair<BaseFloat, BaseFloat> > times_;$/;"	m	class:kaldi::MinimumBayesRisk
+kaldi::OptimizeFactorTransducer	kws-functions.cc	/^void OptimizeFactorTransducer(KwsLexicographicFst *index_transducer) {$/;"	f	namespace:kaldi
+kaldi::PruneLattice	lattice-functions.cc	/^bool PruneLattice(BaseFloat beam, LatType *lat) {$/;"	f	namespace:kaldi
+kaldi::RandCompactLattice	kaldi-lattice-test.cc	/^CompactLattice *RandCompactLattice() {$/;"	f	namespace:kaldi
+kaldi::RandLattice	kaldi-lattice-test.cc	/^Lattice *RandLattice() {$/;"	f	namespace:kaldi
+kaldi::RandomAccessCompactLatticeReader	kaldi-lattice.h	/^typedef RandomAccessTableReader<CompactLatticeHolder> RandomAccessCompactLatticeReader;$/;"	t	namespace:kaldi
+kaldi::RandomAccessLatticeReader	kaldi-lattice.h	/^typedef RandomAccessTableReader<LatticeHolder> RandomAccessLatticeReader;$/;"	t	namespace:kaldi
+kaldi::ReadCompactLatticeText	kaldi-lattice.cc	/^CompactLattice *ReadCompactLatticeText(std::istream &is) {$/;"	f	namespace:kaldi
+kaldi::ReadLatticeText	kaldi-lattice.cc	/^Lattice *ReadLatticeText(std::istream &is) {$/;"	f	namespace:kaldi
+kaldi::RemoveLongSilences	kws-functions.cc	/^void RemoveLongSilences(int32 max_silence_frames,$/;"	f	namespace:kaldi
+kaldi::SequentialCompactLatticeReader	kaldi-lattice.h	/^typedef SequentialTableReader<CompactLatticeHolder> SequentialCompactLatticeReader;$/;"	t	namespace:kaldi
+kaldi::SequentialLatticeReader	kaldi-lattice.h	/^typedef SequentialTableReader<LatticeHolder> SequentialLatticeReader;$/;"	t	namespace:kaldi
+kaldi::StdLStdLStdArc	kaldi-kws.h	/^typedef fst::ArcTpl<StdLStdLStdWeight> StdLStdLStdArc;$/;"	t	namespace:kaldi
+kaldi::StdLStdLStdWeight	kaldi-kws.h	/^typedef fst::LexicographicWeight<TropicalWeight, StdLStdWeight> StdLStdLStdWeight;$/;"	t	namespace:kaldi
+kaldi::StdLStdWeight	kaldi-kws.h	/^typedef fst::LexicographicWeight<TropicalWeight, TropicalWeight> StdLStdWeight;$/;"	t	namespace:kaldi
+kaldi::StdXStdprimeWeight	kaldi-kws.h	/^typedef fst::ProductWeight<TropicalWeight, ArcticWeight> StdXStdprimeWeight;$/;"	t	namespace:kaldi
+kaldi::TestCompactLatticeTable	kaldi-lattice-test.cc	/^void TestCompactLatticeTable(bool binary) {$/;"	f	namespace:kaldi
+kaldi::TestCompactLatticeTableCross	kaldi-lattice-test.cc	/^void TestCompactLatticeTableCross(bool binary) {$/;"	f	namespace:kaldi
+kaldi::TestLatticeTable	kaldi-lattice-test.cc	/^void TestLatticeTable(bool binary) {$/;"	f	namespace:kaldi
+kaldi::TestLatticeTableCross	kaldi-lattice-test.cc	/^void TestLatticeTableCross(bool binary) {$/;"	f	namespace:kaldi
+kaldi::TestWordAlignedLattice	word-align-lattice.cc	/^void TestWordAlignedLattice(const CompactLattice &lat,$/;"	f	namespace:kaldi
+kaldi::WordAlignLattice	word-align-lattice.cc	/^bool WordAlignLattice(const CompactLattice &lat,$/;"	f	namespace:kaldi
+kaldi::WordAlignedLatticeTester	word-align-lattice.cc	/^class WordAlignedLatticeTester {$/;"	c	namespace:kaldi	file:
+kaldi::WordAlignedLatticeTester::Test	word-align-lattice.cc	/^  void Test() {$/;"	f	class:kaldi::WordAlignedLatticeTester
+kaldi::WordAlignedLatticeTester::TestArc	word-align-lattice.cc	/^  void TestArc(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestArcEmpty	word-align-lattice.cc	/^  bool TestArcEmpty(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestArcNormalWord	word-align-lattice.cc	/^  bool TestArcNormalWord(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestArcOnePhoneWord	word-align-lattice.cc	/^  bool TestArcOnePhoneWord(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestArcPartialWord	word-align-lattice.cc	/^  bool TestArcPartialWord(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestArcSilence	word-align-lattice.cc	/^  bool TestArcSilence(const CompactLatticeArc &arc) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestEquivalent	word-align-lattice.cc	/^  void TestEquivalent() {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::TestFinal	word-align-lattice.cc	/^  void TestFinal(const CompactLatticeWeight &w) {$/;"	f	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::WordAlignedLatticeTester	word-align-lattice.cc	/^  WordAlignedLatticeTester(const CompactLattice &lat,$/;"	f	class:kaldi::WordAlignedLatticeTester
+kaldi::WordAlignedLatticeTester::aligned_lat_	word-align-lattice.cc	/^  const CompactLattice &aligned_lat_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::info_	word-align-lattice.cc	/^  const WordBoundaryInfo &info_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::lat_	word-align-lattice.cc	/^  const CompactLattice &lat_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordAlignedLatticeTester::tmodel_	word-align-lattice.cc	/^  const TransitionModel &tmodel_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+kaldi::WordBoundaryInfo	word-align-lattice.h	/^struct WordBoundaryInfo {$/;"	s	namespace:kaldi
+kaldi::WordBoundaryInfo::PhoneType	word-align-lattice.h	/^  enum PhoneType {$/;"	g	struct:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::SetOptions	word-align-lattice.cc	/^void WordBoundaryInfo::SetOptions(const std::string int_list, PhoneType phone_type) {$/;"	f	class:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::TypeOfPhone	word-align-lattice.h	/^  PhoneType TypeOfPhone(int32 p) const {$/;"	f	struct:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::WordBoundaryInfo	word-align-lattice.cc	/^WordBoundaryInfo::WordBoundaryInfo(const WordBoundaryInfoNewOpts &opts,$/;"	f	class:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::WordBoundaryInfo	word-align-lattice.cc	/^WordBoundaryInfo::WordBoundaryInfo(const WordBoundaryInfoOpts &opts) {$/;"	f	class:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::kNoPhone	word-align-lattice.h	/^    kNoPhone = 0,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi::WordBoundaryInfo::kNonWordPhone	word-align-lattice.h	/^    kNonWordPhone \/\/ non-word phones are typically silence phones; but the point$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi::WordBoundaryInfo::kWordBeginAndEndPhone	word-align-lattice.h	/^    kWordBeginAndEndPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi::WordBoundaryInfo::kWordBeginPhone	word-align-lattice.h	/^    kWordBeginPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi::WordBoundaryInfo::kWordEndPhone	word-align-lattice.h	/^    kWordEndPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi::WordBoundaryInfo::kWordInternalPhone	word-align-lattice.h	/^    kWordInternalPhone,$/;"	e	enum:kaldi::WordBoundaryInfo::PhoneType
+kaldi::WordBoundaryInfo::partial_word_label	word-align-lattice.h	/^  int32 partial_word_label; \/\/ The label we give to partially$/;"	m	struct:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::phone_to_type	word-align-lattice.h	/^  std::vector<PhoneType> phone_to_type;$/;"	m	struct:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::reorder	word-align-lattice.h	/^  bool reorder; \/\/ True if the "reordering" of self-loops versus$/;"	m	struct:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfo::silence_label	word-align-lattice.h	/^  int32 silence_label; \/\/ The integer label we give to silence words.$/;"	m	struct:kaldi::WordBoundaryInfo
+kaldi::WordBoundaryInfoNewOpts	word-align-lattice.h	/^struct WordBoundaryInfoNewOpts {$/;"	s	namespace:kaldi
+kaldi::WordBoundaryInfoNewOpts::Register	word-align-lattice.h	/^  void Register(ParseOptions *po) {$/;"	f	struct:kaldi::WordBoundaryInfoNewOpts
+kaldi::WordBoundaryInfoNewOpts::WordBoundaryInfoNewOpts	word-align-lattice.h	/^  WordBoundaryInfoNewOpts(): silence_label(0), partial_word_label(0),$/;"	f	struct:kaldi::WordBoundaryInfoNewOpts
+kaldi::WordBoundaryInfoNewOpts::partial_word_label	word-align-lattice.h	/^  int32 partial_word_label;$/;"	m	struct:kaldi::WordBoundaryInfoNewOpts
+kaldi::WordBoundaryInfoNewOpts::reorder	word-align-lattice.h	/^  bool reorder;$/;"	m	struct:kaldi::WordBoundaryInfoNewOpts
+kaldi::WordBoundaryInfoNewOpts::silence_label	word-align-lattice.h	/^  int32 silence_label;$/;"	m	struct:kaldi::WordBoundaryInfoNewOpts
+kaldi::WordBoundaryInfoOpts	word-align-lattice.h	/^struct WordBoundaryInfoOpts {$/;"	s	namespace:kaldi
+kaldi::WordBoundaryInfoOpts::Register	word-align-lattice.h	/^  void Register(ParseOptions *po) {$/;"	f	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::WordBoundaryInfoOpts	word-align-lattice.h	/^  WordBoundaryInfoOpts(): silence_label(0), partial_word_label(0),$/;"	f	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::partial_word_label	word-align-lattice.h	/^  int32 partial_word_label;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::reorder	word-align-lattice.h	/^  bool reorder;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::silence_has_olabels	word-align-lattice.h	/^  bool silence_has_olabels;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::silence_label	word-align-lattice.h	/^  int32 silence_label;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::silence_may_be_word_internal	word-align-lattice.h	/^  bool silence_may_be_word_internal;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::silence_phones	word-align-lattice.h	/^  std::string silence_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::wbegin_and_end_phones	word-align-lattice.h	/^  std::string wbegin_and_end_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::wbegin_phones	word-align-lattice.h	/^  std::string wbegin_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::wend_phones	word-align-lattice.h	/^  std::string wend_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+kaldi::WordBoundaryInfoOpts::winternal_phones	word-align-lattice.h	/^  std::string winternal_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+l	sausages.h	/^  inline double l(int32 a, int32 b) { return (a == b ? 0.0 : 1.0); }$/;"	f	class:kaldi::MinimumBayesRisk
+lat_	word-align-lattice.cc	/^  CompactLattice lat_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+lat_	word-align-lattice.cc	/^  const CompactLattice &lat_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+lat_out_	word-align-lattice.cc	/^  CompactLattice *lat_out_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+loglike	sausages.h	/^    BaseFloat loglike;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+main	kaldi-lattice-test.cc	/^int main() {$/;"	f
+map_	word-align-lattice.cc	/^  MapType map_; \/\/ map from tuples to StateId.$/;"	m	class:kaldi::LatticeWordAligner	file:
+one_best_confidences_	sausages.h	/^  std::vector<BaseFloat> one_best_confidences_;$/;"	m	class:kaldi::MinimumBayesRisk
+one_best_times_	sausages.h	/^  std::vector<std::pair<BaseFloat, BaseFloat> > one_best_times_;$/;"	m	class:kaldi::MinimumBayesRisk
+operator ()	kws-functions.cc	/^  ToArc operator()(const FromArc &arc) const {$/;"	f	class:kaldi::CompactLatticeToKwsProductFstMapper
+operator ()	kws-functions.cc	/^  ToArc operator()(const FromArc &arc) const {$/;"	f	class:kaldi::KwsProductFstToKwsLexicographicFstMapper
+operator ()	sausages.cc	/^  bool operator() (int32 i) { return (i == 0); }$/;"	f	struct:kaldi::Int32IsZero
+operator ()	sausages.h	/^    bool operator () (const std::pair<int32, BaseFloat> &a,$/;"	f	struct:kaldi::MinimumBayesRisk::GammaCompare
+operator ()	word-align-lattice.cc	/^    bool operator () (const Tuple &state1, const Tuple &state2) const {$/;"	f	struct:kaldi::LatticeWordAligner::TupleEqual
+operator ()	word-align-lattice.cc	/^    size_t operator() (const Tuple &state) const {$/;"	f	struct:kaldi::LatticeWordAligner::TupleHash
+operator ==	word-align-lattice.cc	/^    bool operator == (const ComputationState &other) const {$/;"	f	class:kaldi::LatticeWordAligner::ComputationState
+overlap	kws-functions.cc	/^int32 Interval::overlap(Interval interval) {$/;"	f	class:kaldi::Interval
+partial_word_label	word-align-lattice.h	/^  int32 partial_word_label; \/\/ The label we give to partially$/;"	m	struct:kaldi::WordBoundaryInfo
+partial_word_label	word-align-lattice.h	/^  int32 partial_word_label;$/;"	m	struct:kaldi::WordBoundaryInfoNewOpts
+partial_word_label	word-align-lattice.h	/^  int32 partial_word_label;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+phone_to_type	word-align-lattice.h	/^  std::vector<PhoneType> phone_to_type;$/;"	m	struct:kaldi::WordBoundaryInfo
+pre_	sausages.h	/^  std::vector<std::vector<int32> > pre_;$/;"	m	class:kaldi::MinimumBayesRisk
+queue_	word-align-lattice.cc	/^  std::vector<std::pair<Tuple, StateId> > queue_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+r	sausages.h	/^  inline int32 r(int32 q) { return R_[q-1]; }$/;"	f	class:kaldi::MinimumBayesRisk
+reorder	word-align-lattice.h	/^  bool reorder; \/\/ True if the "reordering" of self-loops versus$/;"	m	struct:kaldi::WordBoundaryInfo
+reorder	word-align-lattice.h	/^  bool reorder;$/;"	m	struct:kaldi::WordBoundaryInfoNewOpts
+reorder	word-align-lattice.h	/^  bool reorder;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+silence_has_olabels	word-align-lattice.h	/^  bool silence_has_olabels;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+silence_label	word-align-lattice.h	/^  int32 silence_label; \/\/ The integer label we give to silence words.$/;"	m	struct:kaldi::WordBoundaryInfo
+silence_label	word-align-lattice.h	/^  int32 silence_label;$/;"	m	struct:kaldi::WordBoundaryInfoNewOpts
+silence_label	word-align-lattice.h	/^  int32 silence_label;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+silence_may_be_word_internal	word-align-lattice.h	/^  bool silence_may_be_word_internal;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+silence_phones	word-align-lattice.h	/^  std::string silence_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+start_	kws-functions.h	/^  int32 start_;$/;"	m	class:kaldi::Interval
+start_node	sausages.h	/^    int32 start_node;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+state_times_	sausages.h	/^  std::vector<int32> state_times_; \/\/ time of each state in the word lattice,$/;"	m	class:kaldi::MinimumBayesRisk
+t_	kaldi-lattice.h	/^  T *t_;$/;"	m	class:kaldi::CompactLatticeHolder
+t_	kaldi-lattice.h	/^  T *t_;$/;"	m	class:kaldi::LatticeHolder
+times_	sausages.h	/^  std::vector<std::pair<BaseFloat, BaseFloat> > times_;$/;"	m	class:kaldi::MinimumBayesRisk
+tmodel_	word-align-lattice.cc	/^  const TransitionModel &tmodel_;$/;"	m	class:kaldi::LatticeWordAligner	file:
+tmodel_	word-align-lattice.cc	/^  const TransitionModel &tmodel_;$/;"	m	class:kaldi::WordAlignedLatticeTester	file:
+transition_ids_	word-align-lattice.cc	/^    std::vector<int32> transition_ids_;$/;"	m	class:kaldi::LatticeWordAligner::ComputationState	file:
+wbegin_and_end_phones	word-align-lattice.h	/^  std::string wbegin_and_end_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+wbegin_phones	word-align-lattice.h	/^  std::string wbegin_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+weight_	word-align-lattice.cc	/^    LatticeWeight weight_; \/\/ contains two floats.$/;"	m	class:kaldi::LatticeWordAligner::ComputationState	file:
+wend_phones	word-align-lattice.h	/^  std::string wend_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+winternal_phones	word-align-lattice.h	/^  std::string winternal_phones;$/;"	m	struct:kaldi::WordBoundaryInfoOpts
+word	sausages.h	/^    int32 word;$/;"	m	struct:kaldi::MinimumBayesRisk::Arc
+word_labels_	word-align-lattice.cc	/^    std::vector<int32> word_labels_;$/;"	m	class:kaldi::LatticeWordAligner::ComputationState	file:
+~CompactLatticeHolder	kaldi-lattice.h	/^  ~CompactLatticeHolder() { Clear(); }$/;"	f	class:kaldi::CompactLatticeHolder
+~Interval	kws-functions.h	/^  ~Interval() {}$/;"	f	class:kaldi::Interval
+~LatticeHolder	kaldi-lattice.h	/^  ~LatticeHolder() { Clear(); }$/;"	f	class:kaldi::LatticeHolder

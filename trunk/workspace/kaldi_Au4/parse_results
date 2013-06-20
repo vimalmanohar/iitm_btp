@@ -1,0 +1,73 @@
+#!/usr/bin/python
+#*************************************************************************
+# Desc: This script extracts the results of an experiment of Aurora4
+#       and prints only the test condition and acc
+# Inputs:
+#   Experiment Directory
+#   No. of LM weights used
+# Output: stdout
+#*************************************************************************
+
+import subprocess
+import sys
+
+if ( len(sys.argv)<2 or len(sys.argv)>3 ):
+    print ("Usage: parse_results expt_name [verbose_level]")
+    print ("verbose_level: 1 - Print Test Name")
+    sys.exit(1)
+
+expt_name = sys.argv[1]
+verbose = 0
+
+if ( len(sys.argv)==3 ):
+    verbose = sys.argv[2]
+
+p = subprocess.Popen("find "+expt_name+" -maxdepth 1 -name \"decode*\""\
+        + " -type d | awk '{system(\"grep WER \"$1\"/wer_*\")}'"\
+        + " | sort"\
+        , shell=True, stdout=subprocess.PIPE);
+p.wait();
+
+acc = { 'clean_wv1': 0.0,
+        'car_wv1': 0.0,
+        'babble_wv1': 0.0,
+        'restaurant_wv1': 0.0,
+        'street_wv1': 0.0,
+        'airport_wv1': 0.0,
+        'train_wv1': 0.0,
+        'clean_wv2': 0.0,
+        'car_wv2': 0.0,
+        'babble_wv2': 0.0,
+        'restaurant_wv2': 0.0,
+        'street_wv2': 0.0,
+        'airport_wv2': 0.0,
+        'train_wv2': 0.0
+};
+
+tests = [ 'clean_wv1',
+        'car_wv1',
+        'babble_wv1',
+        'restaurant_wv1',
+        'street_wv1',
+        'airport_wv1',
+        'train_wv1',
+        'clean_wv2',
+        'car_wv2',
+        'babble_wv2',
+        'restaurant_wv2',
+        'street_wv2',
+        'airport_wv2',
+        'train_wv2'
+];
+
+for line in p.stdout.readlines():
+    line1=line.split('[')[0]
+    line2=line1.split('/decode_bg_5k_test_')[1]
+    test=line2.split('/')[0]
+    acc[test]=max(acc[test],100.0-float(line2.split('WER ')[1]))
+
+for i in range(0,14):
+    if ( int(verbose) == 1 ):
+        print( tests[i]+' '+str(acc[tests[i]]) )
+    else:
+        print(str(acc[tests[i]]))
